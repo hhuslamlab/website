@@ -1,0 +1,15 @@
+@inproceedings{peng+al.emnlp15,
+ title = {Dual Decomposition Inference for Graphical Models over Strings},
+ author = {Peng, Nanyun and 
+Cotterell, Ryan and 
+Eisner, Jason},
+ booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing},
+ month = {September},
+ year = {2015},
+ address = {Lisbon, Portugal},
+ publisher = {Association for Computational Linguistics},
+ pages = {917--927},
+ url = {https://www.aclweb.org/anthology/D15-1272.pdf},
+ abstract = {We investigate dual decomposition for joint MAP inference of many strings. Given an arbitrary graphical model, we decompose it into small acyclic sub-models, whose MAP configurations can be found by finite-state composition and dynamic programming. We force the solutions of these subproblems to agree on overlapping variables, by tuning Lagrange multipliers for an adaptively expanding set of variable-length n-gram count features.  This is the first inference method for arbitrary graphical models over strings that does not require approximations such as random sampling, message simplification, or a bound on string length. Provided that the inference method terminates, it gives a certificate of global optimality (though MAP inference in our setting is undecidable in general). On our global phonological inference problems, it always terminates, and achieves more accurate results than max-product and sum-product loopy belief propagation.}
+}
+

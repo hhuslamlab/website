@@ -48,3 +48,5 @@ subtitle = ""
   extensions = ["hardLineBreak"]
 
 +++
+
+- SLaM Lab is hiring for Ph.D. position. Check [here](https://slam.phil.hhu.de#joining)!
