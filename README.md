@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # website
 
 ## Installation
@@ -47,3 +48,4 @@ hugo
 hugo server
 
 ```
+
