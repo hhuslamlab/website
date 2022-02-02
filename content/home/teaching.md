@@ -8,7 +8,7 @@ headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 title = "Teaching"
-subtitle = ""
+subtitle = "[See ALL CLASSES](/classes)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -65,3 +65,47 @@ subtitle = ""
   fractions = false
 +++
 
+## Introduction to Corpus Phonetics
+[**Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2021**
+
+This course aims to fill a gap between the students’ knowledge in phonetics and phonology and their ability to applying that knowledge to ask non-trival research questions using a large amount of speech and lexical data. It would cover corpus compilation, semi-automatic annotation (phonetic transcription and forced-alignment), extraction of phonetic and phonological variables and the basics of statistical analyses of corpus data. It complements other courses such as advanced phonetics, quantitative and experimental methods, and corpus/computational linguistics. The course will involve the use of programming languages (such as Python, R and unix commands) and they will be introduced as needed.
+
+## Introduction to English Language and Linguistics: Part I -Structure
+[**Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2021**
+
+In this course we will be discussing the basic notions, terminology and methodology of modern linguistics. We will focus on core areas of English linguistics.
+In this first part of the Introduction to English language and linguistics we will deal with the structure of language (in particular of the English language) and acquire the terminology and methodology of modern linguistics. The focus will be on the core areas of linguistics: the study of sound structure (phonology), word structure (morphology), and sentence structure (syntax).
+In the second part of the Introduction to English language and linguistics, the formal levels of linguistic analysis (phonology, morphology, syntax) will be viewed in relation to their meaning(s) as well as to their contexts of use. Topics therefore include semantics, pragmatics, and sociolinguistics.
+
+## Phonetics and Phonology Similarity
+[**Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2021**
+
+This course will focus on the role of similarity in phonetics and phonology. Everybody uses puns (A. Zwicky & E. Zwicky 1986) and rhymes (Kawahara 2007), and experiences speech errors (Fromkin 1980) and speech misperception (Tang 2015). However, have you asked yourselves -- what makes a good pun and a good rhyme? How come "Merry Christmas" is [mele kalikimaka] in Hawaiian? Who is Lady Mondegreen in the fourth line of the Scottish ballad "The Bonny Earl of Murray"? In this course, we will look into these naturally-occuring linguistic phenomena with a focus in phonetic and phonological similarity. We will see these powerful linguistic external evidence has played an important role in theoretical linguistics and psycholinguistics. We will examine primary literature that use linguistic external evidence and we will learn how they can be quantitatively collected and analysed.
+
+There will not be a single textbook as such, but rather we'd sample from existing research studies on these topics.
+
+## Phonetics / Phonology
+[**Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/)  <span class="middot-divider"></span> **Winter 2021**
+
+This course provides you with an elementary introduction to English phonetics and phonology, designed for those who have no previous knowledge whatsoever of the subject. It begins with a very elementary introduction to articulatory phonetics, and then proceeds to introduce the student to a very simplified account of some of the main aspects of the phonological structure of present-day English.
+
+Main textbook: Carr, Philip. 2013. English phonetics and phonology: An introduction. 2nd edn. Wiley-Blackwell.
+
+## Morphology / Word Formation
+[**Dr. Christopher Geissler**](https://slam.phil.hhu.de/authors/chris/) <span class="middot-divider"></span> **Winter 2021**
+
+In this module, students will learn to describe and analyze how words are formed out of smaller parts. Central questions will include: What are the constituent parts of words? How do parts combine together? Why is it so difficult to define "word"? How can we use morphology and the lexicon to mediate between theories of syntax, semantics, and phonology?
+
+Using a scientific perspective, we will practice generating and testing hypotheses and gathering primary language data. We will use theory to guide our interpretation of data, and we will use evidence from data to interpret theory. The primary goal of this exploration is to understand the human language capacity, through deep analysis of English data. We will also situate this work in the contexts of past and ongoing historical change, of sociolinguistic variation, and of cross-linguistic typology.
+
+## The Phonetic-Phonology Interface
+[**Dr. Christopher Geissler**](https://slam.phil.hhu.de/authors/chris/) <span class="middot-divider"></span> **Winter 2021**
+
+This advanced seminar will explore the relationship between two closely-linked linguistic fields of phonetics (the study of language sounds) and phonology (the study of sound patterns). In what ways do the methods and findings of phonetics and phonology overlap, contradict, or inform what another?
+
+Students will learn to engage with the material as researchers. We will practice how to read primary research articles, discuss ideas orally and in writing, and conduct original research. Students are encouraged to explore their own interests, and parts of the syllabus will change depending on the interests of the group. The final research paper is an opportunity for each student to more deeply explore a topic of their interest in, or relating to, phonetics-phonology. The development of the paper topic will take place in dialogue with the readings and each other, with structured guidance and feedback.
+
+## Basic Skills in Digital Humanities
+[**Mr. Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/) <span class="middot-divider"></span> **Winter 2021**
+
+The ability to use digital tools is increasingly valuable to students in all fields, including the humanities. This course is intended for students with no programming background whatsoever who are interested in taking the first steps towards writing industry-grade software. We'll begin by exploring computer architecture and move on to understand how programs work behind the scenes by writing simple and useful programs. These skills will allow students to think like a Computer Programmer. Participants will gain familiarity with the Unix command line along with a Code editor (Vim). The language used for the course will be Python because of its beginner-friendly syntax. Basics of Databases, Networking and Cloud computing will also be emphasized. After taking this course, students will become familiar with general concepts in computer science, gain an understanding of the general concepts of programming, and obtain a solid foundation in the use of Python. There is no specific textbook for this course. Learning resources consist of articles and chapters available online.
