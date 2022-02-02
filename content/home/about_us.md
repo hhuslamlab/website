@@ -50,5 +50,5 @@ subtitle = ""
 
 The **S**peech, **L**exicon, **A**nd **M**odeling lab is dedicated to cutting-edge research at the intersection of speech production and perception (phonetics) with speaker's knowledge of words (lexicon). We use a wide range of methods, including corpus analysis, computational modeling, and acoustic and articulatory phonetic experiments.
 
-We are part of the [English Language and Linguistics section](https://www.anglistik3.hhu.de/) of the Institut für Anglistik und Amerikanistik at [Heinrich Heine University Düsseldorf](https://www.hhu.de). We are housed in building 23.31 on the HHU campus, and have a large additional laboratory space at 24.21.U1.022.
+We are part of the [English Language and Linguistics section](https://www.anglistik3.hhu.de/) of the Institut für Anglistik und Amerikanistik at [Heinrich Heine University Düsseldorf](https://www.hhu.de). We are housed in building 23.21 on the HHU campus, and have a large additional laboratory space at 24.21.U1.022.
 
