@@ -48,6 +48,6 @@ subtitle = ""
 
 +++
 
-We are accepting applicants for a research position for a PhD candidate. National and international applicants are welcome to apply. The candidate will work in the Speech, Lexicon and Modeling Lab with Dr. Kevin Tang. The start date of the position is **1 October 2022**.
+We are accepting applicants for a research position for a PhD candidate. National and international applicants are welcome to apply. The candidate will work in the Speech, Lexicon and Modeling Lab with [Dr. Kevin Tang](https://slam.phil.hhu.de/authors/kevin/). The start date of the position is **1 October 2022**.
 
 Download the job posting <a href="https://slam.phil.hhu.de/pdfs" download>here</a>!
