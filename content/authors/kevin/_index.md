@@ -57,3 +57,7 @@ email: ""
 user_groups:
 - Members
 ---
+
+Prof. Dr. Kevin Tang is a University Professor in English Linguistics with specialisations in Phonetics/Phonology/Morphology at the Department of English and American Studies, English Language and Linguistics, Heinrich Heine University Düsseldorf. 
+
+He received his Ph.D. in Linguistics from University College London in 2015 under the mentorship of Prof. Andrew Nevins. He also holds an M.A. in Linguistics from University College London, an M.Eng. and a B.A. in Engineering from the University of Cambridge. He completed his postdoctoral training at Yale University, working with Prof. Ryan Bennett on the phonetics and phonology of Kaqchikel (Mayan).
