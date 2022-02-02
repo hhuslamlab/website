@@ -53,3 +53,11 @@ email: ""
 user_groups:
 - Members
 ---
+
+Dr. Christopher Geissler is a phonetician and phonologist currently serving as a postdoctoral researcher in the SLaM lab.
+
+Chris holds a B.A. from Swarthmore College and completed his Ph.D. in the Department of Linguistics at Yale University, where he trained in the use of Electromagnetic Articulography (EMA) with [Jason Shaw](https://campuspress.yale.edu/jasonshaw/) in the Phonetics Lab. His dissertation studies the relationship between tone and articulatory timing in Tibetan. It uses acoustic data from recordings he collected in the Tibetan diaspora community in Kathmandu, Nepal, and articulatory data from an EMA experiment conducted at Yale.
+
+His research interests center on the role of timing in speech: what is the temporal representation of articulatory gestures? Articulatory Phonology provides a helpful set of tools for making empirical predictions of how gestures unfold in time. His favorite methods include field interviews, corpus analysis, acoustic phonetics, and articulatory experiments.
+
+Chris is also keenly interested in teaching and the scholarship of pedagogy. He is coauthor of a [recent paper](https://muse.jhu.edu/article/840952) in Language on gender bias in published linguistic example sentences, and a member of the [Scholarly Teaching](https://lingscholarlyteaching.wordpress.com/) Special Interest Group of the Linguistic Society of America.
