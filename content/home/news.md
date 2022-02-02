@@ -50,3 +50,11 @@ subtitle = ""
 +++
 
 - SLaM Lab is hiring for Ph.D. position. Check [here](https://slam.phil.hhu.de#joining)!
+- Chris Geissler presents in LSA Webinar: "Dr. Christopher Geissler and his coauthors presented at a "Meet the Authors" webinar of the Linguistics Society of America (LSA). The event, "Gender Bias and Stereotypes in Linguistics Research and Teaching" highlighted two papers recently published in the LSA's flagship journal, *Language*. You can see slides from the presentation here, a complete recording here, and read the Dr. Geissler's article, "Gender Bias and Stereotypes in Linguistics Example Sentences" here.
+Slides: https://campuspress.yale.edu/geissler/files/2022/01/Meet-the-Authors-slides.pdf
+Webinar recording: https://www.youtube.com/watch?v=LFGeB1r3u9s
+Paper: https://campuspress.yale.edu/geissler/files/2020/08/Gender_Representation_manuscript.pdf
+- Chris Geissler published in *Language*: Congratulations to Dr. Christopher Geissler, whose work appears in the December 2021 issue of *Language*. The article, ""Gender Bias and Stereotypes in Linguistics Example Sentences," written in collaboration with Hadas Kotek, Rikker Dockum, and Sarah Babinski, examines the distribution of gender in the example sentences published in three major linguistics journals over the past twenty years. The results show that example sentences include twice as many male-gendered characters as female-gendered ones, with female-gendered characters are further underrepresented as grammatical subjects, agents, and experiencers.
+Check out the full results as well as recommendations for linguistics researchers and teachers here, and browse the rest of the issue here.
+Article pre-print: https://campuspress.yale.edu/geissler/files/2020/08/Gender_Representation_manuscript.pdf
+Language December 2021 issue: https://muse.jhu.edu/issue/47002
