@@ -5,7 +5,7 @@
 html {
   font-family: $sta-font-body, sans-serif;
   font-size: #{$sta-font-size-small}px;
-  color: rgba(0,0,0,0.8);
+  color: #003863;
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
@@ -287,7 +287,7 @@ small,
 
 .modal-header {
   border: 0;
-  color: rgba(0,0,0,0.8);
+  color: #003863;
 }
 
 .modal-footer {

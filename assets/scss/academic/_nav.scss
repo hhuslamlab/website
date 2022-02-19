@@ -4,7 +4,7 @@
 
 .navbar {
   height: 70px;
-  background: $sta-menu-primary;
+  background: #003863;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
   font-size: #{$sta-font-size}px;
   position: fixed;
@@ -201,7 +201,7 @@
     text-align: center !important;
   }
   .dark .navbar-collapse {
-    background-color: $sta-dark-menu-primary;
+    background-color: #003863;
   }
   #navbar-main .main-menu-item .nav-item {
     padding: 10px 15px !important;
