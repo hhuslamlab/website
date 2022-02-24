@@ -72,6 +72,11 @@ alias jupyter notebook="~/.local/bin/jupyter-notebook --no-browser"
 
 Next you have to Press Ctrl + X and type Y for Yes and press Enter which will take you back to your bash shell.
 
+Launch Jupyter Notebook using:
+
+```shell
+jupyter notebook
+```
 
 The output should look like the picture below. Copy paste one of the red bracketed links into the browser to use Jupyter Notebook.
 
