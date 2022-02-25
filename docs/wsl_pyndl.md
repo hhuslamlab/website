@@ -84,3 +84,11 @@ The output should look like the picture below. Copy paste one of the red bracket
 
 You can terminate the session by clicking "Quit" at the top right in Jupyter Notebook, typing 
 in Ubuntu or hitting ctrl + y and then typing "y" followed by Enter.
+
+
+### Authors
+
+[**Anna Stein**](https://www.linkedin.com/in/anna-stein-20bb42196/)
+
+[**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/)
+
