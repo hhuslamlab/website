@@ -1,6 +1,6 @@
 ### Installation
 
-#### Windows Sub-system Linux (WSL)
+#### Windows Sub-system Linux (WSL) on Windows 11
 Click the Windows logo on the bottom left and search for "Turn Windows features on or off".
 Check the box on "Virtual Machine Platform" and "Windows Subsystem for Linux", you will then be asked to restart your device.
 
