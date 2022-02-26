@@ -1,4 +1,4 @@
-# Opening files from Windows on WSL:  
+# Opening files from Windows on WSL  
 
 **A few general notes**
 Use the command `ls` to list the content of your working directory, the folder that you are currently 'in'. The command `cd` is used to change directory to one that you specify after the command in the same line by typing the path of that directory.   
