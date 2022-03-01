@@ -24,7 +24,7 @@ copyright = ""
 enableGitInfo = false
 
 # Google Analytics
-googleAnalytics = "UA-164386574-1"
+googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"

@@ -2,7 +2,7 @@
 title: 'DCDC2 READ1 regulatory element: how temporal processing differences may shape
   language'
 date: '2020-01-01'
-draft: true
+draft: false
 publishDate: '2022-02-23T15:05:40.534652Z'
 authors:
 - Kevin Tang
@@ -12,7 +12,7 @@ authors:
 publication_types:
 - '2'
 abstract: ''
-featured: false
+featured: true
 publication: '*Proceedings of the Royal Society B*'
 ---
 

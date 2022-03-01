@@ -1,7 +1,7 @@
 ---
 title: Tonal and laryngeal contrasts in Diaspora Tibetan
 date: '2019-01-01'
-draft: true
+draft: false
 publishDate: '2022-02-23T15:05:41.128832Z'
 authors:
 - Christopher Geissler

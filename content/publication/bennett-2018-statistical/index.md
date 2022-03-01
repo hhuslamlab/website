@@ -2,7 +2,7 @@
 title: Statistical and acoustic effects on the perception of stop consonants in Kaqchikel
   (Mayan)
 date: '2018-01-01'
-draft: true
+draft: false
 publishDate: '2022-02-23T15:05:40.785464Z'
 authors:
 - Ryan Bennett
