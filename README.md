@@ -50,4 +50,9 @@ hugo
 hugo server
 
 ```
+---
+**analytics** - https://plausible.io/
 
+**docker registry** - https://hub.slam.phil.hhu.de
+
+**docs generated from docsify** - https://docs.slam.phil.hhu.de
