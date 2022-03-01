@@ -1,7 +1,7 @@
 ---
 title: 'Gestural representations of tone in Mandarin: Evidence from timing alternations'
 date: '2019-01-01'
-draft: true
+draft: false
 publishDate: '2022-02-23T15:05:41.977074Z'
 authors:
 - Muye Zhang

@@ -1,7 +1,7 @@
 ---
 title: Measuring segmental and lexical trends in a corpus of naturalistic speech
 date: '2014-01-01'
-draft: true
+draft: false
 publishDate: '2022-02-23T15:05:41.293110Z'
 authors:
 - Kevin Tang

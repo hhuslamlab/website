@@ -1,7 +1,7 @@
 ---
 title: 'The rise and fall of the L-shaped morphome: diachronic and experimental studies'
 date: '2015-01-01'
-draft: true
+draft: false
 publishDate: '2022-02-23T15:05:41.461104Z'
 authors:
 - Andrew Nevins
