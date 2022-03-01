@@ -31,10 +31,7 @@ social:
   link: "mailto:kevin.tang@hhu.de"  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: 
-- icon: google
-  icon_pack: fab
-  link: 
+  link: https://twitter.com/tang_kevin 
 - icon: github
   icon_pack: fab
   link: https://github.com/tang-kevin
