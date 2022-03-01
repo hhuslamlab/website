@@ -2,7 +2,7 @@
 title: Worldwide distribution of the DCDC2 READ1 regulatory element and its relationship
   with phoneme variation across languages
 date: '2018-01-01'
-draft: true
+draft: false
 publishDate: '2022-02-23T15:05:41.809445Z'
 authors:
 - Mellissa MC DeMille
