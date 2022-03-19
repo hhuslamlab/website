@@ -23,11 +23,11 @@ subtitle = ""
 
   # Background color.
   # color = "#DBEDE3"
-  
+
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
-  
+
 
   # Text color (true=light or false=dark).
   text_color_light = false
@@ -37,9 +37,9 @@ subtitle = ""
   # padding = ["20px", "0", "20px", "0"]
 
 [advanced]
- # Custom CSS. 
+ # Custom CSS.
  css_style = ""
- 
+
  # CSS class.
  css_class = ""
 
@@ -48,6 +48,4 @@ subtitle = ""
 
 +++
 
-We are accepting applicants for a research position for a PhD candidate. National and international applicants are welcome to apply. The candidate will work in the Speech, Lexicon and Modeling Lab with [Dr. Kevin Tang](https://slam.phil.hhu.de/authors/kevin/). The start date of the position is **1 October 2022**.
-
-Download the job posting <a href="https://slam.phil.hhu.de/pdfs" download>here</a>!
+Thank you for your interest in joining SLAM LAB -- unfortunately, there are no open positions at the moment.
