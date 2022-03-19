@@ -49,7 +49,6 @@ subtitle = ""
 
 +++
 
-* SLaM Lab is hiring for Ph.D. position. Check [here](https://slam.phil.hhu.de#joining)!
 * [Chris Geissler](https://slam.phil.hhu.de/authors/chris/) presents in LSA Webinar: "Dr. Christopher Geissler and his coauthors presented at a "Meet the Authors" webinar of the Linguistics Society of America (LSA). The event, "Gender Bias and Stereotypes in Linguistics Research and Teaching" highlighted two papers recently published in the LSA's flagship journal, *Language*. You can see slides from the presentation here, a complete recording here, and read the Dr. Geissler's article, "Gender Bias and Stereotypes in Linguistics Example Sentences" here.
 [Slides](https://campuspress.yale.edu/geissler/files/2022/01/Meet-the-Authors-slides.pdf)
 [Webinar recording](https://www.youtube.com/watch?v=LFGeB1r3u9s)
