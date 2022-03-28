@@ -154,6 +154,7 @@
 
   {{ partial "marketing/google_analytics" . }}
   {{ partial "marketing/google_tag_manager" . }}
+	<script defer data-domain="slam.phil.hhu.de" src="https://analytics.slam.phil.hhu.de/js/plausible.js"></script>
 
   {{/* Netlify Identity integration. */}}
   {{ if .IsHome | and (site.Params.cms.netlify_cms | default true) }}
