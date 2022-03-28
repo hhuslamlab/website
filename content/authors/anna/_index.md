@@ -50,4 +50,4 @@ user_groups:
 
 Anna Stein is a linguistics student currently working as a research assistant in the SLaM lab.
 
-Her work centers around NDL language modeling in Python. She is also working on her Bachelor’s thesis on the same topic.
+Her work centers around implementing Naive Discriminative learning in Python. She is also working on her Bachelor’s thesis on the same topic.
