@@ -39,4 +39,4 @@ email: ""
 user_groups:
 - Members
 ---
-Lara Rüter is a Bachelor's student of English and American studies as her major and Art History as her minor. She is currently working as an assistent for E-learing in the SLaM lab.
+Lara Rüter is a Bachelor's student of English and American studies as her major and Art History as her minor. She is currently working as an assistant for E-learing in the SLaM lab.
