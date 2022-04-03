@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr. Christoper Geissler
+title: Dr. Christopher Geissler
 
 # Username (this should match the folder name)
 authors:
