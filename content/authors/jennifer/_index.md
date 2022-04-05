@@ -27,8 +27,8 @@ interests:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:jennifer.keller@hhu.de"  # For a direct email link, use "mailto:test@example.org".
- - icon: github
+  link: "mailto:jennifer.keller@hhu.de"
+- icon: github
   icon_pack: fab
   link: https://github.com/je-kel
 
