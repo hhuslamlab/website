@@ -28,6 +28,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:jennifer.keller@hhu.de"  # For a direct email link, use "mailto:test@example.org".
+ - icon: github
+  icon_pack: fab
+  link: https://github.com/je-kel
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
@@ -38,4 +41,8 @@ email: ""
 user_groups:
 - Members
 ---
-Jennifer Keller is a linguistics Master student currently working on language modeling in the SLaM lab.
+Jennifer Keller is a linguistics Master student and currently working as a research assistant in the SLaM Lab. Her work focusses on computing language models, which serve as a great statistical tool in modern NLP.
+
+She is also a member of Prof. Dr. Plag's team, where she is working as a research and teaching assistant. Among other duties, she has been annotating speech data for several morpho-phonetic projects that examined, for example, gemination and word final /s/ in English.
+
+Jennifer is keenly interested in language processing, language acquisition, speech production, grammatical variation, and recently NLP. In her thesis, she investigates the learnability of phonetic detail (as opposed to phonological) as a cue for a morphological category in an artificial language learning experiment.
