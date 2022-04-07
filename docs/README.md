@@ -5,3 +5,7 @@
 ## [Working with WSL](/wsl)
 
 ## [Working with R and Jupyter Notebook on WSL(and Ubuntu)](/install_r_wsl)
+
+## [YAML guide](/yamlguide)
+
+## [HPC guide](/hpc_guide)
