@@ -23,8 +23,8 @@ copyright = ""
 # Get last modified date for content from Git?
 enableGitInfo = false
 
-# Google Analytics
-googleAnalytics = "UA-164386574-1"
+# Plausible analytics
+
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"

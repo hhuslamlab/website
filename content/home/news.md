@@ -48,8 +48,7 @@ subtitle = ""
   extensions = ["hardLineBreak"]
 
 +++
-
-* Won the NVIDIA Academic Hardware Grant. Lab will soon have 20 × NVIDIA JetsonTM Nano Developer Kits! [Further Info](https://mynvidia.force.com/HardwareGrant/s/Application)
+* Won the NVIDIA Academic Hardware Grant. The lab will soon have 20 × NVIDIA JetsonTM Nano Developer Kits to foster Digital Humanities and AI with Internet of Things(IoT). [Further Info](https://mynvidia.force.com/HardwareGrant/s/Application)
 * Won the e-Learning support fund of €9.424, Heinrich-Heine University Düsseldorf. [Further Info](https://www.elearning.hhu.de/elearning-foerderfonds)
 * [Chris Geissler](https://slam.phil.hhu.de/authors/chris/) presents in LSA Webinar: "Dr. Christopher Geissler and his coauthors presented at a "Meet the Authors" webinar of the Linguistics Society of America (LSA). The event, "Gender Bias and Stereotypes in Linguistics Research and Teaching" highlighted two papers recently published in the LSA's flagship journal, *Language*. You can see slides from the presentation here, a complete recording here, and read the Dr. Geissler's article, "Gender Bias and Stereotypes in Linguistics Example Sentences" here.
 [Slides](https://campuspress.yale.edu/geissler/files/2022/01/Meet-the-Authors-slides.pdf)
