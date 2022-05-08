@@ -1,11 +1,23 @@
-# SLAM LAB Tutorials 
+# SLAM LAB Tutorials
 
-## [Working with WSL and PyNDL](/wsl_pyndl)
+##Installation/setup tutorials
 
-## [Working with WSL](/wsl)
+### [WSL2](/wsl2_setup)
 
-## [Working with R and Jupyter Notebook on WSL(and Ubuntu)](/install_r_wsl)
+### [Python(WSL2)](/python_setup)
 
-## [YAML guide](/yaml_guide)
+### [Docker (WSL2)](/docker_setup)
 
-## [HPC guide](/hpc_guide)
+### [Jupyter Notebook (WSL2)](/jupyter_notebook_setup)
+
+### [R Kernel for Jupyter Notebook (WSL2)](/r_kernel_setup)
+
+
+
+## Introduction to ...
+
+### [.. WSL2](/wsl_intro)
+
+### [.. working with YAML Files](/yaml_intro)
+
+### [.. working on HPC](/hpc intro)
