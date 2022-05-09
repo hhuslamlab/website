@@ -52,7 +52,7 @@ The lines are similar to standard Ubuntu installation lines - except for:
 ubuntu: 18.04
 ```
 
-Note that the name of the docker image to import from DockerHub can be found on [DockerHub](https://hub.docker.com/](https://hub.docker.com/) - you would need to look under 'View Available Tag' and search for the right version.
+Note that the name of the docker image to import from DockerHub can be found on [DockerHub](https://hub.docker.com/) - you would need to look under 'View Available Tag' and search for the right version.
 
 **Step 2:** Check what images there are
 ``` shell
