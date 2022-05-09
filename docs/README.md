@@ -20,4 +20,4 @@
 
 ### [.. working with YAML Files](/yaml_intro.md)
 
-### [.. working on HPC](/hpc intro.md)
+### [.. working on HPC](/hpc_intro.md)
