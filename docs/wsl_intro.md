@@ -49,4 +49,5 @@ If have more questions that the internet can't answer, you can contact one of th
 
 ### Authors
 [**Anna Stein**](https://slam.phil.hhu.de/authors/anna/)
+
 [**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilseh/)
