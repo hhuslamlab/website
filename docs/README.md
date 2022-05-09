@@ -1,6 +1,6 @@
 # SLAM LAB Tutorials
 
-##Installation/setup tutorials
+## Installation/setup tutorials
 
 ### [WSL2](/wsl2_setup)
 
