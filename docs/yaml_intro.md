@@ -143,8 +143,10 @@ management_staff:
 
 ## Resources<a name="resources"></a>
 <a href="https://yamlchecker.com/">YAML syntax checker</a>
+
 <a href="https://onlinexmltools.com/">Convert YAML to XML and other languages</a>
+
 <a href="https://jsonformatter.org/yaml-to-json">Convert YAML to JSON</a>
 
-##Authors
+## Authors
 [**Anna Stein**](https://slam.phil.hhu.de/authors/anna/)
