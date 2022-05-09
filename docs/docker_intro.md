@@ -8,9 +8,13 @@
 
 ## Uploading images to DockerHub
 DockerHub contains many docker images that are created by others. It is useful for building on existing images, e.g. specific versions of Ubuntu. Conceptually, it is similar to GitHub. Docker images can be shared to DockerHub, however importing existing images may be dangerous, since they may come from malicious users.
+
 ---
+
 This section presupposes that you have installed Docker. If you don't you can find a tutorial [here](/docker_setup).
+
 ---
+
 
 **Step 1:** Create your own Docker image
 In order to do this, we have to create a text file called 'Dockerfile' - no extension needed. Here is an example for setting up the prerequisites for WaveGAN:
