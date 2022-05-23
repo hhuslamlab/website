@@ -12,6 +12,9 @@
 
 ### [R Kernel for Jupyter Notebook (WSL2)](/r_kernel_setup.md)
 
+### [Snaps (WSL2)](/snaps_setup.md)
+
+### [Java (WSL2)](/java_setup.md)
 
 
 ## Introduction to ...
