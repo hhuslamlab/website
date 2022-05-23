@@ -2,25 +2,25 @@
 
 ## Installation/setup tutorials
 
-### [WSL2](/wsl2_setup.md)
+### [WSL2](wsl2_setup.md)
 
 ### [Python(WSL2)](python_setup.md)
 
-### [Docker (WSL2)](docs/docker_setup.md)
+### [Docker (WSL2)](docker_setup.md)
 
-### [Jupyter Notebook (WSL2)](docs/jupyter_notebook_setup.md)
+### [Jupyter Notebook (WSL2)](jupyter_notebook_setup.md)
 
-### [R Kernel for Jupyter Notebook (WSL2)](docs/r_kernel_setup.md)
+### [R Kernel for Jupyter Notebook (WSL2)](r_kernel_setup.md)
 
-### [Snaps (WSL2)](docs/snaps_setup.md)
+### [Snaps (WSL2)](snaps_setup.md)
 
-### [Java (WSL2)](docs/java_setup.md)
+### [Java (WSL2)](java_setup.md)
 
 
 ## Introduction to ...
 
-### [.. WSL2](docs/wsl_intro.md)
+### [.. WSL2](wsl_intro.md)
 
-### [.. working with YAML Files](docs/yaml_intro.md)
+### [.. working with YAML Files](yaml_intro.md)
 
-### [.. working on HPC](docs/hpc_intro.md)
+### [.. working on HPC](hpc_intro.md)
