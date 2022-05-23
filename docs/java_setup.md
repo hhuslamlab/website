@@ -70,11 +70,55 @@ Java(TM) SE Runtime Environment (build 1.8.0_291-b10)
 Java HotSpot(TM) 64-Bit Server VM (build 25.291-b10, mixed mode)
 ```
 
+## Setting the Java home variable 
+Check if the Java developer kit is installed with `javac --version`.
+If not, you need to install it with 
+```bash
+sudo apt install default-jdk
+```
+Get the location of the Java compiler on your computer:
+```bash
+which javac
+```
+The output you get will probably look like this: `/us/bin/javac`. I will be using this path for the rest of the tutorial but if you got a different path as an output, use the one that you got. 
+
+---
+
+```bash
+ls -l /usr/bin/javac
+```
+You should get some colorful output that contains an arrow. 
+
+```bash
+readlink -f `which javac``| sed "s:/bin/javac::"
+```
+
+Set the Java home variable with the path that you recieve as output from above.
+
+```bash
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+```
+
+Check if it worked with `echo $JAVA_HOME`, you should see your path.
+
+At this point, the variable is only temporary, meaning when you close your terminal window, the variable disappears. Let's make it permanent.
+
+```bash
+echo "export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64" >> ~/.bashrc
+
+#Check if it worked
+tail -3 ~/.bashrc
+```
+You should see youe JAVA_HOME variable in the last line of your output. 
+
+
+
 ## Sources
 [Oracle](https://www.oracle.com/java/technologies/downloads/#java8)
 
 [phoenixNAP](https://phoenixnap.com/kb/check-java-version-linux)
 
+[It's FOSS](https://itsfoss/set-java-home-ubuntu/)
 
 ## Authors
 [**Anna Stein**](https://slam.phil.hhu.de/authors/anna/)
