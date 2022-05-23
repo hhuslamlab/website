@@ -2,9 +2,9 @@
 
 ## Installation/setup tutorials
 
-### [WSL2](docs/wsl2_setup.md)
+### [WSL2](/wsl2_setup.md)
 
-### [Python(WSL2)](docs/python_setup.md)
+### [Python(WSL2)](python_setup.md)
 
 ### [Docker (WSL2)](docs/docker_setup.md)
 
