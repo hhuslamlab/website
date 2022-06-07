@@ -36,7 +36,7 @@ qsub -A Projekt -I -l select=1:ncpus=10:mem=10G -l walltime=3:59:00
 ```
 ---
 **Keyword explanation:**
-- `select` is the number of compute nodes 
+- `select` is the number of compute nodes
 - `ncpus` is the number of GPUs
 - `mem` is the RAM size
 - `ngpus` is the number of GPUs
@@ -44,7 +44,7 @@ qsub -A Projekt -I -l select=1:ncpus=10:mem=10G -l walltime=3:59:00
 ---
 
 **Option 2:**<a name="o2"></a>
-Create a shell script. 
+Create a shell script.
 ```bash
 vi job.sh
 ```
@@ -88,7 +88,7 @@ Should you run into an error, you can try the following things:
  Run the same command with the package that is missing. Then run the previous command again. If the error appears again with something else that is missing, rinse and repeat
 
 ## Common errors and how you might solve them <a name="errors"></a>
-As the heading implies, this is part is highly individual in terms of both the problems and the solutions. 
+As the heading implies, this is part is highly individual in terms of both the problems and the solutions.
 
 **Error 1: Something using cPython is not working as intended**
 
@@ -96,7 +96,31 @@ Potential solution: Use `module load intel/openAPI_2021.4.0` to load the intel c
 
 ## Mounting files systems <a name="files"></a>
 
-For copying files from your local machine to HPC, you need to mount your device on HPC. 
+For copying files from your local machine to HPC, you need to mount your device on HPC.
+Install sshfs:
+```bash
+sudo apt install sshfs
+```
+
+Navigate to the root directory and create the folder you want
+```bash
+cd /mnt
+mkdir foldername
+```
+
+Mount your file system: Replace `nutzerkennung` with your Nutzerkennung and the `foldername` with the name that you chose in the last step.
+
+```bash
+sudo sshfs nutzerkennung@storage.hpc.rz.uni-duesseldorf.de:/gpfs/project/nutzerkennung /mnt/foldername
+```
+Copy your files to the directory to make them available on hpc.
+To access your files on hpc your need to navigate to the General Parallel File System (gpfs) on hpc.
+Log into your hpc and enter (replace `Nutzerkennung` with your one).
+
+```bash
+cd gpfs/project/nutzerkennung
+```
+
 
 Read more about mounting [here](https://man7.org/linux/man-pages/man8/mount.8.html) or go through the guide [here](https://wki.hhu.de/viewpage.action?pageId=5572564).
 
