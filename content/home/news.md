@@ -48,6 +48,8 @@ subtitle = ""
   extensions = ["hardLineBreak"]
 
 +++
+* SlamLab conducted a workshop on `Free and Open Source Software`. More details here: [LibreSlam](https://slam.phil.hhu.de/libreslam/).
+* [Akhilesh Kakolu Ramarao](https://slam.phil.hhu.de/authors/akhilesh) won first prize for his presentation at the [HeiCAD Lightning Talks](https://www.heicad.hhu.de/aktivitaeten/lightning-talks-2022). 
 * Won the NVIDIA Academic Hardware Grant. The lab will soon have 20 × NVIDIA JetsonTM Nano Developer Kits to foster Digital Humanities and AI with Internet of Things(IoT). [Further Info](https://mynvidia.force.com/HardwareGrant/s/Application)
 * Won the e-Learning support fund of €9.424, Heinrich-Heine University Düsseldorf. [Further Info](https://www.elearning.hhu.de/elearning-foerderfonds)
 * [Chris Geissler](https://slam.phil.hhu.de/authors/chris/) presents in LSA Webinar: "Dr. Christopher Geissler and his coauthors presented at a "Meet the Authors" webinar of the Linguistics Society of America (LSA). The event, "Gender Bias and Stereotypes in Linguistics Research and Teaching" highlighted two papers recently published in the LSA's flagship journal, *Language*. You can see slides from the presentation here, a complete recording here, and read the Dr. Geissler's article, "Gender Bias and Stereotypes in Linguistics Example Sentences" here.
