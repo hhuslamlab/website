@@ -48,4 +48,14 @@ subtitle = ""
 
 +++
 
-Thank you for your interest in joining SLAM LAB -- unfortunately, there are no open positions at the moment.
+The SLaM Lab invites interested students to join our lab. This can take many forms, from paid employment as a research assistant ("HiWi") to writing a major project such as a term paper, B.A. thesis, or M.A. thesis. If you would like to get involved, please submit a current C.V. and a short cover letter (maximum one page). Your letter should highlight any of the following:
+
+- relevant coursework and other experience (e.g. term papers, research experience) in phonetics, phonology, morphology, computational linguistics, computer science, or data science
+- skills and experience in data visualization, statistics, programming languages
+- language skills (especially English, Japanese, Korean, Tibetan)
+- interests in linguistics or computational linguistics
+- long-term interests (e.g. future career interests)
+
+We welcome students of a variety of experience levels. The purpose of the SLaM lab is both to conduct research and, through research, to train students. We will match students with tasks appropriate to their skills, and support their training as needed.
+
+Contact geisslc [at] hhu [dot] de or kevin.tang [at] hhu [dot] de for any questions.
