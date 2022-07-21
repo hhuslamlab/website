@@ -48,6 +48,7 @@ subtitle = ""
   extensions = ["hardLineBreak"]
 
 +++
+* [Chris Geissler](https://slam.phil.hhu.de/authors/chris/) gave an invited talk at the [Institute for Phonetics and Speech Processing](https://www.en.phonetik.uni-muenchen.de/institute/index.html) at Ludwig-Maximilians-Universität München. [Slides](https://github.com/hhuslamlab/website/files/9112978/Geissler_Muenchen_29Jun2022.pdf)
 * SlamLab conducted a workshop on `Free and Open Source Software`. More details here: [LibreSlam](https://slam.phil.hhu.de/libreslam/).
 * [Akhilesh Kakolu Ramarao](https://slam.phil.hhu.de/authors/akhilesh) won first prize for his presentation at the [HeiCAD Lightning Talks](https://www.heicad.hhu.de/aktivitaeten/lightning-talks-2022).
 * Prof. Dr. Kevin Tang gave a talk on `Reanimating African American Oral Histories of the Gulf South` at the Information Science Department, HHU. [Talk](https://twitter.com/InformSc_HHU/status/1531293677112401921)
