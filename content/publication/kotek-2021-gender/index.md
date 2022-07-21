@@ -11,7 +11,7 @@ authors:
 publication_types:
 - '2'
 abstract: ''
-featured: false
+featured: true
 publication: '*Language*'
 ---
 

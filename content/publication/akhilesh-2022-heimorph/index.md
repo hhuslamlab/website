@@ -9,7 +9,7 @@ authors:
 - Kevin Tang
 - Ruben van de Vijver
 publication_types:
-- '2'
+- '1'
 abstract: ''
 featured: true
 publication: '*Association for Computational Linguistics*'
