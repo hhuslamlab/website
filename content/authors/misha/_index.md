@@ -47,4 +47,4 @@ user_groups:
 
 Seyedeh Zahra Mirkhaef is currently a master student of Comparative Studies in English and American Language, Literature and Culture at HHU.
 
-Zahra currently working on her master thesis on Language as a biomarker for Parkinson’s Disease across linguistic domains.
+Zahra is currently working on her master thesis on Language as a biomarker for Parkinson’s Disease across linguistic domains.
