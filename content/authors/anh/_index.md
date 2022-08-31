@@ -53,7 +53,7 @@ user_groups:
 
 Anh Kim Nguyen is a graduate student from the General Linguistics department and works as research assistant at the SLaM lab. They have a Bachelor's degree in Modern Japanology and Linguistics from HHU. The topic of their Bachelor's thesis was Linguistic Instrumentalism of the English language in Japan.
 
-Anh Kim has worked on [Dr Kata Balogh](https://user.phil.hhu.de/balogh/) research on the scope of Japanese focus particles and was in charge of the language data annotation.
+Anh Kim has worked on [Dr Kata Balogh's](https://user.phil.hhu.de/balogh/) research on the scope of Japanese focus particles and was in charge of the language data annotation.
 
 Since becoming a graduate student, Anh Kim has been exploring more quantitative research methods and is currently learning to use python and its various libraries and tools.
 
