@@ -53,5 +53,4 @@ The **S**peech, **L**exicon, **A**nd **M**odeling lab is dedicated to cutting-ed
 We are part of the [English Language and Linguistics section](https://www.anglistik3.hhu.de/) of the Institut für Anglistik und Amerikanistik at [Heinrich Heine University Düsseldorf](https://www.hhu.de). We are housed in building 23.21 on the HHU campus, and have a large additional laboratory space at 24.21.U1.022.
 
 <br/>
-<p align="center"><iframe width="560" height="340" frameborder="0" allowfullscreen allow="picture-in-picture" src="https://www.youtube.com/embed/UCL7Q0Ax6_JBtdAtiDAW3wHQ" title="SLaM lab introuction by director Kevin Tang"></iframe></p>
-
+<p align="center"><iframe src="https://www.youtube.com/embed/UCL7Q0Ax6_JBtdAtiDAW3wHQ" allowFullScreen></iframe></p>
