@@ -53,4 +53,4 @@ The **S**peech, **L**exicon, **A**nd **M**odeling lab is dedicated to cutting-ed
 We are part of the [English Language and Linguistics section](https://www.anglistik3.hhu.de/) of the Institut für Anglistik und Amerikanistik at [Heinrich Heine University Düsseldorf](https://www.hhu.de). We are housed in building 23.21 on the HHU campus, and have a large additional laboratory space at 24.21.U1.022.
 
 <br/>
-<p align="center"><iframe src="https://www.youtube.com/embed/UCL7Q0Ax6_JBtdAtiDAW3wHQ" allowFullScreen></iframe></p>
+<p align="center"><iframe width="300" height="200" src="https://www.youtube.com/embed/xhoV2h4qn_I" title="HHU - English Language and Linguistics - Univ.-Prof. Dr. Kevin Tang - Heinrich Heine University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
