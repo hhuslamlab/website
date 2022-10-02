@@ -33,7 +33,7 @@ social:
   link: https://twitter.com/eoineoineoineoi
 - icon: github
   icon_pack: fab
-  link: github.com/eoin-or/
+  link: https://github.com/eoin-or
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
