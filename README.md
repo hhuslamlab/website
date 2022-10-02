@@ -1,10 +1,12 @@
 # Website
 
+This is the source code for the https://slam.phil.hhu.de/ website.
+
 ## Installation
 
 ### Linux (ubuntu-based distros) and WSL
 
-Install Hugo and the Go language
+Install Hugo and the Golang
 
 ``` sh
 
@@ -19,20 +21,23 @@ Check if Hugo is installed
 ```sh
 hugo version 
 ```
-You should see something like the line below.
-
-```sh
-Hugo Static Site Generator v0.68.3/extended linux/amd64 BuildDate: 2020-03-25T06:15:45Z
-```
+``
 
 ### MacOS
 
 Install brew 
 
 ``` sh
-
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+```
+
+Install Hugo and Golang
+
+
+```
+brew install hugo
+brew install golang
 ```
 
 ## Building
@@ -50,9 +55,7 @@ hugo
 hugo server
 
 ```
----
-**analytics** - https://plausible.io/
 
-**docker registry** - https://hub.slam.phil.hhu.de
+## License
 
-**docs generated from docsify** - https://docs.slam.phil.hhu.de
+[MIT LICENSE](https://github.com/hhuslamlab/website/blob/master/LICENSE.md)
