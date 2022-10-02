@@ -39,6 +39,10 @@
   url = "/#joining"
   weight = 90
 
+[[main]]
+  name = "Events"
+  url = "https://slam.phil.hhu.de/events"
+  weight = 100
 # [[main]]
 #   name = "EMNLP 2021"
 #   url = "/talk"

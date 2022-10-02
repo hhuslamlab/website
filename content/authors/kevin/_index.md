@@ -10,14 +10,14 @@ authors:
 superuser: true
 
 # Role/position
-role:
+role: University Professor
 
 # Organizations/Affiliations
 organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interest:
 
@@ -31,10 +31,7 @@ social:
   link: "mailto:kevin.tang@hhu.de"  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: 
-- icon: google
-  icon_pack: fab
-  link: 
+  link: https://twitter.com/tang_kevin
 - icon: github
   icon_pack: fab
   link: https://github.com/tang-kevin
@@ -44,20 +41,20 @@ social:
 
 
 # Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
-#   link: files/cv.pdf 
+#   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
-  
+
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
+#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Members
 ---
 
-Prof. Dr. Kevin Tang is a University Professor in English Linguistics with specialisations in Phonetics/Phonology/Morphology at the Department of English and American Studies, English Language and Linguistics, Heinrich Heine University Düsseldorf. 
+Prof. Dr. Kevin Tang is a University Professor in English Linguistics with specialisations in Phonetics/Phonology/Morphology at the Department of English and American Studies, English Language and Linguistics, Heinrich Heine University Düsseldorf.
 
 He received his Ph.D. in Linguistics from University College London in 2015 under the mentorship of Prof. Andrew Nevins. He also holds an M.A. in Linguistics from University College London, an M.Eng. and a B.A. in Engineering from the University of Cambridge. He completed his postdoctoral training at Yale University, working with Prof. Ryan Bennett on the phonetics and phonology of Kaqchikel (Mayan).

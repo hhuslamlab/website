@@ -1,0 +1,18 @@
+@inproceedings{zmigrod+al.emnlp20, 
+  title = {Please Mind the Root: {D}ecoding Arborescences for Dependency Parsing},
+  venue = {EMNLP},
+  year = {2020},
+  code = {https://github.com/rycolab/spanningtrees},
+  arXiv = {https://arxiv.org/abs/2010.02550},
+  anthology = {https://www.aclweb.org/anthology/2020.emnlp-main.232/},
+  author = {Zmigrod, Ran and 
+	Vieira, Tim and 
+	Cotterell, Ryan},
+  booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
+  month = {November},
+  publisher = {Association for Computational Linguistics},
+  address = {Online},
+  pages = {4809--4819},
+  abstract = {The connection between dependency trees and spanning trees is exploited by the NLP community to train and to decode graph-based dependency parsers. However, the NLP literature has missed an important difference between the two structures: only one edge may emanate from the root in a dependency tree. We analyzed the output of state-of-the-art parsers on many languages from the Universal Dependency Treebank: although these parsers are often able to learn that trees which violate the constraint should be assigned lower probabilities, their ability to do so unsurprisingly de-grades as the size of the training set decreases.In fact, the worst constraint-violation rate we observe is 24%. Prior work has proposed an inefficient algorithm to enforce the constraint, which adds a factor of n to the decoding runtime. We adapt an algorithm due to Gabow and Tarjan (1984) to dependency parsing, which satisfies the constraint without compromising the original runtime.},
+  url = {https://www.aclweb.org/anthology/2020.emnlp-main.232/},
+}

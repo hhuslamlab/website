@@ -12,7 +12,7 @@ authors:
 publication_types:
 - '1'
 abstract: ''
-featured: false
+featured: true
 publication: '*Proceedings of the 12th International Seminar on Speech Production.*'
 ---
 
