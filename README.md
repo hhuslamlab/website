@@ -21,7 +21,6 @@ Check if Hugo is installed
 ```sh
 hugo version 
 ```
-``
 
 ### MacOS
 
