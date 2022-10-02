@@ -28,7 +28,6 @@ hugo version
 Install brew 
 
 ``` sh
-
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 ```
@@ -36,6 +35,7 @@ Install brew
 Install Hugo and Golang
 
 
+```
 brew install hugo
 brew install golang
 ```
