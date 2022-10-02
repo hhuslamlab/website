@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Kreon
+- Font Author: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon), with Reserved Font Name "Kreon"
+- Font Source: http://fonts.gstatic.com/s/kreon/v30/t5t9IRIUKY-TFF_LW5lnMR3v2DnvYtimejUfp2dWNg.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
