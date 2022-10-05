@@ -1,6 +1,6 @@
 +++
-title = 'Phonetics/Phonology - Intermediate'
-subtitle = "[Eoin O'Reilly](https://slam.phil.hhu.de/authors/eoin/), Winter 2022"
+title = 'Phonetics/Phonology (Intermediate)'
+subtitle = "[Eoin O'Reilly](https://slam.phil.hhu.de/authors/eoin/), Winter 2022, [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=232675&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)"
 summary = "This course provides you with an elementary introduction to English phonetics and phonology, designed for those who have no previous knowledge whatsoever of the subject.It begins with a very elementary introduction to articulatory phonetics, and then proceeds to introduce the student to a very simplified account of some of the main aspects of thephonological structure of present-day English. Languages other than English will also be examined to compare and contrast the linguistic structural differences and gain insights on linguistic generalisation."
 
 type = "widget_page"
