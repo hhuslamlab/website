@@ -1,3 +1,5 @@
+**WIP**
+
 # How to setup nvidia jetson nano kits
 ### You need:
 - [ ] A **micro SD card*** with 64GB+ storage to flashing the OS onto 
