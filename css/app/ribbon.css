@@ -1,0 +1,63 @@
+.ribbon {
+    font-size:          18px !important;
+    /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've
+    used em's to position each element for scalability. If you want to use a
+    different font size you may have to play with the position of the ribbon
+    elements */
+
+    display:            inline-block;
+    position:           relative;
+    background:         #003863;
+    color:              #fff;
+    text-align:         center;
+    padding:            1em 2em;
+    /* Adjust to suit */
+    margin:             2em 2em 3em;
+    /* Based on 24px vertical rhythm. 48px bottom margin -
+     * normally 24 but the ribbon 'graphics' take up 24px
+     * themselves so we double it. */
+}
+.ribbon a:not(.btn) {
+    color: #FCB320;
+    font-weight: bold;
+    text-decoration: none;
+}
+.ribbon a:not(.btn):active,
+.ribbon a:not(.btn):focus,
+.ribbon a:not(.btn):hover {
+    text-decoration: underline;
+}
+.ribbon:before, .ribbon:after {
+    content:            "";
+    position:           absolute;
+    display:            block;
+    bottom:             -1em;
+    border:             1.5em solid #053543;
+    z-index:            -1;
+}
+.ribbon:before {
+    left:               -2em;
+    border-right-width: 1.5em;
+    border-left-color:  transparent;
+}
+.ribbon:after {
+    right:              -2em;
+    border-left-width:  1.5em;
+    border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+    content:            "";
+    position:           absolute;
+    display:            block;
+    border-style:       solid;
+    border-color:       #070B1E transparent transparent transparent;
+    bottom:             -1em;
+}
+.ribbon .ribbon-content:before {
+    left:               0;
+    border-width:       1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+    right:              0;
+    border-width:       1em 1em 0 0;
+}
