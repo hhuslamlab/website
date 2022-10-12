@@ -21,10 +21,11 @@
 
 
 ## SDK manager
+Connect all of your cables. Connect the jumper cable on `FC REC` and the `GND`above it.  
 1. Start the SDK manager on your laptop.
 2. Choose `Jetson nano modules` as your target device and click on next step.
 3. Accept the conditions at the bottom left and click next step.
-4. Choose manual setup and the nano jetson kit with 2GB. Use the jumper cable on `FC REC` (Force recovery) and the `GND` (ground) node above it.  Set the username and password.
+4. Choose manual setup and the nano jetson kit with 2GB. Set the username and password.
 5. Remove the jumper cable. 
 6. Click on flash. You should see a progress bar with the flash progress. 
 7. Wait for the OS-screen on your monitor, even if the flashing process is complete. Then click install. 
