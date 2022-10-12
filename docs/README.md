@@ -16,6 +16,7 @@
 
 ### [Java (WSL2)](java_setup.md)
 
+### [Nvidia kit setup](nvidia_setup.md)
 
 ## Introduction to ...
 
