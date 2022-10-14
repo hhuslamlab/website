@@ -29,4 +29,3 @@ Connect all of your cables. Connect the jumper cable on `FC REC` and the `GND`ab
 5. Remove the jumper cable. 
 6. Click on flash. You should see a progress bar with the flash progress. 
 7. Wait for the OS-screen on your monitor, even if the flashing process is complete. Then click install. 
-

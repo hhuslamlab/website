@@ -25,3 +25,5 @@
 ### [.. working with YAML Files](yaml_intro.md)
 
 ### [.. working on HPC](hpc_intro.md)
+
+###[... working with the website](website_setup.md)
