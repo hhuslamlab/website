@@ -43,7 +43,8 @@
   name = "Events"
   url = "https://slam.phil.hhu.de/events"
   weight = 100
-# [[main]]
-#   name = "EMNLP 2021"
-#   url = "/talk"
-#   weight = 100
+
+[[main]]
+   name = "Guides"
+   url = "https://docs.slam.phil.hhu.de"
+   weight = 110
