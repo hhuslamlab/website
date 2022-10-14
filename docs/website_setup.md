@@ -93,9 +93,3 @@ The top of the file should look like this:
 
 ## Authors
 [**Anna Stein**](https://slam.phil.hhu.de/authors/anna)
-
-
-
-
-
-
