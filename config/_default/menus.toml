@@ -45,6 +45,6 @@
   weight = 100
 
 [[main]]
-   name = "Guides"
+   name = "Tutorials"
    url = "https://docs.slam.phil.hhu.de"
    weight = 110
