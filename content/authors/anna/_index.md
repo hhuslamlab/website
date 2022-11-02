@@ -26,6 +26,9 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/_ansost_
 - icon: envelope
   icon_pack: fas
   link: "mailto:anna.stein@hhu.de"  # For a direct email link, use "mailto:test@example.org".
@@ -48,6 +51,12 @@ user_groups:
 - Members
 ---
 
-Anna Stein is a linguistics student currently working as a research assistant in the SLaM lab.
+Anna is a linguistics student working on the informativity grant project as the person responsible for language modeling with Naive Discriminative Learning and supplementary computational implementations.
 
-Her work centers around implementing Naive Discriminative learning in Python. She is also working on her Bachelor’s thesis on the same topic.
+She is currently writing her BA thesis with [Dr. Kevin Tang](https://slam.phil.hhu.de/authors/kevin/) and [Dr. Chris Geissler](htps://slam.phil.hhu.de/authors/chris/) on effects of probabilistic reduction as modelled by NDL. The thesis is a pilot study of the informativity project.
+
+ She also has various other tasks in the lab, from maintaining and improving the website with [Akhilesh](https://slam.phil.hhu.de/authors/akhilesh/), to writing tutorials and documenting code. 
+
+Outside of academia, Anna is a movie and music enthusiast and enjoys all kinds of sports and videogames in her free time.
+
+    
