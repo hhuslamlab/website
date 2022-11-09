@@ -24,7 +24,7 @@ This guide will help you install WSL2 and show you some basic folder structure n
 - [Java](#installing-java)
 - ---
 
-### Installing WSL2
+## Installing WSL2
 Click the Windows logo on the bottom left of your home screen and search for `Turn Windows features on or off`.
 Check the box on `Virtual Machine Platform` and `Windows Subsystem for Linux`. You will then be asked to restart your device.
 
@@ -40,14 +40,14 @@ After that is done, follow this link and click on `WSL2 Linux kernel update pack
 
 Download Ubuntu from the Microsoft store, that is an app on your laptop. After the download is complete, start Ubuntu as an administrator. If you encounter an error, you can skip to ['Error Solving'](#error-solving) below.
 
-#### Setup
+### Setup
 You'll be asked to create a **password** and **username**. The password will be hidden when you type it, just press enter when you have finished typing. You will be asked to repeat your password. After that, update your Ubuntu with the lines below.
 
 ```bash
 sudo apt update
 sudo apt upgrade
 ``` 
-#### Error solving 
+### Error solving 
 You might encounter an error saying that virtualization options are not enabled. In that case, you have to change some setting this in your **BIOS**:
 
 Turn your computer off. When you click the button to turn it back on, immediately spam the `esc` button to get to the startup menu. This might be a different key depending on your laptop, you can google how to get to your bios if `esc` doesnt work. You know that it worked when you see a black screen with some text on it.
@@ -176,7 +176,7 @@ To confirm your installation, type python3 again. You should now see something l
 
 ## Installing Docker engine
 
-Follow <a href="https://docs.docker.com/engine/install/ubuntu/">this guide<a> in the official Docker documentation starting from the heading "Install using the repository".
+Follow <a href="https://docs.docker.com/engine/install/ubuntu/">this guide</a> in the official Docker documentation starting from the heading "Install using the repository".
 After you have installed Docker, the guide asks you to run a "Hello World" Docker image with the following command.
 
 ```bash
@@ -276,10 +276,11 @@ ubuntu: 18.04
 
 Note that the name of the docker image to import from DockerHub can be found on [DockerHub](https://hub.docker.com/) - you would need to look under 'View Available Tag' and search for the right version.
 
-**Step 2:** Check what images there are
-``` shell
+**Step 2:** Check what images there are:
+
+```sh
 sudo docker images
-````
+```
 
 **Step 3:** Create an instance of the image
 ```shell
