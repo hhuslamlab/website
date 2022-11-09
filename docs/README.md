@@ -1,10 +1,11 @@
 # SLAM LAB Tutorials
 
-You can find all thing related to WSL2 [here](wsl.md).
+- [Ultimate Guide to WSL2](wsl.md)
 
-Ressources for setting up nvidia kits can be found [here](nvidia_setup.md)
+- [Everything you need to know about HPC](hpc_intro.md)
 
-Some other guides are lsited below: 
-- [Working with YAML Files](yaml_intro.md)
-- [Working on HPC](hpc_intro.md)
-- [Working with the website](website_setup.md)
+- [NVIDIA Jetson tutorials](nvidia_setup.md)
+
+- [Data serialization using YAML](yaml_intro.md)
+
+- [Slamlab website architecture](website_setup.md)
