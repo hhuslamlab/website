@@ -1,4 +1,7 @@
 # WSL2
+The Windows Subsystem for Linux enables you to run a GNU/Linux environment on Windows, without a virtual machine or dualboot setup. WSL2 also runs a Linux Kernel.
+
+
 This guide will help you install WSL2 and show you some basic folder structure navigation. You can also learn how to setup other software on WSL2, like Python, R, Jupyter Notebook and more. 
 
 ---
@@ -22,8 +25,6 @@ This guide will help you install WSL2 and show you some basic folder structure n
 - ---
 
 ### Installing WSL2
-The Windows Subsystem for Linux enables you to run a GNU/Linux environment on Windows, without a virtual machine or dualboot setup. WSL2 also runs a Linux Kernel.
-
 Click the Windows logo on the bottom left of your home screen and search for `Turn Windows features on or off`.
 Check the box on `Virtual Machine Platform` and `Windows Subsystem for Linux`. You will then be asked to restart your device.
 
@@ -49,14 +50,7 @@ sudo apt upgrade
 #### Error solving 
 You might encounter an error saying that virtualization options are not enabled. In that case, you have to change some setting this in your **BIOS**:
 
-Turn your computer off. When you click the button to turn it back on, immediately spam the `esc` button to get to the startup menu. This might be a different key depending on your laptop, you can google how to get to your bios if `esc` doesnt work. You know that it worked when you see a black screen with some text on it (see the grainy picture below). 
-
-![Startup](https://pad.hhu.de/uploads/b5d36fc5-b0b5-48eb-92a2-a1fdb93a2131.png)
-
-Press `f10` to go into the BIOS. 
-
-![BIOS](https://pad.hhu.de/uploads/8ff0a642-44fb-4732-aa5f-98ebf5b8cd5c.png)
-
+Turn your computer off. When you click the button to turn it back on, immediately spam the `esc` button to get to the startup menu. This might be a different key depending on your laptop, you can google how to get to your bios if `esc` doesnt work. You know that it worked when you see a black screen with some text on it.
 
 :warning: **Proceed with caution!** :warning:
 This part of the guide varies for each laptop and its build. Doing something wrong in the BIOS can break your laptop. Ask one people for help if you are unsure what you are doing. 
@@ -507,3 +501,5 @@ You should see your JAVA_HOME variable in the last line of your output.
 
 ## Authors
 [**Anna Stein**](https://slam.phil.hhu.de/authors/anna/)
+
+[**Akhilesh**](https://slam.phil.hhu.de/authors/akhilesh/)
