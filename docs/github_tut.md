@@ -19,7 +19,7 @@ Else, run this command
 ```shell=
 sudo apt install git
 ```
-After it's done installing, the first step is to configure your name and your email, so all of your files can be traced back to you.  
+After it's done installing, the next step is to configure your name and your email, so all of your files can be traced back to you.  
 ```
 git config --global user.name "YourNameAsYouLike
 git config --global user.email "youremail@hhu.deOrWhatever"
@@ -79,7 +79,7 @@ This will show the following message
 ```shell=
 Initialized empty Git repository in <YourFolder'sPath>
 ```
-You are initialising something on the `main` branch (`-b`)
+You have initialised, that is created, a new branch (`-b`) which you called  `main`.
 Check your status.
 
 ```shell=
@@ -121,7 +121,7 @@ git commit -m "First commit!"
 Now go back to the open tab from Step 1 and copy the `SSH address` of your repository. Execute these lines:
 
 ```shell=
-git remote add origin <YOUR SSH ADDRESS>
+git remote add origin <theRepo'sSSHkey>
 ```
 
 ```shell=
