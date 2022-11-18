@@ -103,7 +103,7 @@ Indentation Error in Python - Stack Overflow
 Indentation Error generally occurs when the code contains a mix of both tabs and spaces for indentation. I have got a very nice solution to correct it, just open your code in a sublime text editor and find 'Tab Size' in the bottom right corner of Sublime Text Editor and click it. Now 
 ```
 We can see that the first one is a website called `javapoint.com` which promises examples of the Python indentation error. Whether you know that Java is another programming language or not, you know that examples are not what you need, you already have one. Over time, you will recognize the websites that always show up and they type of explanation they usualy provide. For now, **here is a list of websites that generally are helpful:**
-- RealPython [https://www.geeksforgeeks.org/](https://www.geeksforgeeks.org/) - Very high quality tutorials tough they are sometimes hidden behind a paywall.
+- RealPython [https://realpython.com/](https://realpython.com/) - Very high quality tutorials tough they are sometimes hidden behind a paywall.
 - GeeksforGeeks [https://www.geeksforgeeks.org/](https://www.geeksforgeeks.org/) - Great for looking up the syntax of commands
 - W2Schools [https://www.w3schools.com/](https://www.w3schools.com/) - More great tutorials and explanations
 - StackOverflow [https://stackoverflow.co/](https://stackoverflow.co/) - A popular community forum for programming questions. You will land here a lot (see [this paragraph](#understanding-stack-overflow) for more info).
@@ -115,7 +115,7 @@ There certain types of solutions that you should consider only as a last resort.
 The best way to prevent syntax errors is to look up the correct syntax of a command. This is pretty straightforward: specify the language, the command and 'syntax' like this: `<language> <command> syntax` (for example: `Python print syntax`). 
 Often the result you get for this is more than you need. Below you see the syntax for the print command taken from the [GeeksforGeeks website](https://www.geeksforgeeks.org/python-print-function/).
 
-![print syntax][/assets/printsyntax.png]
+![print syntax](printsyntax.png)
 
 You can see that this looks much more complicated than what you usually use the command for. This is why you should **always look at examples of how to use the command** which generally are given below its syntax. While most of the time, you do not need to worry about the optional parameters of a command, it is always useful to keep in mind what else a command can do since you might need it in the future. 
 
@@ -144,27 +144,27 @@ Stack Overflow is a website where people can ask questions and other people can 
 
 If we google the indentation error from above and chose the Stackoverflow solution you will see this:
 
-![duplicate question][/assets/duplicatequestion.png]
+![duplicate question](duplicatequestion.png)
 
 At the very top you can see the question that a person asked and below that the details that they provided. In this case, you can see that the question was already answered and that this is a duplicate question, so you want to go to the original question since this will have the better answers. Once you go there you will see the same setup as before, but without the duplicate box. 
 
-![question][/assets/question.png]
+![question](question.png)
 
 There is a lot of information on this page so let's break it down (insert Lucio gif here).
 
 #### The question
 The quality of the question will vary a lot from post to post. By that I mean how much information is provided and how well the person explained the question. Don't spend much time on trying to understand the code of the person asking the question. We have already estabilshed that there are many ways of doing the same thing. As long as they have the same problem as you, odds are the solution to their problem will help you as well. On the left side you can see two arrows. They are for up-and downvoting the question. Don't worry about it, you can't vote unless you're logged in and have posted upvoted questions yourself. 
 
-![comments][/assets/arrows.png]
+![comments](arrows.png)
 
 #### Answers and comments
 Right below the question you can see some smaller comments. You can comment below both questions and answers. These ARE worth reading. Sometime people share helpful links there, even when a questions has not yet been answered.
 
-![comments][/assets/comments.png]
+![comments](comments.png)
 
 Below the comments you can see all of the answers. The answer with a green checkmark is the answer that has been marked as 'this solved my problem' by the person who asked the question, the 'OP' (original poster).
 
-![comments][/assets/answers.png]
+![comments](answers.png)
 
 If there is no checkmark on any answer, the one that has been upvoted most by other people will appear at the top. Either way, these will usually contain a solution. In this case, it is a very elaborate and well written answer (which is also confirmed by the people in the comments, if you believe them). Answers are not always this good and you might have to do some puzzling and look in the comments to get it. 
 
@@ -176,7 +176,7 @@ For packages, you can find their documentation if you google `<package> document
 Individual projects that are on [GitHub](https://github.com/) for example, often have such explanation in the README file on the first page of the repository. A guide on how to navigate GitHub can be found [here](https://slam.phil.hhu.de/#/github_tut). 
 
 ## What to do if you feel overwhelmed/unsure
-If you are a member of the IoT seminar with Akilesh, you can contact either [Anna](mailto:anna.stein@hhu.de) or [Akhilesh](mailto:kakolura@hhu.de).
+If you are a member of the IoT seminar with Akhilesh, you can contact either [Anna](mailto:anna.stein@hhu.de) or [Akhilesh](mailto:kakolura@hhu.de).
 In general, you can always contact somebody that you feel could help you or direct towards appropriate ressources.
 
 Or just Take a break. It is easy to get stuck with a problem, get very frustrated and lose sight of what you are actually doing. Most problems solve themselves if you take a break and come back to them later. Even if its your job ans its frustrating sometimes, in the end, coding should be a fun thing.  
@@ -212,11 +212,6 @@ Kernel information with `uname`:
 - All installed packages + versions -> `pip list` or `pip freeze` or `conda list`
 - All packages used by a script + versions -> `pip3 install pipreqs` then `pipreqs ./pathtoyourscript` (You get a requirements.txt file with the dependencies)
 
-
-## Exercises
-These exercises are provided by [Akhilesh Kakolu Ramarao](https://slam.phil.hhu.de/authors/akhilesh/), as a part of his [Internet of things for Linguistis](https://slam.phil.hhu.de/classes/iot-w22/) seminar. 
-
-You can download them [here]()LINK!!!
 
 ## Authors
 [**Anna Stein**](https://slam.phil.hhu.de/authors/anna/)
