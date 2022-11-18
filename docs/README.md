@@ -11,3 +11,5 @@
 - [Slamlab website architecture](website_setup.md)
 
 - [A Guide to push Github around (under construction)](github_tut.md)
+
+- [A comprehensive guide to debugging](how_to_debug_101.md)
