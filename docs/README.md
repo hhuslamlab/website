@@ -12,4 +12,4 @@
 
 - [A Guide to push Github around (under construction)](github_tut.md)
 
-- [A comprehensive guide to debugging](how_to_debug_101.md)
+- [A beginners guide to debugging Python programs](how_to_debug_101.md)
