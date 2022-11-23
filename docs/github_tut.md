@@ -172,6 +172,12 @@ git commit -m "messageThatSummarisesWhatChangesYouMade"
 git push
 ```
 
+# Cloning repository
+In case you want to work on 
+
+
+
+
 
 # How to delete branches
 1. Be on the masterbranch
@@ -199,10 +205,19 @@ git checkout master
 2. Create a new branch `(-b)` from the `master branch` with
 ```shell= 
 git checkout -b <NameOfYourNewBranch>
+``` 
+3. This new branch only exist on your `locale` right now, so in order to notify your `remote` about its existence and track future changes, run this command
+```shell=
+git push --set-upstream origin <NameOfYourNewBranch>
 ```
-3. Stay on your new branch, make your changes, add files
-4. When you are done, push your changes to your branch and make a `pull request` on the github website of the repository you were working on. A `pull request` will let the admin know, that you want changes on your branch to be included on the `master branch`.
-5. Once the admin pulls your changes, you can delete your branch. Please delete your branch to make sure you delete your branch so it is easier to track new changes and stay up to date with the `master branch`
+
+4. Stay on your new branch, make your changes, add files
+5. When you are done, push your changes to your branch and make a `pull request` on the github website of the repository you were working on. A `pull request` will let the admin know, that you want changes on your branch to be included on the `master branch`.
+6. Once the admin pulls your changes, you can delete your branch. Please delete your branch to make sure you delete your branch so it is easier to track. 
+
+
+An overview of the most important git commands can be found [here](https://www.hostinger.com/tutorials/basic-git-commands)
+
 
 ### Authors  
 [Anh Kim Nguyen](https://slam.phil.hhu.de/authors/anh/)
