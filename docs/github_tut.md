@@ -3,6 +3,20 @@ Things to sort out and be aware of before doing this:
 - [ ] This tutorial is written for Linux users and Windows users who use a Linux subsystem, which allows them to access Linux via the `ubuntu` terminal. Consider looking into the [WSL](https://docs.slam.phil.hhu.de/#/wsl) guide first, if you use neither.  
 - [ ] Know, that one of the authors only learnt 70% of this all 3 hours prior to writing this documentation
 
+
+- [Getting started with git](#getting-started-with-git)
+	- [Step 1: Setting up git](#step-1:-setting-up-git-on-your-computer)
+	- [Step 2: Locale and Remote](#step-2:-linking-your-`local`-with-your-`remote`)
+- [Making a repository](#-making-your-own-repository,-commit-things,-and-push-them)
+	- [Committing files](#step-2:-committing-your-files)
+	- [Pushing files](#step-3:-pushing-your-files)
+	- [Token authentification](#step-4:-authenticate-yourself-in-the-eyes-of-github-after-august-2021)
+	- [Keep your Repository updated](#step-5:-rinse-and-repeat)
+- [Cloning a repository](#cloning-repository)
+- [Workflow suggestion](#the-workflow)
+- [Erase your mistakes](#how-to-delete-branches)
+
+
 # Getting started with git
 There are some things to do first before working with git. That is, you need to register to the website, so do [that first on github](https://github.com/).  
 ### Step 1: Setting up git on your computer
@@ -173,32 +187,24 @@ git push
 ```
 
 # Cloning repository
-In case you want to work on 
-
-
-
-
-
-# How to delete branches
-1. Be on the masterbranch
-2. Execute this
+In case you are joining in on an existing project, this is how to `clone` the repository:
+1. Visit the repo's github page and copy its SSH key 
+2. In your terminal, navigate to the folder you want to keep the repo in and run
 ```shell=
-git branch -D <nameOfYourBranch>
+git clone <Repo's SSH key>
 ```
-and the file is gone from your locale. Run 
-```shell=
-git push origin --delete <nameOfYourBranch>
-```
-to delete it from your remote.
+3. Follow the workflow of the project you are joining
 
 # The workflow
-[Anna]() told me, that the general workflow is as follows:
+[Anna]() told me, that we generally avoid committing and pushing changing to the masterbranch. Instead, we create our own branches, make changes to them, push alterations to them and create a pull request on the website, which have to undergo reviews first. This ensures that no one makes unwanted changes to our website.
+The workflow of our website therefore is as follows:
+
 1. Navigate to a project and make sure you are on the `master branch` and up to date
 ```shell= 
 git status
 git pull
 ```
-if you are not, do this to get on the master branch
+if `git status` tells you you aren't on the masterbranch yet, use the `checkout` command to get there
 ```shell=
 git checkout master
 ```
@@ -212,8 +218,20 @@ git push --set-upstream origin <NameOfYourNewBranch>
 ```
 
 4. Stay on your new branch, make your changes, add files
-5. When you are done, push your changes to your branch and make a `pull request` on the github website of the repository you were working on. A `pull request` will let the admin know, that you want changes on your branch to be included on the `master branch`.
+5. When you are done, `git commit` and `git push` your changes to your branch and make a `pull request` on the github website of the repository you were working on. A `pull request` will let the admin know, that you want changes on your branch to be included on the `master branch`.
 6. Once the admin pulls your changes, you can delete your branch. Please delete your branch to make sure you delete your branch so it is easier to track. 
+
+# How to delete branches
+1. Be on the masterbranch
+2. Execute this
+```shell=
+git branch -D <nameOfYourBranch>
+```
+and the file is gone from your locale. Run 
+```shell=
+git push origin --delete <nameOfYourBranch>
+```
+to delete it from your remote.
 
 
 An overview of the most important git commands can be found [here](https://www.hostinger.com/tutorials/basic-git-commands)
