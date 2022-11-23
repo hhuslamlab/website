@@ -53,9 +53,7 @@ Next, we need to install tools to identify USB devices.
 Copy and Paste the below commands in your WSL terminal
 
 ```sh
-
 sudo apt install linux-tools-5.4.0-77-generic hwdata
-
 sudo update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-tools/5.4.0-77-generic/usbip 20
 ```
 ### Serial communication program
@@ -63,9 +61,7 @@ sudo update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-too
 Install [minicom](https://en.wikipedia.org/wiki/Minicom)
 
 ```sh
-
 sudo apt-get install minicom
-
 ```
 
 
@@ -76,16 +72,12 @@ sudo apt-get install minicom
 From an *administrator* command prompt on Windows, run this command:
 
 ```sh
-
 usbipd wsl list
-
 ```
 Select the bus ID of the device you’d like to attach to WSL using:
 
 ```sh
-
 usbipd wsl attach --busid <busid>
-
 ```
 
 We have now updated the configuration options for the WSL Linux kernel to enable USB support.
@@ -120,9 +112,7 @@ brew install minicom
 Running
 
 ```sh
-
 sudo minicom -s
-
 ```
 
 Make sure the NVIDIA device is connected to your laptop with the TTL to USB convertor.
@@ -138,9 +128,7 @@ Change Serial Device by hitting `CAPS-A` and changing the serial device to `/dev
 
 ![save device setup](save_dfl.png)
 
-Exit from Minicom.
-
-![exit minicom](exit_minicom.png)
+Press `Exit from Minicom` to quit.
 
 ## Running Minicom
 
