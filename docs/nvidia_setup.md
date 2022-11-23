@@ -105,7 +105,23 @@ Install [minicom](https://en.wikipedia.org/wiki/Minicom)
 ```sh
 brew install minicom
 ```
+## Ubuntu
 
+### System dependencies
+
+```sh
+sudo apt-get install linux-image-extra-virtual
+```
+
+### Serial communication program
+
+
+
+Install [minicom](https://en.wikipedia.org/wiki/Minicom)
+
+```sh
+sudo apt-get install minicom
+```
 
 ## Setup Minicom
 
