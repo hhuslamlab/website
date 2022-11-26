@@ -74,3 +74,67 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
 
 # Taxonomies.
+
+[menu]
+  [[menu.main]]
+    identifier = "theLab"
+    name = "The Lab"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "news"
+    name = "News"
+    url = "/#news"
+    parent = "theLab"
+    weight = 2
+  [[menu.main]]
+    identifier = "theTeam"
+    name = "The Team"
+    url = "/#people"
+    parent = "theLab"
+    weight = 2
+  [[menu.main]]
+    identifier = "joining"
+    name = "Joining"
+    url = "/#joining"
+    parent = "theLab"
+    weight = 3
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/"
+    weight = 2
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/#publications"
+    parent = "research"
+    weight = 1
+  [[menu.main]]
+    identifier = "grantsAndProjects"
+    name = "Grants and Projects"
+    url = "/#grantsAndProjects"
+    parent = "research"
+    weight = 2
+  [[menu.main]]
+    identifier = "teaching"
+    name = "Teaching"
+    url = "/"
+    weight = 3
+  [[menu.main]]
+    identifier = "seminars"
+    name = "Seminars"
+    url = "/#teaching"
+    parent = "teaching"
+    weight = 1
+  [[menu.main]]
+    identifier = "tutorials"
+    name = "Tutorials"
+    url = "https://docs.slam.phil.hhu.de"
+    parent = "teaching"
+    weight = 2
+  [[menu.main]]
+    identifier = "events"
+    name = "Events"
+    url = "https://slam.phil.hhu.de/events"
+    weight = 4
