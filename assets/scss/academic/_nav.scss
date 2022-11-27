@@ -1,8 +1,11 @@
 /*************************************************
  *  Navigation bar
  **************************************************/
-
+html {
+  scroll-behavior: smooth;
+}
 .navbar {
+
   height: 70px;
   background: #003863;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
@@ -19,7 +22,8 @@
 
   .nav-item {
     // For z-index compatibility with logo on mobile layout, otherwise nav-item can't be clicked when logo present.
-    position: relative;
+	display:inline-block;
+	padding: 1rem;
   }
   @include media-breakpoint-down(md) {
     height: 50px;
@@ -56,14 +60,16 @@
   }
 
   .dropdown-menu {
-    font-size: #{$sta-font-size-small}px;
-  }
+  top:50px;
+   font-size: #{$sta-font-size}px;  
+   }
 
   // Note: dedicated `dropdown-item-active` class to prevent ScrollSpy removing `active` class from language chooser.
   .dropdown-item.active,
   .dropdown-item-active {
     font-weight: bold;
     color: $sta-menu-text-active !important;
+	
   }
 
 }
@@ -164,10 +170,12 @@
 
 #navbar-main .main-menu-item ul li .nav-link {
   color: $sta-menu-text;
+  
 }
 
 .dark #navbar-main .main-menu-item ul li .nav-link {
   color: $sta-dark-menu-text;
+  opacity:0.5;
 }
 
 @include media-breakpoint-down(md) {
@@ -190,6 +198,7 @@
   #navbar-main .main-menu-item {
     text-align: left !important;
     padding-left: 0;
+
   }
   .navbar-collapse {
     z-index: 1031 !important;  // Appear just over navbar.
@@ -232,9 +241,11 @@ ul.nav-icons li.nav-item a.nav-link {
 }
 
 .dropdown-menu {
-  background-color: $sta-menu-primary !important;
+  background-color: #003863 !important;
   color: $sta-menu-text !important;
   z-index: 1032;  // I18n dropdown over mobile expanded menu.
+  transition-duration: 0.5s;
+  
 }
 
 .dark .dropdown-menu {
@@ -243,11 +254,20 @@ ul.nav-icons li.nav-item a.nav-link {
 }
 
 .dropdown-item {
-  background-color: $sta-menu-primary !important;
+  padding: 15px;
+  text-align: center;
+  background-color: #003863 !important;
   color: $sta-menu-text !important;
+  
 }
 
-.dark .dropdown-item {
+.dark .dropdown-item {  
+  text-align: center;
   background-color: $sta-dark-menu-primary !important;
   color: $sta-dark-menu-text !important;
 }
+nav ul li a:hover {
+  opacity:0.5;
+  
+}
+
