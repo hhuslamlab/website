@@ -28,7 +28,7 @@ Then, follow the instructions in the [README](https://github.com/hhuslamlab/webs
 > **_HINT:_**  For this section it is helpful to have the website open in a different tab and have a look at the elements that are talked about. 
 
 ###  Widgets
-The website was built using a template called 'academic', that organizes the website in **widgets**. A widget is an element or a section on the website, for example the `People` or `publication` sections. These widgets are referenced in the menu at the top of the page. Clicking on a point in the menu movey you to the corresponding widget on the page. 
+The website was built using a template called 'academic', that organizes the website in **widgets**. A widget is an element or a section on the website, for example the `People` or `publication` sections. These widgets are referenced in the menu at the top of the page. Clicking on a point in the menu moves you to the corresponding widget on the page. 
 
 #### Types of Widgets 
 There are different types of widgets, that is to say, templates which you can copy and use for different content. What a widget can do depends on the content of the widget file. In theory, you can create a widget yourself but using and modifying templates saves a lot of time. 
@@ -37,7 +37,9 @@ There are other widgets, like the slider-widget, which is like a self-moving pre
 
 #### Widget files
 Lets use the people-widget as an example, to see how the widget files work. Below is the file for the people-widget whcih can be found at `website/content/home/people.md`:
+
 ![](https://i.imgur.com/nrCscHE.png)
+
 The file starts with `+++` and ends with three plus signs. This is similar to 
 ```latex
 \begin{document}
@@ -54,14 +56,48 @@ This is a widget that does not have its content in the widget file itself, but r
 
 Other options are, as the headings tell you, related to advanced options and styling, which you will probably never have to touch. If you do, the comments will help you, they are pretty obvious imo. 
 
-### Menu header 
+### Menu header -static-
 The top of the website shows the menu bar which lets you navigate to different elements (widgets) on the page. Which text links to what widget and how they are displayed is set in the `website/config/_default/menu.toml` file:
 ![](https://i.imgur.com/zydC5Jt.png)
+
 As you can see, some widgets are commented out with a hashtag. That means that we are currently not using this widget. If you wanted to remove a widget from the menu bar, you could either delete it or comment it out. It is always better to comment it out rather than deleting it. Note that this will only remove the widget from the menu bar, not delete the content of the widget on the actual homepage. For that you would have to delete the actual widget file in `website/content/home/`. By commenting out the widget, you merely remove the link to it. 
 
 How the widget is linked is set in the **name parameter**. This does not have to congrue with the actual name of the widget, this can be anything that you want to name the menu point. The crucial part is the **url parameter** below. As is expained at the top of the document, this links to the widget folder we talked about earlier, and shows the path to the corresponsing widget. The widget `events` has a differnt url because it links to a new page. 
 
 Lastly, by setting the **weight parameter**, you designate the order in which the elements appear in the menu bar. The lowest number appears furthest to the left, the highest number appears furthest to the right. In the current website version, we use numbers in steps of ten from 10-100.
+
+### Menu header -dropdown- 📝
+If the space in the navigation bar becomes sparse, a dropdown navigation is a neat and clean way to keep all the clickable items at the top of the page. The configurations for a dropdown navigation are, however, not stored in the same file in `website/config/_default/menu.toml`, but instead need to be added into `website/config/_default/config.toml`. Only one menu type can be used at a time, so if the code for a dropdown navigation is active in `config.toml`, the code for the static navigation in `menu.toml` has to be commented out.  
+The syntax for dropdowns is similar to static navbars, however there are new parameters such as `identifier`, and `parent`. Identifiers are used here in order to clarify which menu item drops down from which parent item. If a menu item has no parent, its weight will determines its placement horizontally along the navbar. If an item has a parent, its weight determines its position in the dropdown list. Here is an excerpt of the current structure on our website, in our `config.toml`:
+
+```
+[menu]
+  [[menu.main]]
+    identifier = "theLab"
+    name = "The Lab"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "news"
+    name = "News"
+    url = "/#news"
+    parent = "theLab"
+    weight = 2
+  [[menu.main]]
+    identifier = "theTeam"
+    name = "The Team"
+    url = "/#people"
+    parent = "theLab"
+    weight = 2
+  [[menu.main]]
+    identifier = "joining"
+    name = "Joining"
+    url = "/#joining"
+    parent = "theLab"
+    weight = 3
+```
+
+When changing from static navigation to dropdown nagivation, the dropdown list will appear in hugo's standard css style which can be altered in `\website\assets\scss\academic\_nav.scss`. CSS can be tough to alter manually, so it may require some tweaking and playing around, but the relevant passages to change the dropdown list are the styles that contain `.dropdown-menu`, `.dropdown-item`, as well as general `li` and `ul`, as the dropdown items are treated as `list` and `unordered list` items.
 
 ### :heavy_check_mark: What to do now?
 Most likely, you read this because you want to make some changes to the website. I recommend to start with a sandbox of some kind, where you can safely make changes and try things out. The best way to do this is to go to your local version of the website repository, checkout a new branch and make that branch your playground. If I already lost you at the word GitHub, just ask me (Anna) or Akhilesh to help you out. 
@@ -92,4 +128,5 @@ The top of the file should look like this:
 ## More to be added
 
 ## Authors
-[**Anna Stein**](https://slam.phil.hhu.de/authors/anna)
+[**Anna Stein**](https://slam.phil.hhu.de/authors/anna)  
+[**Anh Kim Nguyen**](https://slam.phil.hhu.de/authors/anh)
