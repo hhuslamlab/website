@@ -29,6 +29,10 @@ Connect all of your cables. Connect the jumper cable on `FC REC` and the `GND`ab
 7. Wait for the OS-screen on your monitor, even if the flashing process is complete. Then click install. 
 
 # Connecting Jetson Nano to your device
+---
+Please check that you fulfil these requirements before you start. 
+- [ ] Ubuntu version 20.4
+---
 
 The serial debug console connector is underneath the Jetson module, directly below the SD Card reader.
 
