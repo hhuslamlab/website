@@ -38,7 +38,10 @@ wsl --install
 After that is done, follow this link and click on `WSL2 Linux kernel update package for x64 machines` to download: https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package 
 
 
-Download Ubuntu from the Microsoft store, that is an app on your laptop. After the download is complete, start Ubuntu as an administrator. If you encounter an error, you can skip to ['Error Solving'](#error-solving) below.
+Download Ubuntu from the Microsoft store, that is an app on your laptop. **Choose version 20.4.** After the download is complete, start Ubuntu as an administrator. If you encounter an error, you can skip to ['Error Solving'](#error-solving) below.
+
+## Update wsl
+Download the update from here: [https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 
 ### Setup
 You'll be asked to create a **password** and **username**. The password will be hidden when you type it, just press enter when you have finished typing. You will be asked to repeat your password. After that, update your Ubuntu with the lines below.
