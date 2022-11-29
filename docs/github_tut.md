@@ -5,22 +5,32 @@ Things to sort out and be aware of before doing this:
 
 
 - [Getting started with git](#getting-started-with-git)
-	- [Step 1: Setting up git](#step-1:-setting-up-git-on-your-computer)
-	- [Step 2: Locale and Remote](#step-2:-linking-your-`local`-with-your-`remote`)
-- [Making a repository](#-making-your-own-repository,-commit-things,-and-push-them)
-	- [Committing files](#step-2:-committing-your-files)
-	- [Pushing files](#step-3:-pushing-your-files)
-	- [Token authentification](#step-4:-authenticate-yourself-in-the-eyes-of-github-after-august-2021)
-	- [Keep your Repository updated](#step-5:-rinse-and-repeat)
+	- [Step 1: Setting up git](#step-1-setting-up-git-on-your-computer)
+	- [Step 2: Locale and Remote](#step-2-linking-your-local-with-your-remote)
+- [Making a repository](#making-your-own-repository-commit-things-and-push-them)
+	- [Committing files](#step-2-committing-your-files)
+	- [Pushing files](#step-3-pushing-your-files)
+	- [Token authentification](#step-4-authenticate-yourself-in-the-eyes-of-github-after-august-2021)
+	- [Keep your Repository updated](#step-5-rinse-and-repeat)
 - [Cloning a repository](#cloning-repository)
 - [Workflow suggestion](#the-workflow)
-- [Erase your mistakes](#how-to-delete-branches)
+- [Erase your mistakes](#erase-your-mistakes)
+    - [Restoring files](#restoring-files-you-have-changed-by-mistake)
+    - [Delete Branches](#delete-branches)
 
 
 # Getting started with git
 There are some things to do first before working with git. That is, you need to register to the website, so do [that first on github](https://github.com/).  
 ### Step 1: Setting up git on your computer
-Once you are done, you need to download git to your Linux sub system. There is an executable `git bash` terminal for windows out there, but the commands for that one have not been tested by me yet. If you use WSL, do not install `git bash` for windows, instead, open `ubuntu` and run this line  
+#### Windows
+Once you are done, you need to download git. There is an executable `git bash` terminal for windows out there and _the commands in this tutorial work for that one, too_. In your windows terminal, type
+```shell=
+winget install Git.Git
+```
+Then, with `Cortana` look for an application called `Git Bash` and use that for the rest of this tutorial. Follow the `git config --global user` instructions below.
+
+#### Linux and WSL
+If you wish to use WSL, do not install `git bash` for windows, instead, open `ubuntu` and run this line  
 ```shell=
 git --version
 ```
@@ -28,7 +38,7 @@ If you get something that reads
 ```shell=
 git version <someNumberHere>
 ```
-You already have git installed! Skip to Step 2!  
+You already have git installed! This can happen, because Linux may come with git.  
 Else, run this command
 ```shell=
 sudo apt install git
@@ -49,10 +59,11 @@ Whenever you see the terms local and remote, know that they refer to your `local
 ```shell=
 ssh-keygen -t ed25519 -C "youremail@hhu.deOrWhatever"
 ``` 
-2. The key will be saved on your default directory in a hidden folder called `.ssd`. If you don't really know what you are doing, press enter when you see these two messages
+2. The key will be saved on your default directory in a hidden folder called `.ssd`. If you don't really know what you are doing, press enter when you see these three messages
 ```shell=
 Enter a file in which to save the key (/<yourDefaultDirectory>/.ssh/id_ed25519):
 Enter passphrase (empty for no passphrase): 
+Confirm passphrase:
 ```
 3. The key's `fingerprint` is displayed on your screen along with a cute randomart image. Locate the key files in your file explorer. You should be able to find two files named `id_ed25519` and `id_ed25519.pub` in the `.ssd` folder. Right-click the file that has the `.pub` extension and copy its content
 4. Back on browser, hop over to `profile > settings > SSH and GPG` click new `SSH key` and select `authentification key`. You can name it whatever you like, if you use multiple devices, call it after the machine you are using, so you know where the edits are coming from. Paste the info you copied into the box below and `add SSH key`.
@@ -177,6 +188,10 @@ When you make changes to your files and wish to update your files, this is how y
 
 In your terminal, navigate to the file you wish to update.
 ```shell=
+git status
+```
+Check the files that you have modified and add them:
+```shell=
 git add <nameOfYourFile>
 ```
 ```shell=
@@ -221,7 +236,24 @@ git push --set-upstream origin <NameOfYourNewBranch>
 5. When you are done, `git commit` and `git push` your changes to your branch and make a `pull request` on the github website of the repository you were working on. A `pull request` will let the admin know, that you want changes on your branch to be included on the `master branch`.
 6. Once the admin pulls your changes, you can delete your branch. Please delete your branch to make sure you delete your branch so it is easier to track. 
 
-# How to delete branches
+# Erase your mistakes
+We make mistakes. Github is a safe space for making mistakes, that's what version control is for, after all. Below are some  things you can do, regarding deleting or reverting mistakes.
+
+### Restoring files you have changed by mistake
+You have changed some files and it broke something. You do not remember how the original file looked like.
+In cases like these, use this:
+```shell=
+git status
+```
+Check what the name of the files are, that you want to revert back. Then type this:
+```shell=
+git restore <name of file>
+```
+And it will restore the files back to when you last committed a change.
+
+### Delete branches
+After successful merging, you can choose to delete your local branch. Or you have made so many branches already, you want to declutter the stale ones. To delete branches, do the following:
+
 1. Be on the masterbranch
 2. Execute this
 ```shell=
