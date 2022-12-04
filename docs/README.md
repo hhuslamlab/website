@@ -13,3 +13,7 @@
 - [A Guide to push Github around (under construction)](github_tut.md)
 
 - [A beginners guide to debugging Python programs](how_to_debug_101.md)
+
+- [Installing Aeneas on WSL and MacOS](aeneas.md)
+
+- [Installing Kaldi and MFA on Linux, WSL and MacOS](kaldimfa.md)
