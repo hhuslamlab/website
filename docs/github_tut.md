@@ -16,6 +16,7 @@ Things to sort out and be aware of before doing this:
 - [Erase your mistakes](#erase-your-mistakes)
     - [Restoring files](#restoring-files-you-have-changed-by-mistake)
     - [Delete Branches](#delete-branches)
+    - [Go back to a previous commit](#restoring-the-head-of-the-current-branch)    
 - [More commands](#more-commands)
 
 
@@ -211,7 +212,7 @@ git clone <Repo's SSH key>
 3. Follow the workflow of the project you are joining
 
 # The workflow
-[Anna]() told me, that we generally avoid committing and pushing changing to the `master branch`. The `master branch` is the branch that is actually going to show on the internet, so all changes made to it should undergo careful review first. Depending on the project we are working on, it may have a different name, like `main` or. Instead, we create our own branches, make changes to them, push alterations to them and create a pull request on the website, which have to undergo reviews first. This ensures that no one makes unwanted changes to our website.
+[Anna](https://slam.phil.hhu.de/authors/anna/) told me, that we generally avoid committing and pushing changing to the `master branch`. The `master branch` is the branch that is actually going to show on the internet, so all changes made to it should undergo careful review first. Depending on the project we are working on, it may have a different name, like `main` or. Instead, we create our own branches, make changes to them, push alterations to them and create a pull request on the website, which have to undergo reviews first. This ensures that no one makes unwanted changes to our website.
 The workflow of our website therefore is as follows:
 
 1. Navigate to a project and make sure you are on the `master branch` and up to date
@@ -264,9 +265,29 @@ git push origin --delete <nameOfYourBranch>
 ```
 to delete it from your remote. Alternatively, you can also delete it from the `branches` menu on browser.
 
+### Resetting the head of the current branch
+If you pushed something to a branch or want to restore the current state (head) of the branch to a previous one (because this is what version control is for) do the following:
+1. Be on the branch you want to change. You can check this with `git status`. 
+2. Get a history of previous commit IDs, messages and authors with `git log`. Copy the commit ID that corresponds to what you would like to be the last change of the branch. Everything before that will be undone. The commit ID can look like the following: 
+```sh
+commit 5d6cf483ed24fdeb9e4a6bcf61c04bf13b4ba501
+```
+
+3. In order to restore the branch to the state of that commit use the command below and substitue (only) the number of the commit ID for `<commit ID>`. Use `:`+ `q` to quit the logs.
+```sh
+git reset --hard <commit ID> 
+```
+
+4. Use `git log` again to test if it worked. 
+5. Now push the changes to the remote with `git push origin HEAD --force`
+
+You have successfully erased your mistakes :moyai:
+
+
 # More commands
 More documentation is to come. For now, an overview of the most important git commands can be found [here](https://www.hostinger.com/tutorials/basic-git-commands)
 
 ### Authors  
-[Anh Kim Nguyen](https://slam.phil.hhu.de/authors/anh/)  
-[Anna Stein](https://slam.phil.hhu.de/authors/anna/)
+[Anh Kim Nguyen](https://slam.phil.hhu.de/authors/anh/) :bowtie:
+  
+[Anna Stein](https://slam.phil.hhu.de/authors/anna/) 
