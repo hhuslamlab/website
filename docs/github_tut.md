@@ -1,7 +1,6 @@
 Things to sort out and be aware of before doing this:
 - [ ] Where do you plan on using git? On Windows? On your WSL? You have to install git where you plan on saving all of your repositories. You cannot switch between terminals as you wish to once you install git on one system ~~(You can, if you know how to and enjoy chaos, but don't go open an issue if you do)~~
-- [ ] This tutorial is written for Linux users and Windows users who use a Linux subsystem, which allows them to access Linux via the `ubuntu` terminal. Consider looking into the [WSL](https://docs.slam.phil.hhu.de/#/wsl) guide first, if you use neither.  
-- [ ] Know, that one of the authors only learnt 70% of this all 3 hours prior to writing this documentation
+- [ ] This tutorial is written for Linux users and Windows users who use a Linux subsystem. Consider looking into the [WSL](https://docs.slam.phil.hhu.de/#/wsl) if you would like to use WSL. More documentation on `git bash` for only Windows may follow in the future.
 
 
 - [Getting started with git](#getting-started-with-git)
@@ -12,22 +11,23 @@ Things to sort out and be aware of before doing this:
 	- [Pushing files](#step-3-pushing-your-files)
 	- [Token authentification](#step-4-authenticate-yourself-in-the-eyes-of-github-after-august-2021)
 	- [Keep your Repository updated](#step-5-rinse-and-repeat)
-- [Cloning a repository](#cloning-repository)
+- [Cloning a repository](#cloning-a-repository)
 - [Workflow suggestion](#the-workflow)
 - [Erase your mistakes](#erase-your-mistakes)
     - [Restoring files](#restoring-files-you-have-changed-by-mistake)
     - [Delete Branches](#delete-branches)
+- [More commands](#more-commands)
 
 
 # Getting started with git
 There are some things to do first before working with git. That is, you need to register to the website, so do [that first on github](https://github.com/).  
 ### Step 1: Setting up git on your computer
 #### Windows
-Once you are done, you need to download git. There is an executable `git bash` terminal for windows out there and _the commands in this tutorial work for that one, too_. In your windows terminal, type
+Once you are set, you need to download git. There is an executable `git bash` terminal for windows out there and _the commands in this tutorial should work the same way for that one_. In your windows terminal, simply type:  
 ```shell=
 winget install Git.Git
 ```
-Then, with `Cortana` look for an application called `Git Bash` and use that for the rest of this tutorial. Follow the `git config --global user` instructions below.
+Then, with `Cortana` look for an application called `Git Bash` and use it for the rest of this tutorial. Follow the `git config --global user` instructions further down this section.
 
 #### Linux and WSL
 If you wish to use WSL, do not install `git bash` for windows, instead, open `ubuntu` and run this line  
@@ -65,15 +65,14 @@ Enter a file in which to save the key (/<yourDefaultDirectory>/.ssh/id_ed25519):
 Enter passphrase (empty for no passphrase): 
 Confirm passphrase:
 ```
-3. The key's `fingerprint` is displayed on your screen along with a cute randomart image. Locate the key files in your file explorer. You should be able to find two files named `id_ed25519` and `id_ed25519.pub` in the `.ssd` folder. Right-click the file that has the `.pub` extension and copy its content
+3. The key's `fingerprint` is displayed on your screen along with a cute randomart image. Locate the key files in your file explorer. You should be able to find two files named `id_ed25519` and `id_ed25519.pub` in the `.ssd` folder. Right-click the file that has the `.pub` extension, `open in editor` and copy its content
 4. Back on browser, hop over to `profile > settings > SSH and GPG` click new `SSH key` and select `authentification key`. You can name it whatever you like, if you use multiple devices, call it after the machine you are using, so you know where the edits are coming from. Paste the info you copied into the box below and `add SSH key`.
-6. *Voila!* You should know see the `fingerprint` of your key under the name you gave it. Lastly, to make sure you don't have to input the key everytime you do anything, you can pass on your key to an `ssh-agent` who will manage your key automatically. Execute the following lines
+6. *Voila!* You should now see the `fingerprint` of your key under the name you gave it. Lastly, to make sure you don't have to input the key everytime you do anything, you can pass on your key to an `ssh-agent` who will manage your key automatically. Execute the following lines
 ```shell= 
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ```
-
-You are done, when you see
+You are done with the setup, when you see:
 ```
 Identity added: /<yourDirectory>/.ssh/id_ed25519 (youremail@hhu.deOrWhatever)
 ```
@@ -201,8 +200,9 @@ git commit -m "messageThatSummarisesWhatChangesYouMade"
 git push
 ```
 
-# Cloning repository
-In case you are joining in on an existing project, this is how to `clone` the repository:
+# Cloning a repository
+In case you are joining in on an existing project, you will have to  `clone` the repository:
+
 1. Visit the repo's github page and copy its SSH key 
 2. In your terminal, navigate to the folder you want to keep the repo in and run
 ```shell=
@@ -211,7 +211,7 @@ git clone <Repo's SSH key>
 3. Follow the workflow of the project you are joining
 
 # The workflow
-[Anna]() told me, that we generally avoid committing and pushing changing to the masterbranch. Instead, we create our own branches, make changes to them, push alterations to them and create a pull request on the website, which have to undergo reviews first. This ensures that no one makes unwanted changes to our website.
+[Anna]() told me, that we generally avoid committing and pushing changing to the `master branch`. The `master branch` is the branch that is actually going to show on the internet, so all changes made to it should undergo careful review first. Depending on the project we are working on, it may have a different name, like `main` or. Instead, we create our own branches, make changes to them, push alterations to them and create a pull request on the website, which have to undergo reviews first. This ensures that no one makes unwanted changes to our website.
 The workflow of our website therefore is as follows:
 
 1. Navigate to a project and make sure you are on the `master branch` and up to date
@@ -227,14 +227,13 @@ git checkout master
 ```shell= 
 git checkout -b <NameOfYourNewBranch>
 ``` 
-3. This new branch only exist on your `locale` right now, so in order to notify your `remote` about its existence and track future changes, run this command
+3. When `pulling`, the source of your `pulls` is by default the `remote branch` that bears the same name as your `local branch`. If you are working alone in a repository, will prevent you from accidentally overwriting your data. However, if you work in a team, you are likely to want to track the changes everyone is making on the `master branch`. You can change the source from where your branch is `pulling` from by setting an `upstream` (`-u`). The following command translates to "git push (Set the `upstream` of `NameOfYourBranch` to the `origin` it was created from)":
 ```shell=
-git push --set-upstream origin <NameOfYourNewBranch>
+git push -u origin <NameOfYourNewBranch>
 ```
-
 4. Stay on your new branch, make your changes, add files
-5. When you are done, `git commit` and `git push` your changes to your branch and make a `pull request` on the github website of the repository you were working on. A `pull request` will let the admin know, that you want changes on your branch to be included on the `master branch`.
-6. Once the admin pulls your changes, you can delete your branch. Please delete your branch to make sure you delete your branch so it is easier to track. 
+5. When you are done, `git commit` and `git push` your changes to your branch and make a `pull request` on the repository's page in browser. A `pull request` will let the admin know, that you want changes on your branch to be included in the `master branch`.
+6. Once the admin pulls your changes, you can delete your branch. Please delete your branch to make sure changes are easy to track. 
 
 # Erase your mistakes
 We make mistakes. Github is a safe space for making mistakes, that's what version control is for, after all. Below are some  things you can do, regarding deleting or reverting mistakes.
@@ -263,12 +262,11 @@ and the file is gone from your locale. Run
 ```shell=
 git push origin --delete <nameOfYourBranch>
 ```
-to delete it from your remote.
+to delete it from your remote. Alternatively, you can also delete it from the `branches` menu on browser.
 
-
-An overview of the most important git commands can be found [here](https://www.hostinger.com/tutorials/basic-git-commands)
-
+# More commands
+More documentation is to come. For now, an overview of the most important git commands can be found [here](https://www.hostinger.com/tutorials/basic-git-commands)
 
 ### Authors  
-[Anh Kim Nguyen](https://slam.phil.hhu.de/authors/anh/)
+[Anh Kim Nguyen](https://slam.phil.hhu.de/authors/anh/)  
 [Anna Stein](https://slam.phil.hhu.de/authors/anna/)
