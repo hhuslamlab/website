@@ -18,4 +18,4 @@
 
 - [Installing Kaldi and MFA on Linux, WSL and MacOS](kaldimfa.md)
 
-- [Write your paper in 1 second with these fabulous Latex tips - Latex for Linguists](latex_guide.md)
+- [Write your paper in 1 second with these fabulous Latex tips - LaTeX for Linguists](latex_guide.md)
