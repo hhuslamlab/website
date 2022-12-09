@@ -17,3 +17,5 @@
 - [Installing Aeneas on WSL and MacOS](aeneas.md)
 
 - [Installing Kaldi and MFA on Linux, WSL and MacOS](kaldimfa.md)
+
+- [Write your paper in 1 second with these 10 **Latex** tips.](latex_guide.md)
