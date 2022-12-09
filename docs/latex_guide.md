@@ -33,7 +33,7 @@ This documentation of `LaTeX`(pronounced Lah.Tek or Lay.tek) is meant to give a 
 "Stability" here refers to the fact that document formatting in `word` or `powerpoint` easily (and often) face problems with fonts showing incorrectly on some devices, colours not showing properly or graphics being misplaced. 
 In a well written `LaTeX` document, **such things generally do not happen**.
 
-When did you last have to draw a graphic with clipart arrows, added a mathematical formula or create a table in word? Was it tedious? Once you know the right commands and packages, using `LaTeX` will be just as - or in my opinion, even less - tedious as that, but the result will be cleaner, more professional and it will even show properly in a pdf.
+When did you last have to draw a graphic with clipart arrows, added a mathematical formula or create a table in word? Was it tedious? Once you know the right commands and packages, using `LaTeX` will be just as - or in my opinion, even less - tedious as that, but the result will be cleaner, more professional and will even show properly in a pdf.
 
 If you have not written code before, `LaTeX` may seem daunting with its brackets and slashes, but once you learn what they mean, you will see that most the codey parts are actually for making your document prettier, and not actually part of your writing content.
 
@@ -43,7 +43,7 @@ So without further ado, let's start with the architecture and structure of `LaTe
 
 ## Architecture and terminology, `.tex`, `.sty` and other files
 
-When you create a document from scratch, the only thing you will see is a file with the `.tex` extension. That file is where you will write all of your content and where you will be altering things most of the time. 
+When you create a document from scratch, the only thing you will see is a "main" file with the `.tex` extension. That file is where you will write all of your content and where you will be altering things most of the time. 
 
 In `overleaf`, a blank `main.tex` file will have some barebone construction that looks like this:
 
@@ -63,17 +63,20 @@ In `overleaf`, a blank `main.tex` file will have some barebone construction that
 
 \end{document}
 ```
-There are two important regions to take note of in this:
-* The `preamble` (line 1-7)
-* The `document` between `\begin{document}` and `\end{document}` (line 8-14)
+There are two important sections in a `.tex` file and you can see both of them in the code snippet above:
+* The `preamble` with metadata and packages (line 1-7)
+* The `document environment` between `\begin{document}` and `\end{document}` (line 8-14)
 
-You can create multiple `.tex` files and distribute your writing among them, too. This is useful if you want to sort your writing eg. chapters or collaborator parts into separate files. This also makes looking things up more easy. 
+You can create multiple `.tex` files and [distribute your writing among them](#Content-across-multiple-files), too. This is useful if you want to sort your writing eg. chapters or collaborator parts into separate files. This also makes looking things up more easy. 
 
-In order to see what your code is doing, you need to `compile` it. Compiling code in `overleaf` is the equivalent to running a script and seeing if it works, you need to click the download button to actualy save the output file. 
+In order to see what your code is doing, you need to `compile` it. It is suggested that you use `XeLatex` as your compiler, but `pdfLatex` can work, too. Compiling code in `overleaf` is the equivalent to running a script and seeing if it works, you need to click the download button to actualy save the output file. 
 
-If you decided to use a template, your folder will have other things included, such as a `.sty` file, a `.bib` file, images or even `.pdf` files. Here are some important things to know about this all.
+If you decided to use a template, your folder will have other things included, such as a `.sty` file, a `.bib` file, images or even `.pdf` files. Here are some important things to know about them.
 
-### Preamble
+### `.tex` files
+`.tex` files (pronounced tek) are the files in which you write your content. In order to compile the code at all, you need at least one file which is named "main" and contains the `preamble` and the `document environment`. Anything that is not referred to inside of your `main.tex` will be ignored. 
+
+#### Preamble
 ```latex=
 \documentclass{article}
 \usepackage[utf8]{inputenc}
@@ -82,7 +85,7 @@ If you decided to use a template, your folder will have other things included, s
 \author{Anh Kim N.}
 \date{December 2022}
 ```
-Metadata information, packages for formatting and customisations are declared in the `preamble`. In graphically elaborate papers, slides and posters, the `preamble` can end up being incredibly long and impossible to read. In order to keep your preamble easy to navigate, try to group packages in a way that seems sensible and make use of comments to keep track of the packages' functions, as their names can range from very intuitive to cryptic. Here an example, of what I mean:
+Metadata information, packages for formatting and customisations are declared in the `preamble`. In graphically elaborate papers, slides, and posters, the `preamble` can end up being incredibly long and impossible to read. In order to keep your preamble easy to navigate, try to group packages in a way that seems sensible and make use of comments to keep track of the packages' functions, as their names can range from very intuitive to cryptic. Here an example, of what I mean:
 
 ```latex=
 % In the preamble
@@ -111,16 +114,16 @@ The word `preamble` also refers to the first lines of an environment, since that
 
 https://olivierpieters.be/blog/2016/08/10/latex-preamble
 
-### Document classes
+#### Document classes
 ```latex=
 \documentclass{article}
 ```
 LaTeX can be used to create different formats of pdf files. Different classes have different standard layout settings, such as the `letter` class making the addresses of recipient and sender appear at the top of the first page, or the `beamer` class transforming the document into presentation slides. Classes may have class-specific `packages` and `commands` and it can be very confusion to keep track of what is compatible with which class.  
 
-This tutorial will cover only the `article` class, which is the one most popular for academic writing. A guide on `beamer` may follow in the future.
+This guide will cover only the `article` class, which is the one most popular for academic writing. A guide on `beamer` may follow in the future.
 
 The class is set at the very beginning of the `preamble`
-### Packages
+#### Packages
 ```latex=
 \usepackage[utf8]{inputenc}
 ```
@@ -131,11 +134,13 @@ Packages are in LaTeX what `libraries` are in other programming languages. While
 > This is where `libraries` come in: `libraries` are collections of  books that contain new `functions` and `commands`, *new words for your programming language*. When you `import` libraries, you are bringing new books to your programming language and teach it how to do new things.
 > <small>My 8th grade Computer teacher</small>
 
-In the above example, we are importing the package `inputenc`, which tells LaTeX which encoding to use to display letters, in this case`[utf8]` . UTF-8 is generally the default encoding, but should you wish to change it, now you now know which package to use.
+In the above example, we are importing the package `inputenc`, which tells LaTeX which encoding to use to display letters, in this case`[utf8]` . UTF-8 is generally the default encoding, but should you wish to change it, you know which package to use.
 
-Packages along with settings for their commands have to be declared in the `preamble`.
+Packages are loaded in the order of how they are declared in the preamble and will overwrite each other, so things might seemingly break when you load packages that alter the same parameters.
 
-### The `document` environment
+Packages along with settings  for their commands have to be declared in the `preamble`.
+
+#### The `document` environment
 ```latex=
 \begin{document}
 
@@ -145,7 +150,7 @@ Packages along with settings for their commands have to be declared in the `prea
 
 \end{document}
 ```
-This is where the actual writing is happening. If you are using templates and have a hard time navigating the structure, make sure you find where `\begin{document}` and `\end{document}` are located at least. Any kind of writing which is not included inside of the `document environment` (eg. as a `reference`), will not show up in your final product and is very likely to cause an error if it is not any type of formatting setting.
+This is where the actual writing is happening. If you are using templates and have a hard time navigating the structure, make sure you find where `\begin{document}` and `\end{document}` are located at least. Any kind of writing which is not included inside of the `document environment`(eg. with[`\input{}`](#Content-across-multiple-files)), will not show up in your final product and is very likely to cause an error if it is not any type of formatting setting.
 
 You will see the command `\maketitle` being used here first. This command is using the information from `\title{This is a title}`,`\author{Anh Kim N.}` and `\date{December 2022}` we have provided in the `preamble`.
 
@@ -153,9 +158,19 @@ This is followed by `\section{Introduction}`, a command that formats the words i
 
 You may have noticed that many things are called a 'document'. Where possible, I will try to highlight the word `document` to mean the environment and will simply say document to mean the entire document file that we are writing in the broader sense.
 
-### Style file
-### Bibliography
+#### Commands
+Commands are phrases that tell `LaTeX` to modify how it should display your writing.
+Commands are initiated with the backslash `\` and are supposed to modify only single objects and items, one at a time. If you would like to format multiple things, you would use...-
 
+#### Environments
+An environment is a section that spans across your page and will have the same formatting from the environment's `\begin{}` until its `\end{}`. This can take the form of things such as center-aligned paragraphs, [`item-lists`](#Lists-and-Examples), [`inter-linear glosses`](#Glossings), `tables`, `images`,`textboxes` and many more.
+
+### The Style file
+A `.sty` file is to `LaTeX` what the CSS style sheet is to html. The style file contains information about your document's theme and other special format settings. The merit of using a style file is that your `main.tex` file will look less cluttered, since all of the formatting is written in a different file and you can focus on just writing your text. Most of the time you shouldn't bother configurating style files and most of the time you shouldn't even need one. Still, in case you should need to know how to navigate them in order to customise templates, some information can be found at the [end of this guide](#Making-your-own-sty-file).
+
+### The `.bib` bibliography
+
+`LaTeX` allows you to directly drop your references into the folder where you are working on by including them in `bibtex` format. Every academic website has an option to "export bibtex citation" which will give you a file with the `.bib` extension.
 More on bibliography and citing can be found [down below](#Citing-with-BibTeX)
 
 ### Errors and Warnings
@@ -167,13 +182,17 @@ Meanwhile **Warnings** (coloured in orange) are things that can often go ignored
 
 ## Basics for writing
 
-[SOME INFO ON THE STRUCTURE AND THE FILES OF LATEX,]
+Now that you know the basic terminology, you can start learning about the actual formatting and how to use certain packages. In case something breaks, you will also know the right words to look up the problem on stackexchange or thr official overleaf documentation.
+
+In this section you will learn about simple ways of formatting like **boldface** and work your way up to more complex commands. Since no Latex user learnt how to use these commands by just reading their documentation, you are very much encouraged to try these commands out as you read about them. 
+This documentation was initially just a cheat sheet to collect the most frequently used commands, so feel free to `ctrl+f` and look for what you need.
 
 ### Handy shortcuts to get used to
-Most of these are common practice and used in other programs, too and infinitively easier to use on a keyboard with English layout. If you want to become a proficient computer user, learning shortcuts is a quick way to make you proficient. Challenge yourself to never using `right-click > copy > paste` ever again.
+Most of these are common practice, used in other programs, too, and infinitively easier to use on a keyboard with English layout. If you want to become a proficient computer user, learning shortcuts is a quick way to make you look professional. Challenge yourself to never using `right-click > copy > paste` ever again.
 
 `ctrl+enter`: compiling
 `ctrl+ left-right-arrowkeys`: let's you skip across words
+`shift+ arrowkeys`: mark text letter by letter (`+ctrl` lets you mark whole words)
 <!--`ctrl+c`: copy selected text
 `ctrl+x`: cut out selected text
 `ctrl+v`: paste selected text
@@ -190,9 +209,8 @@ Most of these are common practice and used in other programs, too and infinitive
 `ctrl+u`: selected text to upper case
 `ctrl+shift+u`: selected text to lower case
 
-### General formatting
+### General formatting commands and environments
 #### Text formatting
-In `LaTeX`, formatting commands are initiated with the backslash `\`.
 ```latex=
 \textit{Italic text}, \textbf{Bolded text}
 
@@ -205,7 +223,7 @@ In `LaTeX`, formatting commands are initiated with the backslash `\`.
 ```latex=
 A text in normal size and a \textsc{text in smallcaps}
 ```
-A text in normal size and a <small>TEXT IN SMALLCAPS</small> 
+A text in normal size and a <small>TEXT IN SMALLCAPS</small>
 
 #### Forcing linebreak
 `\\` are used to force a linebreak. There are many alternatives
@@ -229,16 +247,93 @@ You can also colour your writings and define custom colours to use in themes, if
 \textcolor{red}{This text is in red}
 ```
 > <font color="#FF0000">This text is in red</font>
+Do keep in mind that academic texts have guidelines on what is proper formatting and that boldface and coloured text may have limited use.
 
-### Images
-[ADD PACKAGE INFO]
+### Text alignment with `ragged2e`
+
+You can choose between two methods of alignment: 
+
+1. whole `environments`
+2. individual objects
+
+While `LaTeX` is able to do alignment as an in-built feature, I will use the `ragged2e` package in order to use the `justify` environment, which is what you are most likely to have as a format requirement for papers and essays.
+
 ```latex=
-\includegraphics[scale=.5]{IMG_1934.jpg}
+% In the preamble
+\usepackage{ragged2e}
 ```
 
+#### Alignment environments
+Text alignment should ideally be already specified in your `.sty` template or shortly after your `document`, but if it is not, it is advised that you choose an `environment` that spans across the entirety of your writing.
 
+```latex=
+% This is the end of the preamble
+\begin{document}
+
+% In the document
+    \begin{center}
+
+    This is a centered text.
+    This text is also centered.
+    ...
+    This can go on and on.
+    
+    \end{center}
+\end{document}
+```
+You can choose from these following environment options:
+`center`
+`flushleft`
+`flushright`
+`justify` ("Blocksatz" in German, this is what you want in academic writing)
+
+#### Alignment commands
+Sometimes you may want images, graphs or single paragraphs to have a different alignment style than what the rest of your text is using. Commands let you do that since they will apply.
+
+```latex=
+% In the document
+\Centering This text is centered
+\RaggedRight This text is aligned to the left, the right side is ragged
+\RaggedLeft  This text is aligned to the right, the left side is ragged
+\Justifying This text is justified like a block
+```
+
+### Images with `graphics` and `graphicx` packages
+`LaTeX` is not able to show images by default, but luckily there are two packages you can use together to enable it. 
+
+```latex=
+% In the preamble
+\usepackage{graphics}
+\usepackage{graphicx}
+```
+`graphics` allows you to include graphics in general and resize, and scale them.
+`graphicx` unlocks some more image formatting options and simplifies sizing and scaling.
+
+In order to include an image, you have to tell the program the path to your image. If it is in the same folder as your `main.tex`, you can just specify the file's name:
+
+```latex=
+% In the document
+\includegraphics{./imagesFolder/SlaMWug.jpg}
+```
+It is possible to transform your graphics with `angle`, `scale`, `width` and `height`:
+
+```latex=
+% In the document
+\includegraphics[angle=25]{SlaMWug.jpg} % rotates your image by 25 degrees 
+\includegraphics[scale=.5]{SLaMWug.jpg} % scales your image to 50% of its size
+\includegraphics[width=.3\linewidth]{SLaMWug.jpg} % stretches the image to a third width of the text, aspect ratio kept
+\includegraphics[width=3cm,height=50mm]{SLaMWug.jpg} % stretches the image to the width and height independently
+```
+You can also crop and display only a certain section in an image, in case the picture is very big. This is done by specifying a `viewport` or using `trim` or `clip`.
+
+```latex=
+% In the document
+\includegraphics[viewport= 20 20 200 200,clip]{SLaMWug.jpg} % Shows a section from your image starting from the lower left (x=20 y=20) to the upper right (x=200 y=200). In this example the displayed image will be 180x180 pixels, everything else is clipped away
+```
+
+[TIKZ OR LATER.]
 ### Sections and paragraphs
-When you write sections and paragraphs, the following commands allow you to format the headline of the paragraph appropriately. In the `\documentclass{article}`, sections, subsections and sub-sub sections will automatically be indexed as you write and updated in the table of contents, so you won't have to keep track of which numbers you have to rearrange when you decide to swap out or delete sections.
+When you write sections and paragraphs, the following commands allow you to format a headline appropriately. In the `article class`, sections, subsections and sub-sub sections will automatically be indexed as you write, and updated in the table of contents, so you won't have to keep track of which numbers you have to rearrange when you decide to swap out or delete sections.
 
 ```latex=
 % In the document
@@ -247,8 +342,15 @@ When you write sections and paragraphs, the following commands allow you to form
 \subsubsection{This is a subsubsection} % 1.1.1
 \paragraph{This is a paragraph} % bold face with a tab space to the right
 ```
+To create a table of contents, add this command:
+
+```latex=
+% In the document
+\tableofcontents
+```
+
 ### Labels and cross references
-Whenever you include images, tables or quotes, you may want to refer back to them. Instead of having to describe what you refer to, it is possible to set a `label` for your object:
+Whenever you include images, tables or quotes, you may want to refer back to them. Instead of having to describe what you refer to, it is possible to set a `label` for your object and just have your readers scroll up:
 ```latex=
 % In the document
 \label{MyOwnReference}
@@ -264,7 +366,45 @@ An index should appear in the text. If you want to refer to the page on which th
 % In the document
 \pageref{MyOwnReference}
 ```
-[ADD SECTION ON INCLUDE SECTION FOR REFERRING ACROSS FILES]
+If you are referring to a lot of different items, it may be useful to include the type of item you are referring to in your label. This is completely optional and not doing this does not impede the use of this command. There are commonly used label tags suggested for this:
+`fig`
+`tag`
+`tag`
+`tag`
+`tag` 
+
+#### Links and the `hyperref` package
+If you are a kind author and would like to allow your readers to actually click on the labels and the table of contents and get sent to that section, the `hyperref` package lets you do that. The best thing is, that the commands above will stay the same. Simply adding this into your preamble makes your cross referenes and table of contents clickable.
+
+```latex=
+% In the preamble
+\usepackage{hyperref}
+```
+In addition to allowing links inside of your document, `hyperref` also allows you to link websites and content from the internet.
+
+```latex=
+% In the document
+\href{yourUrlAddress}{This is a clickable link}
+```
+
+### Content across multiple files
+It is totally reasonable to write all of your work in only one `.tex` file. However, the longer your paper is, the more difficult it is to keep track of your work and you may wish to split up your chapters into multiple `.tex` files and sort them inside of different folders.
+
+After writing all of your chapters, you will need to include them into the `document` section by using  the command `\input{nameOfTheTexFile}`.
+
+In this snippet you can see how `\input{}` is being used:
+```latex=
+% In the document, in the main.tex file
+\section{Organisation}
+   \input{Content/1.Organisation}
+\section{Review trees}
+   \input{Content/2.Trees}
+\section{Closed Categories}
+   \input{Content/3.Chapter}
+\section{TLDR}
+   \input{Content/4.TLDR}
+```
+There are four `\section{}` headlines followed by the respective files that contain the content for that section, their names being "1.Organisation.tex", "2.Trees.tex", "3.Chapter.tex" and "4.TLDR.tex". Since the files are not stored in the same folder as the `main.tex`, hence the folder name "Content" has to be specified as path.
 
 ### Citing with BibTeX
 
@@ -330,7 +470,9 @@ There are also:
 \citeyear{nguyenA2022}	% (2022)
 ```
 
-### Full citation in the footnote with the `footbib` package
+#### Full citation in the footnote with the `footbib` package
+Should you ever need to follow citation guidelines that require you to cite whole references in footnotes, the `footbib` library allows you to do this.
+
 ```latex=
 % In the preamble
 \usepackage{footbib}
@@ -345,7 +487,7 @@ There are also:
 ```
 
 ## Environments
-An environment is a section on a page that will have the same formatting from the environment's `\begin{}` until its `\end{}`. This can take the form of things such as [`item-lists`](#Lists-and-Examples), [`inter-linear glosses`](#Glossings), `tables`, `images`,`textboxes` and many more.
+Useful environments are introduced in this section.
 
 ### Ordered- and unordered lists
 
@@ -423,12 +565,14 @@ The `exe`-environment does not have a designated setting for indexing with lette
 >(i) small roman number
 >(I) big roman number
 
-
-
 ### Glossings and the `gb4e` package
 ```latex=
 
 ```
+#### IPA symbols
+
+#### Fonts and language packs
+
 
 ### Tables
 #### `tabular`-environment
@@ -468,16 +612,69 @@ The `{c|c}` is the part that specifies the content alignment of the table. every
 * `>{}` and `<{}` - additional formatting options for the column that the arrow is pointing to
 
 
+
+
+### Syntax trees
+What would a cheat sheet for linguists be without a section on syntax trees. 
+If you are using `forest` together with `gb4e` to include glosses, make sure that `forest` is declared first in the preamble.
+
 ```latex=
+% In the preamble
+\usepackage[linguistics]{forest} % specific package version "linguistics"
+```
+The following snippet shows a forest nested inside of an `exe` environment:
+```latex=
+% In the document
+\begin{exe}
+    \ex \begin{forest}
+    [S 
+        [NP 
+            [Adj [green\\grün,tier=word]]
+            [N [idea\\ideen,tier=word]]]
+        [VP 
+            [VP    
+                [V [sleep\\schlafen,tier=word]]
+                [Adv [furiously\\rasant ,tier=word]]
+            ]
+            [P [at night \\ bei nacht, roof, tier=word]]
+        ]
+    ]
+    \end{forest}
+\end{exe}
+```
+If you prefer the tree branches to align in one row, you can us `tier=word` after the words in every node to to do that.
+If you want to shorten phrases into a triangle, you can specify that with `roof`.
 
 ```
 
-### Syntax trees
-What would a cheat sheet for linguists be without a section on syntax trees. [LOOK AT BEAMER SLIDES AGAIN]
+```
+
+`forest` uses square bracket notations for syntax trees. If you are unsure about your bracket notation and would like to check how the tree will look like first, before adding it into your document, you can use [this online tool](https://mshang.ca/syntree/) to see what tree would be generated. Keep in mind that `forest` requires an additional `[]` around the phrase at the end of a branch, so a sentence that you would write as
+
+```latex=
+[S [V eat][N cheese]]
+```
+Would have to look like this in `forest`:
+```latex=
+[S [V [eat]][N[cheese]]]
+```
+
 
 #### Dependency structures
 What would a cheat sheet for linguists be without a section on syntax trees [LOOK AT BEAMER SLIDES AGAIN]
 
+## Further Commands
+These commands may be useful for formatting objects relative to each other.
+### Sizes
+These can be used in combination or in place of parameters that require numbers
+`\pagewidth` and `\pageheight`: Dimensions of the page
+`\textwidth`, `\columnwidth` and `\textheight`: Dimensions of the text area
+`\linewidth`: Width of the current environment, equal to `\textwidth` else
+### Fixing space around object
+
+`\vfill` and `\hfill`: Filling the vertical or horizontal space 
+`\vspace{x}` and `\hspace{x}`: inserts space in the size of x
+`\clearpage`: Forces a new page 
 ## Customise Commands
 
 ### Making your own commands
@@ -528,6 +725,11 @@ I give the tree a kiss.
     {Some formatting like \begin{center}}
     {The same formatting you opened up there \end{center}}
 ```
+```latex=
+\newenvironment{CustomParagraph}{\par\raggedleft}{\par}
+```
+
+
 If you wish to learn more about this, you can read up on custom [commands](https://www.overleaf.com/learn/latex/Commands#Defining_a_new_command) and [environments](https://www.overleaf.com/learn/latex/Environments#Defining_a_new_environment) on the overleaf documentation.
 
 ## Making your own `.sty` file
