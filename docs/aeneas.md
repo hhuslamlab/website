@@ -43,11 +43,15 @@ sudo pip3 install py3-aeneas
 
 ### Compile Python C/C++ extensions
 
+```sh
 sudo python3 setup.py build_ext --inplace
+```
 Check Setup
 ```sh
 sudo python3 -m aeneas.diagnostics
 ```
+![image](https://user-images.githubusercontent.com/104856882/207519098-c0bb7fcb-82f8-403c-a17c-4f2f780ae81a.png)
+
 
 # MacOS
 Copy and Paste the below code in the terminal (using Command+C and Command+V):
