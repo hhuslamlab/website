@@ -10,8 +10,8 @@ Install Hugo and the Golang
 
 ``` sh
 
-sudo apt install hugo
-sudo apt install golang
+sudo apt install hugo=0.68.3
+sudo apt install golang=1.13.8
 
 ```
 #### Run hugo server
