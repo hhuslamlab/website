@@ -136,7 +136,7 @@ Packages are in LaTeX what `libraries` are in other programming languages. While
 
 In the above example, we are importing the package `inputenc`, which tells LaTeX which encoding to use to display letters, in this case`[utf8]` . UTF-8 is generally the default encoding, but should you wish to change it, you know which package to use.
 
-Packages are loaded in the order of how they are declared in the preamble and will overwrite each other, so things might seemingly break when you load packages that alter the same parameters.
+Packages are loaded in the order of how they are declared and will overwrite each other, so things might seemingly break when you load packages that alter the same parameters. Just experiment with where you have to place the package and see when it stops protesting.
 
 Packages along with settings  for their commands have to be declared in the `preamble`.
 
@@ -154,16 +154,21 @@ This is where the actual writing is happening. If you are using templates and ha
 
 You will see the command `\maketitle` being used here first. This command is using the information from `\title{This is a title}`,`\author{Anh Kim N.}` and `\date{December 2022}` we have provided in the `preamble`.
 
-This is followed by `\section{Introduction}`, a command that formats the words inside of the `{}` into a section headline, in this case the word "Introduction". More info about sections and paragraphs follow [here](#Sections-and-paragraphs).
+This is followed by `\section{Introduction}`, a command that formats the words inside of the curly brackets into a section headline, in this case the word "Introduction". More info about sections and paragraphs follow [here](#Sections-and-paragraphs).
 
 You may have noticed that many things are called a 'document'. Where possible, I will try to highlight the word `document` to mean the environment and will simply say document to mean the entire document file that we are writing in the broader sense.
 
 #### Commands
 Commands are phrases that tell `LaTeX` to modify how it should display your writing.
-Commands are initiated with the backslash `\` and are supposed to modify only single objects and items, one at a time. If you would like to format multiple things, you would use...-
+Commands are initiated with the backslash and are supposed to modify only single objects and items, one at a time, such as changing the colour of one word, underlining an important sentence. Commands take the form of `\SomeCommand{Object}`
+
+If you would like to format multiple things, you would use...-
+
+#### Modal commands
+You will also find commands that do not take objects in the shape of `\SomeModalCommand`. These commands will apply a certain formatting from the moment they are used until the end of the environment they are used in. Since that can mean wildly different things, `{\SomeModal placing curly brackets around these modals will help to keep the formatting in control}`. Modals are useful for formatting whole paragraphs, such is the case for [quoted sections](#Text-formatting-for-a-longer-text) or certain [columns of tables](#Thetabularx-package-and-others). Modals cannot do too complex formatting though, so if that is needed, it is better to use... -
 
 #### Environments
-An environment is a section that spans across your page and will have the same formatting from the environment's `\begin{}` until its `\end{}`. This can take the form of things such as center-aligned paragraphs, [`item-lists`](#Lists-and-Examples), [`inter-linear glosses`](#Glossings), `tables`, `images`,`textboxes` and many more.
+An environment is a section that spans across your page(s) and will have the same formatting from the environment's `\begin{}` until its `\end{}`. Environments can also have whole objects inside of them. This can take the form of things such as center-aligned paragraphs and pages, [`item-lists`](#Lists-and-Examples), [`inter-linear glosses`](#Glossings), `tables`, `images`,`textboxes` and many more.
 
 ### The Style file
 A `.sty` file is to `LaTeX` what the CSS style sheet is to html. The style file contains information about your document's theme and other special format settings. The merit of using a style file is that your `main.tex` file will look less cluttered, since all of the formatting is written in a different file and you can focus on just writing your text. Most of the time you shouldn't bother configurating style files and most of the time you shouldn't even need one. Still, in case you should need to know how to navigate them in order to customise templates, some information can be found at the [end of this guide](#Making-your-own-sty-file).
@@ -210,13 +215,20 @@ Most of these are common practice, used in other programs, too, and infinitively
 `ctrl+shift+u`: selected text to lower case
 
 ### General formatting commands and environments
-#### Text formatting
+#### Simple text formatting
+
+You can use commands for this kind of formatting:
+
 ```latex=
-\textit{Italic text}, \textbf{Bolded text}
+\textit{Italic text}
+
+\textbf{Bolded text}
 
 \textit{\textbf{Italic and bolded text}}
 ```
-> *Italic text*, **Bolded text** 
+> *Italic text*
+> 
+> **Bolded text** 
 > 
 > ***Italic and bolded text***
 
@@ -225,8 +237,31 @@ A text in normal size and a \textsc{text in smallcaps}
 ```
 A text in normal size and a <small>TEXT IN SMALLCAPS</small>
 
-#### Forcing linebreak
-`\\` are used to force a linebreak. There are many alternatives
+#### Text formatting for a longer text
+
+For longer text passages, it is best to use environments or modal commands: 
+
+```latex=
+{\itshape The entire text here will be italic, until LaTeX runs into a different formatting option, such as}
+
+{\bfseries here when the text becomes boldface or}
+
+{\scshape here when it is all in small caps}
+
+\itshape\bfseries This text is italic and bold until the end of the document which includes
+
+this line
+
+this line
+and this line
+```
+
+Another handy command is the `\emph{}` command which formats a word to _emphasise_ it _relatively to the text it is written in_. In other words, if you are using `\emph` on a word in an already italicised text, the command will show the word in normal formatting, so that it will pop up amongst the  italicised text.
+
+Block quotations can be formatted that way, but there is also a package specifically for block quotes which will be introduced [later](#Quotations-with-the-csquotes-package).
+
+#### Breaking lines and pages
+`\\` are used to force a linebreak. There are some modal command alternatives
 ```latex=
 This\\ text \linebreak is \newline broken.
 ```
@@ -234,6 +269,14 @@ This\\ text \linebreak is \newline broken.
 > text
 > is
 > broken.
+
+You can also force a page to stay empty until the next page with the commands `\pagebreak`, `\clearpage` and `\newpage`, e.g. when you finish a chapter and would like the next chapter to begin on the next page.
+
+``` latex=
+This is the last sentence of a chapter.
+\pagebreak
+A new chapter starts here.
+```
 
 #### Coloured text with `xcolor`
 You can also colour your writings and define custom colours to use in themes, if you  use the `xcolor` package:
@@ -247,14 +290,15 @@ You can also colour your writings and define custom colours to use in themes, if
 \textcolor{red}{This text is in red}
 ```
 > <font color="#FF0000">This text is in red</font>
+
 Do keep in mind that academic texts have guidelines on what is proper formatting and that boldface and coloured text may have limited use.
 
 ### Text alignment with `ragged2e`
 
 You can choose between two methods of alignment: 
 
-1. whole `environments`
-2. individual objects
+1. whole `environments` for continuous alignment
+2. `commands` for individual lines and passages and objects
 
 While `LaTeX` is able to do alignment as an in-built feature, I will use the `ragged2e` package in order to use the `justify` environment, which is what you are most likely to have as a format requirement for papers and essays.
 
@@ -288,14 +332,14 @@ You can choose from these following environment options:
 `justify` ("Blocksatz" in German, this is what you want in academic writing)
 
 #### Alignment commands
-Sometimes you may want images, graphs or single paragraphs to have a different alignment style than what the rest of your text is using. Commands let you do that since they will apply.
+Sometimes you may want images, graphs or single paragraphs to have a different alignment style than what the rest of your text is using.
 
 ```latex=
 % In the document
-\Centering This text is centered
-\RaggedRight This text is aligned to the left, the right side is ragged
-\RaggedLeft  This text is aligned to the right, the left side is ragged
-\Justifying This text is justified like a block
+{\Centering This text is centered}
+{\RaggedRight This text is aligned to the left, the right side is ragged}
+{\RaggedLeft  This text is aligned to the right, the left side is ragged}
+{\Justifying This text is justified to fit the linewidth}
 ```
 
 ### Images with `graphics` and `graphicx` packages
@@ -366,12 +410,22 @@ An index should appear in the text. If you want to refer to the page on which th
 % In the document
 \pageref{MyOwnReference}
 ```
-If you are referring to a lot of different items, it may be useful to include the type of item you are referring to in your label. This is completely optional and not doing this does not impede the use of this command. There are commonly used label tags suggested for this:
-`fig`
-`tag`
-`tag`
-`tag`
-`tag` 
+If you are referring to a lot of different items, it may be useful to include the type of item you are referring to in your label. This is completely optional and not doing this does not impede the use of this command, but it is helpful to stay organised. There are commonly used label tags suggested for this:
+
+`fig`: figure
+`tab`: table
+`itm`: item
+`ch` : chapter
+`sec`: section
+
+So you could keep track of your labels like this:
+
+```latex=
+% In the document
+As you can see in figure \ref{fig:syntaxtree} on page \pageref{fig:syntaxtree}, the explanation outlined in section \ref{sec:syntaxtree} on page \pageref{sec:syntaxtree} is confirmed.
+```
+
+#### Quotations with the `csquotes` package
 
 #### Links and the `hyperref` package
 If you are a kind author and would like to allow your readers to actually click on the labels and the table of contents and get sent to that section, the `hyperref` package lets you do that. The best thing is, that the commands above will stay the same. Simply adding this into your preamble makes your cross referenes and table of contents clickable.
@@ -425,9 +479,11 @@ If you are using Overleaf, you should create a file with the `.bib` extension. W
 
 ```latex=
 % In the preamble
-\bibliography{NameOfYourBibFile.bib} 
+\bibliography{NameOfYourBibFile}
+% the file would be called NameOfYourBibFile.bib
+% notice how there is no .bib, latex only needs the name
 ```
-In order to cite these references in your text, you can use `\cite[pageNumber]{NameOfBibReference}`. To cite the bib entry above, you would use:
+In order to cite these references inside your writing, you can use `\cite[pageNumber]{NameOfBibReference}`. To cite the bib entry above, you would use:
 
 ```latex=
 % In the document
@@ -466,7 +522,7 @@ Choose from a series of different citing styles:
 There are also:
 ```latex=
 % In the document
-\citeauthor{nguyenA2022} % (Nguyen) 
+\citeauthor{nguyenA2022} % Nguyen
 \citeyear{nguyenA2022}	% (2022)
 ```
 
@@ -570,9 +626,10 @@ The `exe`-environment does not have a designated setting for indexing with lette
 
 ```
 #### IPA symbols
+Read into TIPA again
 
 #### Fonts and language packs
-
+Talk about babel, CJK, Linux Libertine font
 
 ### Tables
 #### `tabular`-environment
@@ -580,39 +637,98 @@ On default, `LaTeX` can implement a simple table construction. The most simple c
 
 ```latex=
 % In the document
-\begin{tabular}{c|c} 
+\begin{tabular}{c|p{7cm}} 
     aa & ab \\
     ba & bb \\
     ca & cb \\
 \end{tabular}
 ```
-Table cells are divided by `&` and `\\`.  
+Table cells are divided by `&` and `\\` marks the end of a row.  
 
-The `{c|c}` is the part that specifies the content alignment of the table. every letter specifies one column, so the table above allows has two columns which are divided by a vertical `|`-line. There are multiple ways to align content, using the following letters inside of the `{}` does the following
-* `c` - columns are center aligned
-* `l` - columns are left aligned
-* `r` - colums are right aligned
-* `p{4cm}` - content is a paragraph whose text can wrap into the next lines. `{4cm}` can be changed to however long the cell should be
+The `{c|p{7cm}}` bit is the part that specifies the content alignment of the table. Every letter stands for one column, so the table above has two columns which are divided by a vertical `|`-line. There are multiple ways to align content and using the following letters inside of the `{}` does the following
+* `c` - column is center aligned
+* `l` - column is left aligned
+* `r` - colum is right aligned
+* `p{7cm}` - column is a`{7cm}` wide left aligned paragraph
 
 #### The`tabularx` package and others
 
-[ADD EXPLANATION FOR THIS BEFORE YOU FORGET HOW TO USE IT AGAIN]
+The standard tables look rather simple, so in order to create more elaborate tables with different customisation styles, we can use the `tabularx` package, as well as the `booktabs` package to add additional lines for separation.
+
+In this example we are creating a table...
+* whose position on the page can be fixed independently from the text
+* with a caption
+* with more optical customisation options
+* with column specific formatting 
+
+
+##### Table Positioning and caption
+Tables are `float object` and can be put into a`\begin{table}[]` environment. This environment will help you placing your table where you want it to be on the page. You specify the position inside of the square brackets.
+```latex=
+% In the preamble
+\usepackage{float} % for control over positioning of the table
+
+% In the document
+\begin{table}[t] % table at the top of the page
+    begin{tabularx}{\linewidth}{ccc} % table is as wide as line, all center
+    ...
+    end{tabularx}
+    \caption{This table appears at the top of the page}
+\end{table}
+```
+Options include:
+`h`: here, relative to the text
+`t`: top of the page
+`b`: bottom of the page
+`H`: _HERE_, the way it is inside of the latex code
+
+When you use the `\caption{}` command inside of a float environment, it will automatically label your caption accordingly to the float type, so the above caption will show like this:
+
+> Table 1: This table appears at the top of the page
+
+##### Making nicer tables
+
+The syntax of a `tabularx`-environment is as follows:
+```latex=
+\begin{tabularx}{WidthOfTheTable}{ColumnAlignment}
+    ...
+\end{tabularx}
+```
+The benefit of using `tabularx` is that the column widths are adjusted automatically in relation to the total width you are specifying, which make them look more balanced and pretty.
+
+Sometimes, you may need columns to have more specific formatting, such is the case when one column contains words from a foreign language and you need to italicise them. Before you start adding `\textit{}` to every line, let me introduce you to this formatting method:
+```latex=
+% In the document
+\begin{tabularx}{\linewidth}{c|>{\textit}c}
+...
+```  
+Here, the `>{\textit}` will make the contents of the second column italicised. You cannot use commands that take arguments inside of `>{}`, but any other modal command equivalent will be accepted.
+
+Lastly, we have used `|` in order to draw vertical lines between the cells, but there is also the `booktabs` package, that allows you to draw horizontal lines between the rows for ease of reading the data inside of the table. The commands `\toprule`, `\midrule` and `\bottomrule` are used rather straightforwardly and really just add lines where you want some.
+
+So when we assemble all the things we have learnt together, this is what we would get:
 
 ```latex=
-% preamble for the table, how many columns and what kind of columns it will have
-\begin{tabular}{ccl>{\raggedright\arraybackslash}p{4cm}} % c = center aligned. l = left aligned, r = right aligned, x = user defined, p = length of the line
-     \toprule % creates a line on top with booktabs
-     asdsad & cxxx  & aisdhasd & jkashdaiusdh \\
+% In the preamble
+\usepackage{tabularx}
+\usepackage{booktabs} % for the top, bottom and midrule commands
+\usepackage{float} % for control over positioning of the table
+
+% In the document
+\begin{table}[b] % table is on the bottom
+    \begin{tabularx}{\linewidth}{ccl|>{\raggedright\itshape\arraybackslash}p{7cm}} 
+    \toprule % creates a line on top with booktabs
+     centered text & centered text  & left aligned text & this line is 7cm long \\
+     centered text & centered text  & left aligned text & this line is 7cm long \\
+     centered text & centered text  & left aligned text & this line is 7cm long \\
      \midrule % a line in the middle
-     akjdhasd &  akjdhajksd & sdsdsdsd & akjdhsjkadghsagdjhkasajdjs adjhsad jhagdjhasgd lkjskldsakldj gdjsa gdjhagd jhkgadd hlakd  \\
+     centered text & centered text  & left aligned text & This line is extra long so you can see how it wraps around into the next row once it reaches seven centimetres \\
      \bottomrule % a line on the bottom
-\end{tabular}
+    \end{tabularx}
+    \caption{A table to demonstrate tabularx, booktabs, and captions}
+\end{table}
 ```
-
-* `>{}` and `<{}` - additional formatting options for the column that the arrow is pointing to
-
-
-
+If you are wondering what `\arraybackslash` does, this is one of the cases I mentioned with packages overwriting parameters and commands, which we are fixing by using that command. This isn't too relevantm but you can read more about it [here](https://tex.stackexchange.com/questions/387737/what-is-arraybackslash-doing-on-my-table-column).
 
 ### Syntax trees
 What would a cheat sheet for linguists be without a section on syntax trees. 
