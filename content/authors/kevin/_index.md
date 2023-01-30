@@ -38,6 +38,10 @@ social:
 - icon: portrait
   icon_pack: fas
   link: "https://kevintang.org"
+- icon: envelope
+  icon_pack: fas
+  link: "https://sigmoid.social/@kevintang"
+
 
 
 # Link to a PDF of your resume/CV from the About widget.
