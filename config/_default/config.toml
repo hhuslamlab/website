@@ -113,7 +113,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   [[menu.main]]
     identifier = "grantsAndProjects"
     name = "Grants and Projects"
-    url = "/#grantsAndProjects"
+    url = "/#projects"
     parent = "research"
     weight = 2
   [[menu.main]]

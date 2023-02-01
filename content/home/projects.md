@@ -3,16 +3,37 @@
 # Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
 # Add more sections by duplicating this file and customizing to your requirements.
 
-widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = ""
-subtitle = ""
+title = "Grants and Projects"
+subtitle = "[SEE ALL PROJECTS](/projects)"
+
+[content]
+  # Page type to display. E.g. post, talk, or publication.
+  page_type = "projects"
+  link_to_archive = false
+  # Choose how much pages you would like to display (0 = all pages)
+  count = 0
+
+  # Page order. Descending (desc) or ascending (asc) date.
+  order = "desc"
+
+  # Filter posts by a taxonomy term.
+  [content.filters]
+    tag = ""
+    category = ""
+    publication_type = ""
 
 [design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
+  # Toggle between the various page layout types.
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   4 = Citation (publication only)
+  view = 2
   columns = "1"
 
 [design.background]
