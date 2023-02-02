@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
 title = "Grants and Projects"
-subtitle = "[SEE ALL PROJECTS](/projects)"
+subtitle = "[SEE ALL PROJECTS AND GRANTS](/projects)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -33,8 +33,8 @@ subtitle = "[SEE ALL PROJECTS](/projects)"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
-  columns = "1"
+  view = 3
+  columns = "2"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -68,6 +68,8 @@ subtitle = "[SEE ALL PROJECTS](/projects)"
   extensions = ["hardLineBreak"]
 
 +++
+
+
 <!---
 ### Project Announcements
 [Numbers in NLP](https://drive.google.com/file/d/1yYYs4VcP-RS8-7DBhtELWOqlEvY6OsNb/view?usp=sharing) Niklas
