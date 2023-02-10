@@ -3,7 +3,7 @@
 # Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
 # Add more sections by duplicating this file and customizing to your requirements.
 
-widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
@@ -11,10 +11,31 @@ weight = 20  # Order that this section will appear.
 title = "Lab News"
 subtitle = ""
 
+[content]
+  # Page type to display. E.g. post, talk, or publication.
+  page_type = "news"
+  link_to_archive = true
+  # Choose how much pages you would like to display (0 = all pages)
+  count = 3
+
+  # Page order. Descending (desc) or ascending (asc) date.
+  order = "desc"
+
+
+  # Filter posts by a taxonomy term.
+  [content.filters]
+    tag = ""
+    category = ""
+    publication_type = ""
+
 [design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
-  line_spacing = "2"
+  # Toggle between the various page layout types.
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   4 = Citation (publication only)
+  view = 2
+
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -47,7 +68,7 @@ subtitle = ""
 [blackfriday]
   extensions = ["hardLineBreak"]
 +++
-
+<!-- 
 * [Chris Geissler](https://slam.phil.hhu.de/authors/chris/) gave an **invited talk** at the [Institute for Phonetics and Speech Processing](https://www.en.phonetik.uni-muenchen.de/institute/index.html) at Ludwig-Maximilians-Universität München. 
  :arrow_upper_right: [Slides](https://slam.phil.hhu.de/pdfs)
 * SlamLab conducted a **workshop** on `Free and Open Source Software`.
@@ -64,4 +85,4 @@ subtitle = ""
 :arrow_upper_right: [Slides](https://campuspress.yale.edu/geissler/files/2022/01/Meet-the-Authors-slides.pdf), [Webinar recording](https://www.youtube.com/watch?v=LFGeB1r3u9s), [Paper](https://campuspress.yale.edu/geissler/files/2020/08/Gender_Representation_manuscript.pdf)
 * [Chris Geissler](https://slam.phil.hhu.de/authors/chris/) **published in *Language***. The paper appears in the December 2021 issue of *Language*. The article, ""Gender Bias and Stereotypes in Linguistics Example Sentences," written in collaboration with Hadas Kotek, Rikker Dockum, and Sarah Babinski, examines the distribution of gender in the example sentences published in three major linguistics journals over the past twenty years. The results show that example sentences include twice as many male-gendered characters as female-gendered ones, with female-gendered characters are further underrepresented as grammatical subjects, agents, and experiencers.
 Check out the full results as well as recommendations for linguistics researchers and teachers here, and browse the rest of the issue here.
-:arrow_upper_right: [Article pre-print](https://campuspress.yale.edu/geissler/files/2020/08/Gender_Representation_manuscript.pdf), [Language December 2021 issue](https://muse.jhu.edu/issue/47002)
+:arrow_upper_right: [Article pre-print](https://campuspress.yale.edu/geissler/files/2020/08/Gender_Representation_manuscript.pdf), [Language December 2021 issue](https://muse.jhu.edu/issue/47002) -->
