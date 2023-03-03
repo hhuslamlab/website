@@ -8,7 +8,7 @@ authors:
 publication_types:
 - '1'
 abstract: ''
-featured: true
+featured: false
 publication: '*Proceedings of the Annual Meetings on Phonology*'
 ---
 

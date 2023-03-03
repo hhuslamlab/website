@@ -9,7 +9,7 @@ authors:
 publication_types:
 - '2'
 abstract: ''
-featured: true
+featured: false
 publication: '*UCL Work Pap Linguist*'
 ---
 

@@ -10,7 +10,7 @@ authors:
 publication_types:
 - '2'
 abstract: ''
-featured: true
+featured: false
 publication: '*The Journal of the Acoustical Society of America*'
 ---
 
