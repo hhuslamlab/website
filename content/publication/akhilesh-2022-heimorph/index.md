@@ -11,7 +11,7 @@ authors:
 publication_types:
 - '1'
 abstract: ''
-featured: true
+featured: false
 publication: '*Association for Computational Linguistics*'
 ---
 
