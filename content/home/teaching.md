@@ -65,6 +65,25 @@ subtitle = "[SEE ALL COURSES](/classes)"
   fractions = false
 +++
 
+## [	Introduction to English Language and Linguistics: Part II - Use](https://slam.phil.hhu.de/classes/intro-linguistics-s23/)
+[**Dr. Chris Geissler**](https://slam.phil.hhu.de/authors/chris/) <span class="middot-divider"></span> **Summer 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=239202&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+
+## [Laboratory Phonology](https://slam.phil.hhu.de/classes/laboratory-phonology-s23/)
+[**Dr. Chris Geissler**](https://slam.phil.hhu.de/authors/chris/) <span class="middot-divider"></span> **Summer 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=238958&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+
+## [Corpus Linguistics](https://slam.phil.hhu.de/classes/corpus-linguistics-s23/)
+[**Eoin O'Reilly**](https://slam.phil.hhu.de/authors/eoin/) <span class="middot-divider"></span> **Summer 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=240680&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+
+## [Synthesizing Speech](https://slam.phil.hhu.de/classes/classes/synthesizing-speech-s23/)
+[**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/) <span class="middot-divider"></span> **Summer 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=240679&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+
+<!---
+Archive
+
+TEMPLATE
+## Title
+[**NAME**](Link to person on website) <span class="middot-divider"></span> **SEMESTER** <span class="middot-divider"></span> [Course Catalog](Link to LSF)
+
 ## Computational Modeling (Advanced)
 [**Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2022** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=233690&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
@@ -76,3 +95,5 @@ subtitle = "[SEE ALL COURSES](/classes)"
 
 ## Phonetics/Phonology (Intermediate)
 [**Eoin O'Reilly**](http://slam.phil.hhu.de/authors/eoin/) <span class="middot-divider"></span> **Winter 2022** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=232409&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+
+--->
