@@ -74,7 +74,7 @@ subtitle = "[SEE ALL COURSES](/classes)"
 ## [Corpus Linguistics](https://slam.phil.hhu.de/classes/corpus-linguistics-s23/)
 [**Eoin O'Reilly**](https://slam.phil.hhu.de/authors/eoin/) <span class="middot-divider"></span> **Summer 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=240680&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
-## [Synthesizing Speech](https://slam.phil.hhu.de/classes/classes/synthesizing-speech-s23/)
+## [Synthesizing Speech](https://slam.phil.hhu.de/classes/synthesizing-speech-s23/)
 [**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/) <span class="middot-divider"></span> **Summer 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=240679&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
 <!---
