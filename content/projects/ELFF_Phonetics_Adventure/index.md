@@ -14,6 +14,8 @@ header:
 featured: true
 ---
 
+<img src="hhu_logo.jpg" alt="HHU logo" width="200"/>
+
 The project "Choose Your Own Adventure: Teleporting to a Virtual Phonetics Laboratory" by [Prof. Dr. Kevin Tang](https://slam.phil.hhu.de/authors/kevin/), [Dr. Chris Geissler](https://slam.phil.hhu.de/authors/chris/) and [Eoin O'Reilly](https://slam.phil.hhu.de/authors/eoin/) will be funded by the [E-Learning Förderfonds](https://www.elearning.hhu.de/elearning-foerderfonds).
 
 # Project Summary
