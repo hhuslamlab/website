@@ -12,7 +12,7 @@ authors:
 - Lori Altman
 
 publication_types:
-- '1'
+- '2'
 abstract: ''
 featured: true
 publication: '*Proceedings of Meetings on Acoustics*'
