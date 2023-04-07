@@ -6,7 +6,7 @@ title: "Four papers from the SLaM-Lab got accepted to ICPhS 2023"
 #   2 = Compact
 #   3 = Card
 view: 2
-date: "2023-04-07"
+date: "2023-04-04"
 
 # Optional header image (relative to `static/media/` folder).
 header:
