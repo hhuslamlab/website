@@ -57,8 +57,9 @@ hugo server
 ## Contributors
 [**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/)
 
-
 [**Anna Stein**](https://slam.phil.hhu.de/authors/anna/)
+
+[**Nele Mastracchio**](https://slam.phil.hhu.de/authors/nele/)
 
 ## License
 
