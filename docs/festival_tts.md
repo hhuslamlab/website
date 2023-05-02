@@ -1,6 +1,6 @@
 # Festival TTS
 
-[Festival TTS](https://www.cstr.ed.ac.uk/projects/festival/)
+This is a guide to install and run [Festival TTS](https://www.cstr.ed.ac.uk/projects/festival/) on Windows and MacOS. 
 
 ## Installation
 
