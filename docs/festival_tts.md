@@ -23,7 +23,7 @@ https://github.com/akki2825/pulse
 ![Pulse 2](pulse_2.png)
 
 
-Step 2: Unzip the pulse folder and paste this inside C:\ folder.
+Step 2: Unzip the pulse folder and paste this inside C:\ folder. Rename the `pulse-audio` folder to `pulse`
 
 Step 3: Open the Windows command prompt as administrator and type the following:
 
@@ -192,7 +192,10 @@ Follow the below steps to download the dictionary:
 ![Dict 2](dicts_2.png)
 
 
-Now unzip both the files.
+Now unzip both the files. Rename `kal_diphone-master` folder to `kal_diphone`
+
+Rename `dicts-master` folder to `dicts`
+
 
 Create a new directory for english voices using:
 
