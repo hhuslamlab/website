@@ -12,6 +12,12 @@ Here we are assuming that you are working with Windows Sub-system Linux 2 (WSL2)
 
 Step 1: Let's first download the customized pulseaudio as shown below:
 
+Go to:
+
+```sh
+https://github.com/akki2825/pulse
+```
+
 ![Pulse 1](pulse_1.png)
 
 ![Pulse 2](pulse_2.png)
