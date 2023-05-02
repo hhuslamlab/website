@@ -1,6 +1,6 @@
 # Festival TTS
 
-This is a guide to install and run [Festival TTS](https://www.cstr.ed.ac.uk/projects/festival/) on Windows and MacOS. 
+This is a guide to install and run [Festival TTS](https://www.cstr.ed.ac.uk/projects/festival/) on Windows and MacOS.
 
 ## Installation
 
@@ -123,7 +123,7 @@ tar xvf festival-2.4-release.tar.gz
 ```
 
 ```sh
-tar xvf festival-2.4-release.tar.gz
+tar xvf speech_tools-2.4-release.tar.gz
 ```
 
 Step 3: Go inside Speech tools directory using:
