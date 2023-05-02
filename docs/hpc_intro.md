@@ -134,4 +134,4 @@ If none of this works for you, you can contact one of the authors.
 
 ### Authors
 [**Anna Stein**](https://slam.phil.hhu.de/authors/anna/)
-[**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilseh/)
+[**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/)
