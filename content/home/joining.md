@@ -60,11 +60,3 @@ We welcome students of a variety of experience levels. The purpose of the SLaM l
 
 Submit your CV and cover letter to either geisslc [at] hhu [dot] de or kevin.tang [at] hhu [dot] de.
 
-# Current Openings:
-
-The SLaM Lab invites students to apply for two paid student assistant (“HiWi”) positions to work on the project "Choose Your Own Adventure: Teleporting to a Virtual Phonetics Laboratory". This [project](https://slam.phil.hhu.de/news/12_kevin_chris_eoin_e-learning/), funded by the E-Learning Förderfonds at HHU, will be making educational materials to support teaching in phonetics.
-
-The two student positions will work closely with each other, with the Mediathek office, and with
-SLaM staff: [Prof. Kevin Tang](https://slam.phil.hhu.de/authors/kevin/), [Mr. Eoin O’Reilly](https://slam.phil.hhu.de/authors/eoin/), [Dr. Christopher Geissler](https://slam.phil.hhu.de/authors/chris/) and others.
-
-For more information see [here](https://slam.phil.hhu.de/news/14_new_positions_free/).
