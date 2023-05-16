@@ -1,5 +1,5 @@
 ---
-title: "The LINGUIST list’s Rising Stars awarded to three lab members"
+title: "The LINGUIST List’s Rising Stars awarded to three lab members"
 
 # View.
 #   1 = List
@@ -14,9 +14,9 @@ header:
   image: ""
 featured: true
 ---
-<img src="LinguistListLogo.png" alt="LinguistListLogo" width="300"/>
+<img src="LinguistListLogo.png" alt="LinguistListLogo" width="500"/>
 
-Three members of the Slam lab have been selected as Rising Stars by the Linguist List.
+Three members of the Slam lab have been selected as Rising Stars by the Linguist List: [Rayyan Merchant](https://slam.phil.hhu.de/authors/rayyan/), [Anh Kim Nguyen](https://slam.phil.hhu.de/authors/anh/), [Anna Stein](https://slam.phil.hhu.de/authors/anna/)
 
 
 #### Rising Stars (from the Liguist List Website)
