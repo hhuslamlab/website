@@ -47,6 +47,8 @@ subtitle = ""
   extensions = ["hardLineBreak"]
 
 +++
+# The **S**peech, **L**exicon, **A**nd **M**odeling lab
+
 
 The **S**peech, **L**exicon, **A**nd **M**odeling lab is dedicated to cutting-edge research at the intersection of speech production and perception (phonetics) with speaker's knowledge of words (lexicon). We use a wide range of methods, including corpus analysis, computational modeling, and acoustic and articulatory phonetic experiments.
 
