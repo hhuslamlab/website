@@ -11,5 +11,6 @@ publication_types:
 abstract: ''
 featured: true
 publication: '*Cognition*'
+url_pdf: "papers/2021/TangShaw_2021_ProsodyLeaks_Cognition.pdf"
 ---
 

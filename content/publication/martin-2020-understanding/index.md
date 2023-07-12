@@ -1,6 +1,6 @@
 ---
 title: 'Understanding Racial Disparities in Automatic Speech Recognition: The Case
-  of Habitual\" be\".'
+  of Habitual "be".'
 date: '2020-01-01'
 draft: false
 publishDate: '2022-02-23T15:05:40.706394Z'
@@ -12,5 +12,6 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*INTERSPEECH*'
+url_pdf: "papers/2020/MartinTang_2020_HabitualBe_Interspeech.pdf"
 ---
 

@@ -13,5 +13,6 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*WSTCSMC 2020*'
+url_pdf: "papers/2020/PandeyGogoiTang_2020_CodeMixedHindi_CSWorkshop.pdf"
 ---
 
