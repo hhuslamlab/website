@@ -11,4 +11,5 @@ publication_types:
 abstract: ''
 featured: true
 publication: '*Laboratory Phonology: Journal of the Association for Laboratory Phonology*'
+url_pdf: "papers/2023/TangBaerHenney_2023_ModellingL1_LabPhon.pdf"
 ---
