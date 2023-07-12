@@ -16,5 +16,6 @@ publication_types:
 abstract: ''
 featured: true
 publication: '*JASA Express Letters*'
+url_pdf: "papers/2022/Tangetal_2022_IntoxicationPitch_JASAEL.pdf"
 ---
 
