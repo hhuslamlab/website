@@ -12,7 +12,7 @@ publication_types:
 abstract: ''
 featured: true
 publication: '*Proceedings of the 20th International Congress of Phonetic Sciences, Prague, Czech Republic 2023*'
-url_pdf: "https://sites.bu.edu/pamlab/files/2023/04/ChangTangNevins2023_ICPhS20.pdf"
+url_pdf: "papers/2023/ChangTangNevins_2023_individualDifference_ICPhS.pdf"
 # links: 
 # - name: examplename
 #   url: example.com

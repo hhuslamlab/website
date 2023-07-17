@@ -13,5 +13,6 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*Association for Computational Linguistics*'
+url_pdf: "papers/2022/KakoluRamarao_etal_2022_Heimorph_SIGMORPHON19.pdf"
 ---
 

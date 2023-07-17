@@ -15,4 +15,5 @@ publication_types:
 abstract: ''
 featured: true
 publication: '*Languages*'
+url_pdf: "papers/2023/WaylandTangWang_etal_2023_QuantitativeDeep_Languages.pdf"
 ---

@@ -11,4 +11,5 @@ publication_types:
 abstract: ''
 featured: true
 publication: '*Proceedings of the 20th International Congress of Phonetic Sciences, Prague, Czech Republic 2023*'
+url_pdf: "papers/2023/NiederTang_2023_KriechNichtDaRein_ICPhS_Preprint.pdf"
 ---

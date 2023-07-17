@@ -1,6 +1,6 @@
 ---
 title: Lenition measures. Neural networks' posterior probability versus acoustic cues
-date: '2023-03-03'
+date: '2022-03-03'
 draft: false
 publishDate: '2023-03-015T15:05:40.868387Z'
 authors:
@@ -16,4 +16,5 @@ publication_types:
 abstract: ''
 featured: true
 publication: '*Proceedings of Meetings on Acoustics*'
+url_pdf: "papers/2022/Waylandetal_2023_lenitionmeasures_POMA.pdf"
 ---

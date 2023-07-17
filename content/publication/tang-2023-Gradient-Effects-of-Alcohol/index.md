@@ -14,4 +14,5 @@ publication_types:
 abstract: ''
 featured: true
 publication: '*Proceedings of the 20th International Congress of Phonetic Sciences, Prague, Czech Republic 2023*'
+url_pdf: "papers/2023/WaylandTangVellozziWangSengupta_2023_ICPhS_Preprint.pdf"
 ---

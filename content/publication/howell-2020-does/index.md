@@ -17,5 +17,6 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*Frontiers in psychology*'
+url_pdf: "papers/2020/HowellTang_2020_WorkingMemory_Frontiers.pdf"
 ---
 

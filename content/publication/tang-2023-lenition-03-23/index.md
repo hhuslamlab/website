@@ -13,4 +13,5 @@ publication_types:
 abstract: ''
 featured: true
 publication: '*Phonology*'
+url_pdf: "papers/2023/HarrisUruaTang_2023_Lenition_Phonology_Preprint.pdf"
 ---

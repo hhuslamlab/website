@@ -15,4 +15,5 @@ publication_types:
 abstract: ''
 featured: true
 publication: '*The Journal of the Acoustical Society of America*'
+url_pdf: "papers/2023/Tangetal_2023_Sonority_JASA.pdf"
 ---

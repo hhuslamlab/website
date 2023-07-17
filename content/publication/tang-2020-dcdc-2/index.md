@@ -14,5 +14,6 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*Proceedings of the Royal Society B*'
+url_pdf: "papers/2020/Tang_etal_PRSB_2020_READ1Temporal.pdf"
 ---
 
