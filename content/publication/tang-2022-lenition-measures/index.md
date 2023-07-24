@@ -13,7 +13,14 @@ authors:
 
 publication_types:
 - '2'
-abstract: ''
+abstract: 'A phonologically informed neural network approach, Phonet, was compared to acoustic measurements of
+intensity, duration and harmonicity in estimating lenition degree of voiced and voiceless stops in a corpus
+of Argentine Spanish. Recurrent neural networks were trained to recognize phonological features
+[sonorant] and [continuant]. Their posterior probabilities were computed over the target segments.
+Relative to most acoustic metrics, posterior probabilities of the two features are more consistent, and in the
+direction predicted by known factors of lenition: stress, voicing, place of articulation, surrounding vowel
+height, and speaking rate. The results suggest that Phonet could more reliably quantify lenition gradient
+than some acoustic metrics.'
 featured: true
 publication: '*Proceedings of Meetings on Acoustics*'
 url_pdf: "papers/2022/Waylandetal_2023_lenitionmeasures_POMA.pdf"
