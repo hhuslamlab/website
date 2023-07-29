@@ -69,7 +69,7 @@ subtitle = "[SEE ALL COURSES](/classes)"
 [**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=244604&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
 ## [Computational Modelling](https://slam.phil.hhu.de/classes/computational-modelling-w23)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=239202&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=245927&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
 ## [Phonetics / Phonology](https://slam.phil.hhu.de/classes/phonetics-phonology-w23)
 [**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=244603&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&noDBAction=y&init=y)
