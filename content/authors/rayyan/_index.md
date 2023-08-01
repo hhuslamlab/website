@@ -31,6 +31,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/rayyanmerchan
+- icon: portrait
+  icon_pack: fas
+  link: https://merchantrayyan.github.io
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
