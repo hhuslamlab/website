@@ -31,6 +31,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/rayyanmerchan
+- icon: portrait
+  icon_pack: fas
+  link: https://merchantrayyan.github.io
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
@@ -41,8 +44,8 @@ email: ""
 user_groups:
 - Members
 ---
-Rayyan Merchant is an exchange student at RWTH Aachen from the University of Florida, where he has been working on SLaM laboratory projects with Prof. Dr. Tang for several years. He is currently pursuing Bachelor's Degrees in Computer Science and Linguistics.
+Rayyan is a rising fifth-year undergraduate at the University of Florida, where he has been working with Dr. Tang for several years. He will be graduating in Fall 2023 with degrees in Computer Science and Linguistics. His current research projects focus on machine transliteration between two different Persian scripts, as well as computational analysis of Spanish dialectal variation.
 
-Rayyan's first project, alongside Nancy Chen (University of Florida), revolves around creating a corpus of dialectal Spanish-language data from online sources. In 2021, he was also admitted to the University Scholars Program at the University of Florida, to work with Prof. Dr. Tang on machine-transliteration between Iranian/Afghan Persian and Tajik Persian. 
+In a broader scope, Rayyan’s research interests revolve around the concept of NLP (and Computational Linguistics) for Social Good. This encompasses NLP tools and research that have a beneficial impact on society. 
 
-Rayyan's research interests center around creating tools and resources for low-resource languages, as well as language documentation.
+Currently, Rayyan is in Düsseldorf, funded by the UF Center for Undergraduate Research, to continue working on his Honors Thesis in Linguistics focusing on Persian transliteration. You can read more about Rayyan’s research at his website, https://merchantrayyan.github.io/.
