@@ -58,5 +58,5 @@ The SLaM Lab invites interested students to join our lab. This can take many for
 
 We welcome students of a variety of experience levels. The purpose of the SLaM lab is both to conduct research and, through research, to train students. We will match students with tasks appropriate to their skills, and support their training as needed.
 
-Submit your CV and cover letter to either geisslc [at] hhu [dot] de or kevin.tang [at] hhu [dot] de.
+Submit your CV and cover letter to kevin.tang [at] hhu [dot] de.
 
