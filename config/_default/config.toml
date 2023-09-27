@@ -94,11 +94,17 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
     parent = "theLab"
     weight = 2
   [[menu.main]]
+    identifier = "thephysicallab"
+    name = "The Physical Lab"
+    url = "/#lab"
+    parent = "theLab"
+    weight = 3
+  [[menu.main]]
     identifier = "joining"
     name = "Joining"
     url = "/#joining"
     parent = "theLab"
-    weight = 3
+    weight = 4
   [[menu.main]]
     identifier = "research"
     name = "Research"
