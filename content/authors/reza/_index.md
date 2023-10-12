@@ -27,13 +27,13 @@ interests:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:rayyan.merchant@ufl.edu"  # For a direct email link, use "mailto:test@example.org".
+  link: ""  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/rayyanmerchan
+  link: 
 - icon: portrait
   icon_pack: fas
-  link: https://merchantrayyan.github.io
+  link: 
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
