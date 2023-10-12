@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Rayyan Merchant
+title: Reza Kazemian
 
 # Username (this should match the folder name)
 authors:
-- rayyan
+- reza
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: 
+role: PHD Student
 
 # Organizations/Affiliations
 organizations:
@@ -42,10 +42,19 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Alumni
+- Visiting
 ---
-Rayyan is a rising fifth-year undergraduate at the University of Florida, where he has been working with Dr. Tang for several years. He will be graduating in Fall 2023 with degrees in Computer Science and Linguistics. His current research projects focus on machine transliteration between two different Persian scripts, as well as computational analysis of Spanish dialectal variation.
+Reza is currently an exchange student at Heinrich Heine University of
+Düsseldorf. His research focuses on interactive grammar, specifically
+directive forms and their prosody-pragmatics interface. He is
+supervised by Prof. Dr. Kevin Tang and Prof. Dr. Tania Kouteva. Reza
+is keenly interested in different fields of linguistics such as
+pragmatics, phonetics, phonology, and the interactional use of
+language. 
 
-In a broader scope, Rayyan’s research interests revolve around the concept of NLP (and Computational Linguistics) for Social Good. This encompasses NLP tools and research that have a beneficial impact on society. 
-
-Currently, Rayyan is in Düsseldorf, funded by the UF Center for Undergraduate Research, to continue working on his Honors Thesis in Linguistics focusing on Persian transliteration. You can read more about Rayyan’s research at his website, https://merchantrayyan.github.io/.
+In his previous studies, he has explored discourse markers and
+theticals within the contexts of Persian and English. Additionally, he
+has conducted studies in discourse analysis and cognitive linguistics.
+His contributions can be found in esteemed journals, including the
+Journal of Pragmatics, Corpus Pragmatics, Metaphor & Symbol, Language
+& Cognition, Pragmatics, and Discourse Studies.

@@ -37,6 +37,6 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Members
+- Alumni
 ---
 Lara Rüter is a Bachelor's student of English and American studies as her major and Art History as her minor. She is currently working as an assistant for E-learing in the SLaM lab.
