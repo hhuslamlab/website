@@ -3,6 +3,8 @@ backend:
   branch: master
 media_folder: 'static/media/'
 public_folder: 'media'
+site:
+  year: 2023
 collections:
   - name: authors
     label: Authors
