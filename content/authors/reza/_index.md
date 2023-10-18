@@ -27,13 +27,10 @@ interests:
 social:
 - icon: envelope
   icon_pack: fas
-  link: ""  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:Reza.kazemian.linguistics@gmail.com"  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: 
-- icon: portrait
-  icon_pack: fas
-  link: 
+  link: https://twitter.com/kazemian_reza
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
