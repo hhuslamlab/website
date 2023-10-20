@@ -71,11 +71,11 @@ diagram = false
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
-privacy_pack = false
+privacy_pack = true
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch = "master", editable = {docs = true, page = false, post = false}}
+edit_page = {repo_url = "https://github.com/hhuslamlab/website", repo_branch = "master", editable = {docs = false, page = false, post = false}}
 
 ############################
 ## Contact details
@@ -85,16 +85,16 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "clara.meister@inf.ethz.ch"
+mmail = "slamlab@hhu.de"
 phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Universitatstrasse 6", city = "Zurich", postcode = "8006", country = "Switzerland", country_code = "CH"}
+address = {street = "Universitaetstrasse 1", city = "Duesseldorf", postcode = "40225", country = "Germany", country_code = "GER"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "47.378955", longitude = "8.548437"}
+coordinates = {latitude = "51.18796411970523", longitude = "6.793988494796534"}
 
 # Directions for visitors to locate you.
 directions = ""
@@ -182,7 +182,7 @@ plugins_js  = []
 [publications]
   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "January 2006"
+  date_format = "January 2023"
 
   # Citation style ("apa" or "mla")
   citation_style = "apa"
