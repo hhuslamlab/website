@@ -28,18 +28,13 @@ interests:
 social:
 - icon: portrait
   icon_pack: fas
-  link: https://ansost.github.io/
+  link: https://ansost.com/
 - icon: github
   icon_pack: fab
   link: https://github.com/ansost
 - icon: envelope
   icon_pack: fas
   link: "mailto:anna.stein@hhu.de"  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/_ansost_
-
-
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -56,12 +51,11 @@ user_groups:
 - Members
 ---
 
-Anna is a linguistics student working on the informativity grant project as the person responsible for language modeling with Naive Discriminative Learning and supplementary computational implementations.
+Anna is a Master's student in Linguistics with a special interest in computational linguistics and psycholinguistics. She completed her undergraduate studies in linguistics at Heinrich Heine University (HHU) in 2023 and is presently pursuing her Master's degree in linguistics.
 
-She is currently writing her BA thesis with [Dr. Kevin Tang](https://slam.phil.hhu.de/authors/kevin/) and [Dr. Chris Geissler](htps://slam.phil.hhu.de/authors/chris/) on effects of probabilistic reduction as modelled by NDL. The thesis is a pilot study of the informativity project.
+Since 2021, Anna has worked at the Modeling lab (SLaM Lab) at HHU, as a research assistant. Her primary research within the lab centers on the examination of how probabilistic measures impact speech production, with a particular focus on reduction effects. She also takes on a variety of other roles, including the maintenance and enhancement of the lab's website in collaboration with Akhilesh and she is actively engaged in website administration tasks and provides technical support, including guidance on the High-performance-computing system at HHU.
 
- She also has various other tasks in the lab, from maintaining and improving the website with [Akhilesh](https://slam.phil.hhu.de/authors/akhilesh/), to writing tutorials and documenting code. 
+Throughout her coding journey, Anna has consistently developed tutorials and open-source resources on various subjects, specifically tailored for individuals with little to no prior knowledge. She has also contributed to her field as a teaching assistant for seminars in the area of digital humanities and programming, with a special emphasis on catering to linguists and humanities scholars.
 
-Outside of academia, Anna is a movie and music enthusiast and enjoys all kinds of sports and videogames in her free time.
+Learn more about Anna [here](https://ansost.com).
 
-    
