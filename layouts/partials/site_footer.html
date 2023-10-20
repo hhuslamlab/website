@@ -1,7 +1,17 @@
 <footer class="site-footer">
-  {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
+  {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") (site.GetPage "imprint.md") (site.GetPage "socials_footer.md") }}
   <p class="powered-by">
-    {{ with site.GetPage "privacy.md" }}
+  {{ printf "<a href=\"%s\">%s</a>" .RelPermalink "<a href='mailto:slamlab@hhu.de'><i class='fas fa-envelope'></i></a>" | safeHTML }} &middot;
+  {{ printf "<a href=\"%s\">%s</a>" .RelPermalink "<a href='https://github.com/hhuslamlab'><i class='fab fa-github'></i></a>" | safeHTML }} &middot;
+  {{ printf "<a href=\"%s\">%s</a>" .RelPermalink "<a href='https://twitter.com/SLaMLab_HHU'><i class='fab fa-twitter'></i></a>" | safeHTML }} &middot;
+  {{ printf "<a href=\"%s\">%s</a>" .RelPermalink "<a href='https://www.facebook.com/SLaMLab.HHU/'><i class='fab fa-facebook'></i></a>" | safeHTML }} &middot;
+  {{ printf "<a href=\"%s\">%s</a>" .RelPermalink "<a href='https://www.instagram.com/eas_hhu/'><i class='fab fa-instagram'></i></a>" | safeHTML }}
+  </p>
+  <p class="powered-by">
+    {{ with site.GetPage "privacy.md" }} 
+      {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+    {{ end }}
+    {{ with site.GetPage "imprint.md" }} &middot;
       {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
     {{ end }}
     {{ with site.GetPage "terms.md" }}
