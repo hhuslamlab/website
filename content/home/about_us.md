@@ -21,6 +21,13 @@ subtitle = ""
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
 
+  # Background image.
+  #image = "static/imgbak/TwitterBanner.png"  # Name of image in `static/img/`.
+  #image_darken = 0.0  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  #image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
+  #image_position = "center"  # Options include `left`, `center` (default), or `right`.
+  #image_parallax = false  # Use a fun parallax-like fixed background effect? true/false
+
   # Background color.
   # color = "#DBEDE3"
   
@@ -28,7 +35,6 @@ subtitle = ""
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
   
-
   # Text color (true=light or false=dark).
   text_color_light = false
 
@@ -47,12 +53,15 @@ subtitle = ""
   extensions = ["hardLineBreak"]
 
 +++
+<!--<p align="center"><img src="/imgbak/TwitterBanner.png" width="500"></p>-->
+
 # The **S**peech, **L**exicon, **A**nd **M**odeling lab
 
-
-The **S**peech, **L**exicon, **A**nd **M**odeling lab is dedicated to cutting-edge research at the intersection of speech production and perception (phonetics) with speaker's knowledge of words (lexicon). We use a wide range of methods, including corpus analysis, computational modeling, and acoustic and articulatory phonetic experiments.
-
-We are part of the [English Language and Linguistics section](https://www.anglistik3.hhu.de/) of the Institut für Anglistik und Amerikanistik at [Heinrich Heine University Düsseldorf](https://www.hhu.de). We are housed in building 23.21 on the HHU campus, and have a large additional laboratory space at 24.21.U1.022.
-
-<br/>
-<p align="center"><iframe width="300" height="200" src="https://www.youtube.com/embed/xhoV2h4qn_I" title="HHU - English Language and Linguistics - Univ.-Prof. Dr. Kevin Tang - Heinrich Heine University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<table border="0" style="fonts-size":200px>
+   <td  style="font-size:19px;background:transparent"><p>The <b>S</b>peech, <b>L</b>exicon, <b>A</b>nd <b>M</b>odeling lab is dedicated to cutting-edge research at the intersection of speech production and perception (phonetics) with speaker's knowledge of words (lexicon). We use a wide range of methods, including corpus analysis, computational modeling, and acoustic and articulatory phonetic experiments.</p><p>We are part of the <a href="https://www.anglistik3.hhu.de/">English Language and Linguistics section</a> of the Institut für Anglistik und Amerikanistik at <a href="https://www.hhu.de">Heinrich Heine University Düsseldorf</a>. We are housed in building 23.21 on the HHU campus, and have a large additional laboratory space at 24.21.U1.022.</td>
+   <td style="vertical-align:middle;overflow:hidden;background:transparent">
+   <div style="position: relative;">
+   <p align="center"><iframe width="300" height="200" src="https://www.youtube.com/embed/xhoV2h4qn_I" title="HHU - English Language and Linguistics - Univ.-Prof. Dr. Kevin Tang - Heinrich Heine University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+   </div>
+   </td>
+</table>
