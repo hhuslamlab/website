@@ -13,7 +13,7 @@ authors:
 publication_types:
 - '2'
 abstract: ''
-featured: true
+featured: false
 publication: '*International Journal of Language & Communication Disorders*'
 url_pdf: "papers/2023/HowellSorgerAlsulaimanYoshikawaHarrisTang_2023_FactorsScoring_IJLCD.pdf"
 ---

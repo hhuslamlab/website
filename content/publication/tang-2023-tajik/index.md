@@ -9,6 +9,6 @@ authors:
 publication_types:
 - '1'
 abstract: ''
-featured: true
+featured: false
 publication: '*The Linguistic Society of America’s 98th Annual Meeting*'
 ---

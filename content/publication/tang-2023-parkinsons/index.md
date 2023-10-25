@@ -11,6 +11,6 @@ authors:
 publication_types:
 - '1'
 abstract: ''
-featured: true
+featured: false
 publication: '*Parkinson und Bewegungsstörungen - Highlights Digital 2023*'
 ---

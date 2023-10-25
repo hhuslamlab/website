@@ -9,6 +9,6 @@ authors:
 publication_types:
 - '1'
 abstract: ''
-featured: true
+featured: false
 publication: '*The 3rd North American Conference in Iranian Linguistics*'
 ---

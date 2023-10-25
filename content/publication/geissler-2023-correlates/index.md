@@ -10,7 +10,7 @@ authors:
 publication_types:
 - '1'
 abstract: ''
-featured: true
+featured: false
 publication: '*Phonetics and Phonology in Europe 2023*'
 ---
 
