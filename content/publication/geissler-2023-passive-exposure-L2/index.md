@@ -9,7 +9,7 @@ authors:
 publication_types:
 - '1'
 abstract: ''
-featured: true
+featured: false
 publication: '*Proceedings of the 20th International Congress of Phonetic Sciences*'
 ---
 

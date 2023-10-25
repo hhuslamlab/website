@@ -21,7 +21,7 @@ Relative to most acoustic metrics, posterior probabilities of the two features a
 direction predicted by known factors of lenition: stress, voicing, place of articulation, surrounding vowel
 height, and speaking rate. The results suggest that Phonet could more reliably quantify lenition gradient
 than some acoustic metrics.'
-featured: true
+featured: false
 publication: '*Proceedings of Meetings on Acoustics*'
 url_pdf: "papers/2022/Waylandetal_2023_lenitionmeasures_POMA.pdf"
 ---
