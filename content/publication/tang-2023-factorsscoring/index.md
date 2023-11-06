@@ -1,8 +1,8 @@
 ---
 title: Factors affecting judgment accuracy when scoring children’s responses to non-word repetition stimuli in real time
-date: '2023-10-18'
+date: '2023-11-06'
 draft: false
-publishDate: '2023-10-187T15:05:40.868387Z'
+publishDate: '2023-11-067T15:05:40.868387Z'
 authors:
 - Peter Howell
 - Clarissa Sorger
@@ -13,7 +13,7 @@ authors:
 publication_types:
 - '2'
 abstract: ''
-featured: false
+featured: true
 publication: '*International Journal of Language & Communication Disorders*'
 url_pdf: "papers/2023/HowellSorgerAlsulaimanYoshikawaHarrisTang_2023_FactorsScoring_IJLCD.pdf"
 ---
