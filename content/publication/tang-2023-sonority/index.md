@@ -2,7 +2,7 @@
 title: From sonority hierarchy to posterior probability as a measure of lenition. The case of Spanish stops
 date: '2023-02-15'
 draft: false
-publishDate: '2023-02-015T15:05:40.868387Z'
+publishDate: 2023-02-015T15:05:40.868387Z
 authors:
 - Kevin Tang
 - Ratree Wayland
