@@ -42,7 +42,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Members
+- Alumni
 ---
 Eoin O'Reilly is a phonetician currently working on a PhD in computational phonetics in the SLaM Lab. 
 He wrote his master's thesis at the University of York on the acoustics of gemination in Eegimaa, an endangered language of southern Senegal, and worked on speech synthesis for Irish during his bachelor's.
