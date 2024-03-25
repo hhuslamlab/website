@@ -39,7 +39,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Members
+- Alumni
 ---
 Jennifer Keller is a linguistics Master student and currently working as a research assistant in the SLaM Lab. Her work focusses on computing language models, which serve as a great statistical tool in modern NLP.
 
