@@ -42,7 +42,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Members
+- Alumni
 ---
 Rayyan is a rising fifth-year undergraduate at the University of Florida, where he has been working with Dr. Tang for several years. He will be graduating in Fall 2023 with degrees in Computer Science and Linguistics. His current research projects focus on machine transliteration between two different Persian scripts, as well as computational analysis of Spanish dialectal variation.
 

@@ -50,10 +50,12 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Members
+- Alumni
 ---
 
-Dr. Christopher Geissler is a phonetician and phonologist currently serving as a postdoctoral researcher in the SLaM lab.
+
+Dr. Christopher Geissler was a phonetician and phonologist who served as a postdoctoral researcher in the SLaM lab.
+In Fall 2023, Chris begins working as a Visiting Assistant Professor in Linguistics at Carleton College.
 
 Chris holds a B.A. from Swarthmore College and completed his Ph.D. in the Department of Linguistics at Yale University, where he trained in the use of Electromagnetic Articulography (EMA) with [Jason Shaw](https://campuspress.yale.edu/jasonshaw/) in the Phonetics Lab. His dissertation studies the relationship between tone and articulatory timing in Tibetan. It uses acoustic data from recordings he collected in the Tibetan diaspora community in Kathmandu, Nepal, and articulatory data from an EMA experiment conducted at Yale.
 

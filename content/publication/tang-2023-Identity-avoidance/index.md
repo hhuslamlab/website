@@ -26,7 +26,7 @@ over both individual features as well as whole segments. Overall, the study argu
 locality-sensitive feature-specific identity avoidance constraints are part of the grammar.'
 featured: true
 publication: '*Association for Computational Linguistics*'
-url_pdf: "papers/2023/TangAkkus_PartialRedup_Labphon_Preprint.pdf"
+url_pdf: "papers/2023/TangAkkus_2023_PartialRedup_Labphon.pdf"
 links:
 - name: supplementary material
   url: https://osf.io/p2jdk/

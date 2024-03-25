@@ -77,9 +77,6 @@ subtitle = "[SEE ALL COURSES](/classes)"
 ## [Language and Health](https://slam.phil.hhu.de/classes/language-and-health-w23)
 [**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=246045&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
-## [Corpus Linguistics](https://slam.phil.hhu.de/classes/corpus-linguistics-w23/)
-[**Eoin O'Reilly**](https://slam.phil.hhu.de/authors/eoin/) <span class="middot-divider"></span> **Winter 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=240680&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
-
 ## [Accent Unplugged](https://slam.phil.hhu.de/classes/accent-unplugged-w23/)
 [**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/) <span class="middot-divider"></span> **Winter 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=244439&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
