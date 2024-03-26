@@ -65,20 +65,17 @@ subtitle = "[SEE ALL COURSES](/classes)"
   fractions = false
 +++
 
-## [Introduction to English Language and Linguistics: Part I - Structure](https://slam.phil.hhu.de/classes/intro-linguistics-w23/)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=244604&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+## [	Examens- und Forschungskolloquium](https://slam.phil.hhu.de/classes/examens_forschungskolloquim-s24/)
+[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Summer 2024** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=252612&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
-## [Computational Modelling](https://slam.phil.hhu.de/classes/computational-modelling-w23)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=245927&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+## [Ethics and Natural Language Processing](https://slam.phil.hhu.de/classes/ethics-and-natural-language-processing-s24/)
+[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Summer 2024** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=252529&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
-## [Phonetics / Phonology](https://slam.phil.hhu.de/classes/phonetics-phonology-w23)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=244603&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&noDBAction=y&init=y)
+## [Quantitative Methods for Linguistic Data: An Introduction to Statistics using R](https://slam.phil.hhu.de/classes/quantitative-methods-s24/)
+[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Summer 2024** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=250638&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
-## [Language and Health](https://slam.phil.hhu.de/classes/language-and-health-w23)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=246045&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
-
-## [Accent Unplugged](https://slam.phil.hhu.de/classes/accent-unplugged-w23/)
-[**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/) <span class="middot-divider"></span> **Winter 2023** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=244439&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+## [Learning Inflection](https://slam.phil.hhu.de/classes/learning-inflection-s24/)
+[**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/) <span class="middot-divider"></span> **Summer 2024** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=252526&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
 <!---
 Archive
