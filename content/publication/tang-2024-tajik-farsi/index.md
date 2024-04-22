@@ -2,7 +2,7 @@
 title: ParsText - A Digraphic Corpus for Tajik-Farsi Transliteration
 date: '2024-04-19'
 draft: false
-publishDate: '2023-02-015T15:05:40.868387Z'
+publishDate: '2024-04-0215T15:05:40.868387Z'
 authors:
 - Kevin Tang
 - Rayyan Merchant
