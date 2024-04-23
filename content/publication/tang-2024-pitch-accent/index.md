@@ -1,6 +1,6 @@
 ---
 title: 'The Effect of Pitch Accent on the Perception of English Lexical Stress: Evidence from English and Mandarin Chinese Listeners'
-date: '2024-04-208'
+date: '2024-04-08'
 draft: false
 publishDate: '2024-04-08T07:00:00+00:00'
 authors:
