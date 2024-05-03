@@ -40,7 +40,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Members
+- Alumni
 ---
 Nele Mastracchio is a Bachelor's student studying computational linguistics. She is currently helping out with programming tasks and as a research assistant in the SLaM lab.
 
