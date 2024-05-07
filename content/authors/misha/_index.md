@@ -42,7 +42,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Members
+- Alumni
 ---
 
 Seyedeh Zahra Mirkhaef is currently a master student of Comparative Studies in English and American Language, Literature and Culture at HHU.

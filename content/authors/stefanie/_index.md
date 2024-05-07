@@ -47,7 +47,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Members
+- Alumni
 ---
 Stefanie is currently a graduate student of Linguistics at HHU. In July 2022, she received her Bachelor’s degree in General Linguistics and wrote her thesis on Japanese sentence final particles and pronouns that denote gender as well as a character’s attitude in Japanese fiction .
 
