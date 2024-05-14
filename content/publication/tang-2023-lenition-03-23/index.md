@@ -1,18 +1,20 @@
 ---
-title: A unified model of lenition as modulation reduction. Gauging consonant strength in Ibibio
-date: '2023-03-01'
+title: Compiling a corpus of African American Language from oral histories
+date: '2024-05-14'
 draft: false
-publishDate: '2023-03-015T15:05:40.868387Z'
+publishDate: '2024-05-14T07:00:00+00:00'
 authors:
 - Kevin Tang
-- John Harris
-- Eno-Abasi Urua
+- Sarah Moeller 
+- Alexis Davis 
+- Wilermine Previlon 
+- Michael Bottini
 
 publication_types:
 - '2'
-abstract: 'We review and elaborate an account of consonantal strength that is founded on the model of speech as a modulated carrier signal. The stronger the consonant, the greater the modulation. Unlike approaches based on sonority or articulatory aperture, the account offers a uniform definition of the phonetic effect lenition has on consonants: all types of lenition (such as debuccalisation, spirantisation, and vocalisation) reduce the extent to which a consonant modulates the carrier. To demonstrate the quantifiability of this account, we present an analysis of Ibibio, in which we investigate the effects of lenition on the amplitude, periodicity, and temporal properties of consonants. We propose a method for integrating these different acoustic dimensions within an overall measure of modulation size.
-Not only does the modulated-carrier account cover all the classically recognised lenition types, but it also encompasses loss of plosive release in final stops – which, although not traditionally classed as lenition, is clearly related to processes that are.'
+abstract: '
+African American Language (AAL) is a marginalized variety of American English that has been understudied due to a lack of accessible data. This lack of data has made it difficult to research language in African American communities and has been shown to cause emerging technologies such as Automatic Speech Recognition (ASR) to perform worse for African American speakers. To address this gap, the Joel Buchanan Archive of African American Oral History (JBA) at the University of Florida is being compiled into a time-aligned and linguistically annotated corpus.  Through Natural Language Processing (NLP) techniques, this project will automatically time-align spoken data with transcripts and automatically tag AAL features. Transcription and time-alignment challenges have arisen as we ensure accuracy in depicting AAL morphosyntactic and phonetic structure. Two linguistic studies illustrate how the African American Corpus from Oral Histories betters our understanding of this lesser-studied variety.'
 featured: true
-publication: '*Phonology*'
-url_pdf: "papers/2023/HarrisUruaTang_2023_Lenition_Phonology_Preprint.pdf"
+publication: '*Research in Corpus Linguistics*'
+url_pdf: "papers/2024/MoellerDavisPrevilonBottiniTang_2024_CompilingOralHistory_RiCL.pdf"
 ---
