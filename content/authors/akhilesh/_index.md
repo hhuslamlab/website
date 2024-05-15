@@ -50,10 +50,8 @@ user_groups:
 - Members
 ---
 
-Akhilesh is a Natural Language Researcher serving as a Research Assistant at the Department of English and American Studies, English Language and Linguistics, Heinrich Heine University Düsseldorf.
+Akhilesh is a Natural Language Researcher serving as a Wissenschaftlicher Mitarbeiter at the Department of English and American Studies, English Language and Linguistics, Heinrich Heine University Düsseldorf.
 
-He works on Computational Morphology -- supervised by [Prof. Dr. Kevin Tang](https://slam.phil.hhu.de/authors/kevin/) and mentored by [Dr. Dinah Baer-Henney](https://blogs.phil.hhu.de/dbh13/).
+He works on Computational Morphology – supervised by [Prof. Dr. Kevin Tang](https://slam.phil.hhu.de/authors/kevin/) and mentored by [Dr. Dinah Baer-Henney](https://blogs.phil.hhu.de/dbh13/).
 
-Previously, he has worked on building language technologies (and products) such as Machine Translation Systems, Voice assistants, Multilingual Chatbots and Online Dictionary. He has the experience of working in Research startups, Governments and NGOs.
-
-His research interests are Language Revitalization, Computational Linguistics and Programming languages.
+To know more about him, visit: [https://akkikek.xyz/about.html](https://akkikek.xyz/about.html).
