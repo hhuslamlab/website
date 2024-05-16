@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Akhilesh Kakolu Ramarao
+title: Hanxin Xia
 
 # Username (this should match the folder name)
 authors:
-- akhilesh
+- hanxin
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Ph.D. Student 
+role: Master's Student
 
 # Organizations/Affiliations
 organizations:
@@ -27,16 +27,10 @@ interests:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:kakolura@hhu.de"  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/akhilesh_k_r
+  link: "mailto:hanxin.xia@hhu.de"  # For a direct email link, use "mailto:test@example.org".
 - icon: github
   icon_pack: fab
-  link: https://github.com/akki2825
-- icon: portrait
-  icon_pack: fas
-  link: "https://akkikek.xyz"
+  link: https://github.com/xuanxuanx-98
 
 
 
@@ -50,8 +44,6 @@ user_groups:
 - Members
 ---
 
-Akhilesh is a Natural Language Researcher serving as a Wissenschaftlicher Mitarbeiter at the Department of English and American Studies, English Language and Linguistics, Heinrich Heine University Düsseldorf.
+Hanxin Xia is a master student in studying Linguistik at the HHU. He is specialized in computational linguistics and also has great interest in generative syntax and comparative linguistics. Besides that, he is passionate about explanative code switching and data maintenance.
 
-He works on Computational Morphology – supervised by [Prof. Dr. Kevin Tang](https://slam.phil.hhu.de/authors/kevin/) and mentored by [Dr. Dinah Baer-Henney](https://blogs.phil.hhu.de/dbh13/).
-
-To know more about him, visit: [https://akkikek.xyz/about.html](https://akkikek.xyz/about.html).
+Hanxin is currently responsible for software and corpus construction support in E-Learnig project [Computational Methods for the Study of Multilingual Literary Texts](https://slam.phil.hhu.de/projects/elff_computational_multilingual/) by Dr. Hannah Pardey and Prof. Dr. Kevin Tang. At the same time, he is the main maintainer for the SLaM lab website.
