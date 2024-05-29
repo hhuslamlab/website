@@ -144,3 +144,5 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
     name = "Events"
     url = "https://slam.phil.hhu.de/events"
     weight = 4
+    [taxonomies]
+    publication_types = "publication_types"

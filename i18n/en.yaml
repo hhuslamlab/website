@@ -154,7 +154,7 @@
   translation: Publication
 
 - id: publication_type
-  translation: Type
+  translation: All
 
 - id: date
   translation: Date
