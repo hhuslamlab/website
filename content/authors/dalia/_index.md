@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Master's Student
+role: Bachelor's Student
 
 # Organizations/Affiliations
 organizations:

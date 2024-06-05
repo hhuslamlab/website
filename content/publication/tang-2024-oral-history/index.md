@@ -1,16 +1,20 @@
 ---
-title: ParsText - A Digraphic Corpus for Tajik-Farsi Transliteration
-date: '2024-04-19'
+title: Compiling a corpus of African American Language from oral histories
+date: '2024-05-14'
 draft: false
-publishDate: '2024-04-19T07:00:00+00:00'
+publishDate: '2024-05-14T07:00:00+00:00'
 authors:
 - Kevin Tang
-- Rayyan Merchant
+- Sarah Moeller 
+- Alexis Davis 
+- Wilermine Previlon 
+- Michael Bottini
 
 publication_types:
-- '1'
-abstract: 'Despite speaking dialects of the same language, Persian speakers from Tajikistan cannot read Persian texts from Iran and Afghanistan. This is due to the fact that Tajik Persian is written in the Tajik-Cyrillic script, while Iranian and Afghan Persian are written in the Perso-Arabic script. As the formal registers of these dialects all maintain high levels of mutual intelligibility with each other, machine transliteration has been proposed as a more practical and appropriate solution than machine translation. Unfortunately, Persian texts written in both scripts are much more common in print in Tajikistan than online. This paper introduces a novel corpus meant to remedy that gap: ParsText. ParsText contains 2,813 Persian sentences written in both Tajik-Cyrillic and Perso-Arabic manually collected from blog pages and news articles online. This paper presents the need for such a corpus, previous and related work, data collection and alignment procedures, corpus statistics, and discusses directions for future work.'
+- '2'
+abstract: '
+African American Language (AAL) is a marginalized variety of American English that has been understudied due to a lack of accessible data. This lack of data has made it difficult to research language in African American communities and has been shown to cause emerging technologies such as Automatic Speech Recognition (ASR) to perform worse for African American speakers. To address this gap, the Joel Buchanan Archive of African American Oral History (JBA) at the University of Florida is being compiled into a time-aligned and linguistically annotated corpus.  Through Natural Language Processing (NLP) techniques, this project will automatically time-align spoken data with transcripts and automatically tag AAL features. Transcription and time-alignment challenges have arisen as we ensure accuracy in depicting AAL morphosyntactic and phonetic structure. Two linguistic studies illustrate how the African American Corpus from Oral Histories betters our understanding of this lesser-studied variety.'
 featured: true
-publication: '*CAWL 2024 workshop at LREC-COLING 2024*'
-url_pdf: "https://osf.io/preprints/psyarxiv/xdf2w"
+publication: '*Research in Corpus Linguistics*'
+url_pdf: "papers/2024/MoellerDavisPrevilonBottiniTang_2024_CompilingOralHistory_RiCL.pdf"
 ---
