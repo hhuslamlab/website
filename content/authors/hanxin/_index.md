@@ -44,6 +44,6 @@ user_groups:
 - Members
 ---
 
-Hanxin Xia is a master student in studying Linguistik at the HHU. He is specialized in computational linguistics and also has great interest in generative syntax and comparative linguistics. Besides that, he is passionate about explanative code switching and data maintenance.
+Hanxin Xia is a master's student studying Linguistik at the HHU. He is specialized in computational linguistics also with great interest in generative syntax and comparative linguistics. Besides that, he is passionate about explanative code switching and data maintenance.
 
 Hanxin is currently responsible for software and corpus construction support in E-Learnig project [Computational Methods for the Study of Multilingual Literary Texts](https://slam.phil.hhu.de/projects/elff_computational_multilingual/) by Dr. Hannah Pardey and Prof. Dr. Kevin Tang. At the same time, he is the main maintainer for the SLaM lab website.
