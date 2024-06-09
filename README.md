@@ -61,6 +61,8 @@ hugo server
 
 [**Nele Mastracchio**](https://slam.phil.hhu.de/authors/nele/)
 
+[**Hanxin Xia**](https://slam.phil.hhu.de/authors/hanxin/)
+
 ## License
 
 [MIT LICENSE](https://github.com/hhuslamlab/website/blob/master/LICENSE.md)
