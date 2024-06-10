@@ -74,6 +74,9 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
 
 # Taxonomies.
+  
+[taxonomies]
+  publication_types = "publication_types"
 
 [menu]
   [[menu.main]]
@@ -144,5 +147,3 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
     name = "Events"
     url = "https://slam.phil.hhu.de/events"
     weight = 4
-    [taxonomies]
-    publication_types = "publication_types"
