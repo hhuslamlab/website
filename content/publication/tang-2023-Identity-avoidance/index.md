@@ -24,7 +24,7 @@ position effect, both of which turn out to play a role in these non-categorical 
 with multiple features. Furthermore, results indicate that identity avoidance operates
 over both individual features as well as whole segments. Overall, the study argues that
 locality-sensitive feature-specific identity avoidance constraints are part of the grammar.'
-featured: true
+featured: false
 publication: '*Association for Computational Linguistics*'
 url_pdf: "papers/2023/TangAkkus_2023_PartialRedup_Labphon.pdf"
 links:
