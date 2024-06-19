@@ -10,7 +10,7 @@ authors:
 - Sophia Vellozzi
 - Rahul Sengupta
 publication_types:
-- '1'
+- '9'
 abstract: ''
 featured: true
 publication: '*Proceedings of Meetings on Acoustics*'

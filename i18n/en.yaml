@@ -195,6 +195,12 @@
 - id: pub_patent
   translation: Patent
 
+- id: pub_proceeding
+  translation: Proceeding paper
+
+- id: pub_presentation
+  translation: Conference presentation
+
 # Project details
 
 - id: open_project_site
