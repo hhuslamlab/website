@@ -9,7 +9,7 @@ authors:
 - Julia Henkel
 - Katja Biermann-Ruben
 publication_types:
-- '1'
+- '10'
 abstract: ''
 featured: false
 publication: '*Parkinson und Bewegungsstörungen - Highlights Digital 2023*'
