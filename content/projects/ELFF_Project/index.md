@@ -35,4 +35,6 @@ The main part of each unit will consist of short texts with interactive multimed
 | Applicants | [Prof. Dr. Kevin Tang](https://slam.phil.hhu.de/authors/kevin/), [Dr. Christopher Geissler](https://slam.phil.hhu.de/authors/chris/), [Akhilesh Kakolu Ramarao](https://slam.phil.hhu.de/authors/akhilesh/) | 
 | Staff | [Julika Weber](https://slam.phil.hhu.de/authors/julika/), [Lara Rüter](https://slam.phil.hhu.de/authors/lara/) |
 | Additional Information | [E-Learning Förderfonds](https://www.elearning.hhu.de/elearning-foerderfonds) |
+|Project Report (Preprint)| [https://osf.io/preprints/psyarxiv/74x6p](https://osf.io/preprints/psyarxiv/74x6p)|
+|Presentation| [https://osf.io/z4v3h](https://osf.io/z4v3h)|
 
