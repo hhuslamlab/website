@@ -11,7 +11,7 @@ authors:
 - John Harris
 - Clarissa Sorger
 publication_types:
-- '1'
+- '9'
 abstract: ''
 featured: false
 publication: '*Proceedings of DiSS 2017: The 8th Workshop on Disfluency in Spontaneous

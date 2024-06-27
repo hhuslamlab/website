@@ -8,7 +8,7 @@ authors:
 - Christopher Geissler
 - Jason Shaw
 publication_types:
-- '1'
+- '9'
 abstract: ''
 featured: false
 publication: '*Proceedings of the 19th International Congress of Phonetic Sciences,
