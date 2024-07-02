@@ -10,7 +10,7 @@ authors:
 - E Poole
 - A Rysling
 publication_types:
-- '1'
+- '9'
 abstract: ''
 featured: false
 publication: '*Proceedings of the 43rd meeting of the North East Linguistic Society*'

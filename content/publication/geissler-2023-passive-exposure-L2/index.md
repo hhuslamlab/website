@@ -7,7 +7,7 @@ authors:
 - Christopher Geissler
 - Julika Weber
 publication_types:
-- '1'
+- '9'
 abstract: ''
 featured: false
 publication: '*Proceedings of the 20th International Congress of Phonetic Sciences*'

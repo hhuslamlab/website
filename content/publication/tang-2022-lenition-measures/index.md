@@ -12,7 +12,7 @@ authors:
 - Lori Altman
 
 publication_types:
-- '2'
+- '9'
 abstract: 'A phonologically informed neural network approach, Phonet, was compared to acoustic measurements of
 intensity, duration and harmonicity in estimating lenition degree of voiced and voiceless stops in a corpus
 of Argentine Spanish. Recurrent neural networks were trained to recognize phonological features
