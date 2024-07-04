@@ -10,7 +10,7 @@ authors:
 - Fang Hu
 - Mark Tiede
 publication_types:
-- '1'
+- '9'
 abstract: ''
 featured: false
 publication: '*Proceedings of the 12th International Seminar on Speech Production.*'
