@@ -48,7 +48,7 @@ subtitle = ""
  """
  
  # CSS class.
- css_class = "custom-background"
+ css_class = ""
 
 [blackfriday]
   extensions = ["hardLineBreak"]
