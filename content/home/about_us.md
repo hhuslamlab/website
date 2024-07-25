@@ -27,6 +27,7 @@ subtitle = ""
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
+  image = "/imgbak/3wugs.png"  # Path is relative to the `static` folder.
   
 
   # Text color (true=light or false=dark).
@@ -38,7 +39,13 @@ subtitle = ""
 
 [advanced]
  # Custom CSS. 
- css_style = ""
+ css_style = """
+ background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/imgbak/3wugs.png');
+ background-size: 75% auto;
+ background-position: center 75%;
+ position: relative;
+ height: 100vh;
+ """
  
  # CSS class.
  css_class = ""
@@ -56,3 +63,4 @@ We are part of the [English Language and Linguistics section](https://www.anglis
 
 <br/>
 <p align="center"><iframe width="300" height="200" src="https://www.youtube.com/embed/xhoV2h4qn_I" title="HHU - English Language and Linguistics - Univ.-Prof. Dr. Kevin Tang - Heinrich Heine University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+

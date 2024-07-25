@@ -1,5 +1,3 @@
-{{/* People Widget */}}
-
 {{/* Initialise */}}
 {{ $ := .root }}
 {{ $page := .page }}
@@ -15,54 +13,115 @@
   {{ end }}
 
   {{ range $page.Params.content.user_groups }}
+  {{ $groupName := . }}
   {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
 
-  {{if $query}}
-  <div class="col-md-12" align="Left">
-    <h2 class="mb-4">{{ . | markdownify }}</h2>
+  {{ if $query }}
+  {{ if eq $groupName "Alumni" }}
+  <!-- Toggle Button for Alumni -->
+  <button class="btn btn-primary toggle-alumni" onclick="toggleAlumni()" style="margin-top: 48px;">See Alumni</button>
+
+  <!-- Adjusted: Ensure the container div for alumni is similar to members for consistent styling -->
+  <div id="alumni-section" class="col-md-12" style="display:none;">
+  <div class="col-lg-12 section-heading" align="Left">
+    <h2 class="mb-4">{{ $groupName | markdownify }}</h2>
   </div>
-  {{end}}
 
-  {{ range $query }}
-  {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
-  {{/* Get link to user's profile page. */}}
-  {{ $link := "" }}
-  {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
-    {{ $link = .RelPermalink }}
-  {{ end }}
-  <div class="col-12 col-sm-auto people-person">
-    {{ $src := "" }}
-    {{ if site.Params.avatar.gravatar }}
-      {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}
-    {{ else if $avatar }}
-      {{ $avatar_image := $avatar.Fill "270x270 Center" }}
-      {{ $src = $avatar_image.RelPermalink }}
-    {{ end }}
-    {{ if $src }}
-      {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
-      {{with $link}}<a href="{{.}}">{{end}}<img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}" alt="Avatar">{{if $link}}</a>{{end}}
-    {{ end }}
-
-    <div class="portrait-title">
-      <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
-      {{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
-      {{ range .Params.organizations }}
-        <h3>
-          {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
-          <span>{{ .name }}</span>
-          {{ if .url }}</a>{{ end }}
-        </h3>
+  <div class="d-flex flex-wrap justify-content-center"> <!-- Ensures items are centered and wrapped -->
+    {{ range $query }}
+    <div class="col-12 col-sm-auto people-person"> <!-- Maintains text-center for alignment -->
+      {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+      {{ $link := "" }}
+      {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
+        {{ $link = .RelPermalink }}
+      {{ end }}
+      <div>
+        {{ $src := "" }}
+        {{ if site.Params.avatar.gravatar }}
+          {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}
+        {{ else if $avatar }}
+          {{ $avatar_image := $avatar.Fill "270x270 Center" }}
+          {{ $src = $avatar_image.RelPermalink }}
         {{ end }}
-      {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
-      {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
+        {{ if $src }}
+          <a href="{{ $link }}"><img class="avatar {{ if eq (site.Params.avatar.shape | default "circle") "square" }}avatar-square{{ else }}avatar-circle{{ end }}" src="{{ $src }}" alt="Avatar"></a>
+        {{ end }}
+      </div>
+      <div class="portrait-title">
+        <h2><a href="{{ $link }}">{{ .Title }}</a></h2>
+        {{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
+        {{ range .Params.organizations }}
+          <h3>
+            {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+            <span>{{ .name }}</span>
+            {{ if .url }}</a>{{ end }}
+          </h3>
+        {{ end }}
+        {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
+        {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
+      </div>
     </div>
+    {{ end }}
   </div>
-  {{ end }}
-  {{ end }}
+  </div> <!-- End of Alumni section -->
 
-  {{ with $page.Content }}
-  <div class="col-md-12">
-    {{ . }}
+  {{ else }}
+  <div class="col-md-12" align="Left">
+    <h2 class="mb-4">{{ $groupName | markdownify }}</h2>
   </div>
-  {{ end }}
+
+  <div class="d-flex flex-wrap justify-content-center"> <!-- Ensures items are centered and wrapped -->
+    {{ range $query }}
+    <div class="col-12 col-sm-auto people-person">
+      {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+      <!-- Get link to user's profile page. -->
+      {{ $link := "" }}
+      {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
+        {{ $link = .RelPermalink }}
+      {{ end }}
+      <div>
+        {{ $src := "" }}
+        {{ if site.Params.avatar.gravatar }}
+          {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}
+        {{ else if $avatar }}
+          {{ $avatar_image := $avatar.Fill "270x270 Center" }}
+          {{ $src = $avatar_image.RelPermalink }}
+        {{ end }}
+        {{ if $src }}
+          <a href="{{ $link }}"><img class="avatar {{ if eq (site.Params.avatar.shape | default "circle") "square" }}avatar-square{{ else }}avatar-circle{{ end }}" src="{{ $src }}" alt="Avatar"></a>
+        {{ end }}
+      </div>
+      <div class="portrait-title">
+        <h2><a href="{{ $link }}">{{ .Title }}</a></h2>
+        {{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
+        {{ range .Params.organizations }}
+          <h3>
+            {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+            <span>{{ .name }}</span>
+            {{ if .url }}</a>{{ end }}
+          </h3>
+        {{ end }}
+        {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
+        {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div> <!-- End of members section -->
+
+  {{ end }} <!-- End of Alumni check -->
+  {{ end }} <!-- End of group query check -->
+  {{ end }} <!-- End of group range -->
 </div>
+
+<script>
+function toggleAlumni() {
+  var alumniSection = document.getElementById("alumni-section");
+  if (alumniSection.style.display === "none") {
+    alumniSection.style.display = "block";
+    document.querySelector('.toggle-alumni').textContent = "Hide Alumni";
+  } else {
+    alumniSection.style.display = "none";
+    document.querySelector('.toggle-alumni').textContent = "See Alumni";
+  }
+}
+</script>
