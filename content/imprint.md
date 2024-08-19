@@ -1,6 +1,6 @@
 ---
-title: Imprint
-date: "2023-06-28T00:00:00+01:00"
+title: Impressum
+date: "2024-08-15T00:00:00+01:00"
 draft: false
 share: false
 commentable: false
@@ -12,17 +12,18 @@ header:
   image: ""
 ---
 
-The Speech, Lexicon, And Modeling lab (SLaM Lab)
+<p style="margin-bottom: 12px;"><strong>The Speech, Lexicon, and Modeling Lab (SLaM Lab)</strong></p>
 
-Univ.-Prof. Dr. Kevin Tang
+<p style="margin-bottom: 0px;">Univ.-Prof. Dr. Kevin Tang</p>
 
-Building 23.21.02.102
+<p style="margin-bottom: 0px;">Gebäude 23.21.02.102</p>
 
-Universitaetsstrasse 1
+<p style="margin-bottom: 0px;">Universitätsstraße 1</p>
 
-40225 Duesseldorf
+<p style="margin-bottom: 0px;">40225 Düsseldorf</p>
 
-Germany
+<p style="margin-bottom: 0px;">Deutschland</p>
 
+<p style="margin-bottom: 12px;">Email: <a href="mailto:kevin.tang@hhu.de">kevin.tang@hhu.de</a></p>
 
-Email: [kevin.tang@hhu.de](mailto:kevin.tang@hhu.de)
+<p style="margin-bottom: 3px;">Für weitere rechtliche Informationen besuchen Sie bitte das <a href="https://www.philo.hhu.de/fakultaet-1/dekanat/impressum">Impressum des Dekanats der Philosophischen Fakultät</a>.</p>
