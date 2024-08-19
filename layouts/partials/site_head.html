@@ -45,11 +45,6 @@
 
   {{ partial "functions/parse_theme" . }}
 
-  {{/* Pre-connect to Google Fonts if the site's Font Theme uses them. */}}
-  {{ with ($scr.Get "google_fonts") }}
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  {{end}}
-
   {{ $css := site.Data.assets.css }}
   {{ $js := site.Data.assets.js }}
   {{ if ne ($scr.Get "primary") "#fff" }}
@@ -130,11 +125,9 @@
   {{ with ($scr.Get "google_fonts") }}
     {{ if hasPrefix . "family=" }}
       {{/* If `google_fonts` starts with "family=", use API v2 (https://developers.google.com/fonts/docs/css2) */}}
-      <link rel="stylesheet" {{ printf "href=\"https://fonts.googleapis.com/css2?%s&display=swap\"" . | safeHTMLAttr }}>
     {{ else }}
       {{/* Otherwise, use API v1 */}}
       {{/* Hugo's htmlEscape cannot escape "|" in Google Font URIs so we implement our own escape functionality. */}}
-      <link rel="stylesheet" {{ printf "href=\"https://fonts.googleapis.com/css?family=%s&display=swap\"" . | replaceRE "\\|" "%7C" | safeHTMLAttr }}>
     {{ end }}
   {{ end }}
 
@@ -152,8 +145,6 @@
   {{- end -}}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
-  {{ partial "marketing/google_analytics" . }}
-  {{ partial "marketing/google_tag_manager" . }}
 	<script defer data-domain="slam.phil.hhu.de" src="https://analytics.slam.phil.hhu.de/js/plausible.js"></script>
 
   {{/* Netlify Identity integration. */}}
