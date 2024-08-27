@@ -12,7 +12,7 @@ authors:
 publication_types:
 - '9'
 abstract: ''
-featured: true
+featured: false
 publication: '*Proceedings of Meetings on Acoustics*'
 url_pdf: "papers/2023/Waylandetal_2023_alcohol_POMA.pdf"
 ---
