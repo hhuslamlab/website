@@ -14,7 +14,7 @@ abstract: "Speech science plays a pivotal role in the development of speech tech
 
 Conclusion: Our research contributes towards demystifying the black box of ASR models highlighting the source of the errors using L1 and L2 phonetics and phonology. We provide a proof of concept of how to simultaneously tackle both educational and technological concerns in speech technology using research-based teaching. In the future, we aim to expand this corpus in other classes in the area of phonetics/phonology and technology using this educational framework."
 
-featured: true
+featured: false
 publication: 'The 19th Conference on Laboratory Phonology'
 url_pdf:  "papers/2024/akhilesh-2024-l2english.pdf"
 ---
