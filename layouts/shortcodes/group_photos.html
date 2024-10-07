@@ -1,42 +1,5 @@
-<!-- layouts/shortcodes/carousel.html -->
-<style>
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: #003863; /* Change this to your desired color */
-  border-radius: 50%; /* Makes the buttons circular */
-  width: 30px; /* Adjust the width as needed */
-  height: 30px; /* Adjust the height as needed */
-  background-size: 50%; /* Adjust the size of the arrow icon */
-}
-
-.carousel-inner {
-  display: flex;
-  align-items: center; /* Vertically centers the images */
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-  width: 50px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background color with transparency */
-  border-radius: 50%; /* Makes the buttons circular */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: #003863; /* Change this to your desired color */
-  border-radius: 50%; /* Makes the buttons circular */
-  width: 30px; /* Adjust the width as needed */
-  height: 30px; /* Adjust the height as needed */
-  background-size: 50%; /* Adjust the size of the arrow icon */
-}
-</style>
+{{ $style := resources.Get "css/carousel.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="margin-top: 35px;">
   <div class="carousel-inner">
