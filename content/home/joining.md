@@ -60,3 +60,4 @@ We welcome students of a variety of experience levels. The purpose of the SLaM l
 
 Submit your CV and cover letter to kevin.tang [at] hhu [dot] de.
 
+{{< group_photos >}}
