@@ -1,0 +1,32 @@
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1200px; /* Adjust for larger screens */
+  background: #000;
+  margin: 20px auto; /* Center the video container */
+}
+
+.video-container iframe {
+  position: absolute; /* Ensure iframe covers the container */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 1024px) {
+  .video-container {
+    max-width: 900px; /* Adjust for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    max-width: 100%; /* Full width for smaller screens */
+    margin: 10px auto;
+  }
+}
