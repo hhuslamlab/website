@@ -13,6 +13,8 @@ featured: false
 publication: '*Cognition*'
 url_pdf: "papers/2021/TangShaw_2021_ProsodyLeaks_Cognition.pdf"
 links:
+- name: DOI
+  url: https://doi.org/10.1016/j.cognition.2021.104601
 - name: supplementary material
   url: https://www.sciencedirect.com/science/article/abs/pii/S0010027721000202?via%3Dihub
 ---

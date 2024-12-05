@@ -16,4 +16,7 @@ abstract: 'Spanish voiced stops /b, d, ɡ/ surfaced as fricatives [β, ð, ɣ] i
 featured: false
 publication: '*Languages*'
 url_pdf: "papers/2023/WaylandTangWang_etal_2023_QuantitativeDeep_Languages.pdf"
+links:
+- name: DOI
+  url: https://doi.org/10.3390/languages8020098
 ---

@@ -52,7 +52,7 @@ The SLaM Lab invites interested students to join our lab. This can take many for
 
 - relevant coursework and other experience (e.g. term papers, research experience) in phonetics, phonology, morphology, computational linguistics, computer science, or data science
 - skills and experience in data visualization, statistics, programming languages
-- language skills (especially English, Japanese, Korean, Tibetan)
+- language skills (especially English, Japanese, Korean, Chinese)
 - interests in linguistics or computational linguistics
 - long-term interests (e.g. future career interests)
 

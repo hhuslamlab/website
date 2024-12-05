@@ -15,5 +15,8 @@ url_pdf: "papers/2022/ShawTang_2022_DFT_AMP.pdf"
 links:
 - name: supplementary material
   url: https://osf.io/7znbf/
+links:
+- name: DOI
+  url: https://doi.org/10.3765/amp.v10i0.5442
 ---
 

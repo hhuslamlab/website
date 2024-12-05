@@ -17,4 +17,7 @@ results suggest the validity of the approach as an alternative or addition to qu
 featured: false
 publication: '*The Journal of the Acoustical Society of America*'
 url_pdf: "papers/2023/Tangetal_2023_Sonority_JASA.pdf"
+links:
+- name: DOI
+  url: https://doi.org/10.1121/10.0017247
 ---

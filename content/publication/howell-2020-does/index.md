@@ -19,6 +19,8 @@ featured: false
 publication: '*Frontiers in psychology*'
 url_pdf: "papers/2020/HowellTang_2020_WorkingMemory_Frontiers.pdf"
 links:
+- name: DOI
+  url: https://doi.org/10.3389/fpsyg.2020.568867
 - name: supplementary material
   url: http://fistproject.org/
 ---

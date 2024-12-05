@@ -16,6 +16,8 @@ featured: false
 publication: '*Proceedings of the Royal Society B*'
 url_pdf: "papers/2020/Tang_etal_PRSB_2020_READ1Temporal.pdf"
 links:
+- name: DOI
+  url: https://doi.org/10.1098/rspb.2019.2712
 - name: supplementary material
   url: https://dx.doi.org/10.5061/dryad.hdr7sqvf4
 - name: software

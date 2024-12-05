@@ -16,4 +16,7 @@ abstract: ''
 featured: false
 publication: '*International Journal of Language & Communication Disorders*'
 url_pdf: "papers/2023/HowellSorgerAlsulaimanYoshikawaHarrisTang_2023_FactorsScoring_IJLCD.pdf"
+links:
+- name: DOI
+  url: https://doi.org/10.1111/1460-6984.12954
 ---

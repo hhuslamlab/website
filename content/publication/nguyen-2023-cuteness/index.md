@@ -15,5 +15,8 @@ abstract: 'Despite the rapidly growing body of research on sound symbolism, one 
 featured: false
 publication: '*Open Linguistics*'
 url_pdf: "https://www.degruyter.com/document/doi/10.1515/opli-2022-0257/html"
+links:
+- name: DOI
+  url: https://doi.org/10.1515/opli-2022-0257
 ---
 

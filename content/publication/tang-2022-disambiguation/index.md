@@ -15,7 +15,7 @@ featured: false
 publication: '*Proceedings of the Second Workshop on Language Technology for Equality, Diversity and Inclusion*'
 url_pdf: "papers/2022/HarrisonMartinMoellerTang_2022_DisambigHabBe_ACL.pdf"
 links:
-- name: supplementary material
-  url: https://github.com/HarrisonSantiago/Habitual_be_classifier
+- name: DOI
+  url: https://doi.org/10.18653/v1/2022.ltedi-1.9
 ---
 
