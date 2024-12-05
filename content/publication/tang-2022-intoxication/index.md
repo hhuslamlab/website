@@ -19,6 +19,8 @@ featured: false
 publication: '*JASA Express Letters*'
 url_pdf: "papers/2022/Tangetal_2022_IntoxicationPitch_JASAEL.pdf"
 links:
+- name: DOI
+  url: https://doi.org/10.1121/10.0011572
 - name: supplementary material
   url: https://osf.io/2tx4m/
 ---

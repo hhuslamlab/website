@@ -13,5 +13,9 @@ abstract: 'Recent research has highlighted that state-of-the-art automatic speec
 featured: false
 publication: '*INTERSPEECH*'
 url_pdf: "papers/2020/MartinTang_2020_HabitualBe_Interspeech.pdf"
+
+links:
+- name: DOI
+  url: https://doi.org/10.1121/10.0028299
 ---
 

@@ -13,6 +13,8 @@ featured: false
 publication: '*Laboratory Phonology: Journal of the Association for Laboratory Phonology*'
 url_pdf: "papers/2023/TangBaerHenney_2023_ModellingL1_LabPhon.pdf"
 links:
+- name: DOI
+  url: https://doi.org/10.16995/labphon.6460
 - name: supplementary material
   url: https://osf.io/m2dtg/
 ---

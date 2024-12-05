@@ -28,6 +28,8 @@ featured: false
 publication: '*Association for Computational Linguistics*'
 url_pdf: "papers/2023/TangAkkus_2023_PartialRedup_Labphon.pdf"
 links:
+- name: DOI
+  url: https://doi.org/10.16995/labphon.6459
 - name: supplementary material
   url: https://osf.io/p2jdk/
 ---

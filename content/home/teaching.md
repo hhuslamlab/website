@@ -68,9 +68,6 @@ subtitle = "[SEE ALL COURSES](/classes)"
 ## [LLMs in Linguistic Research](https://slam.phil.hhu.de/classes/llms-in-linguistic-research-w24/)
 [**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/) <span class="middot-divider"></span> **Winter 2024** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=256938&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
-## [Computational Modelling](https://slam.phil.hhu.de/classes/computational-modelling-w24/)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2024** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=258484&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
-
 ## [Laboratory Phonology](https://slam.phil.hhu.de/classes/laboratory-phonology-w24/)
 [**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2024** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=256939&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 

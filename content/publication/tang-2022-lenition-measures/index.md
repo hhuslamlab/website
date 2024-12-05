@@ -24,4 +24,7 @@ than some acoustic metrics.'
 featured: false
 publication: '*Proceedings of Meetings on Acoustics*'
 url_pdf: "papers/2022/Waylandetal_2023_lenitionmeasures_POMA.pdf"
+links:
+- name: DOI
+  url: https://doi.org/10.1121/2.0001728
 ---

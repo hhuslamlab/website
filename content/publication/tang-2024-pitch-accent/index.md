@@ -14,4 +14,7 @@ abstract: ''
 featured: false
 publication: '*Languages*'
 url_pdf: "https://www.mdpi.com/2226-471X/9/3/87/pdf"
+links:
+- name: DOI
+  url: https://doi.org/10.3390/languages9030087
 ---
