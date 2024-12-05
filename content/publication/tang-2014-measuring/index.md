@@ -6,9 +6,6 @@ publishDate: '2022-02-23T15:05:41.293110Z'
 authors:
 - Kevin Tang
 - Andrew Nevins
-- HL Huang
-- E Poole
-- A Rysling
 publication_types:
 - '9'
 abstract: ''

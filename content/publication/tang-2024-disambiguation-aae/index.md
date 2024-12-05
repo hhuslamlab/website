@@ -4,12 +4,12 @@ date: '2024-05-30'
 draft: false
 publishDate: '2024-05-30T07:00:00+00:00'
 authors:
-    - Kevin Tang
-    - Wilermine Previlon
-    - Alice Rozet
-    - Jotsna Gowda
-    - Bill Dyer
-    - Sarah Moeller
+- Wilermine Previlon
+- Alice Rozet
+- Jotsna Gowda
+- Bill Dyer
+- Kevin Tang
+- Sarah Moeller
 
 publication_types:
 - '9'

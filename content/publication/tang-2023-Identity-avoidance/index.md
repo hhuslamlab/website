@@ -5,8 +5,8 @@ date: '2023-06-11'
 draft: false
 publishDate: '2023-06-11T15:05:40.868387Z'
 authors:
-- Faruk Akkus
 - Kevin Tang
+- Faruk Akkus
 publication_types:
 - '2'
 abstract: 'This study investigates the Turkish partial reduplication phenomenon, in which the
