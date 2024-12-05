@@ -20,4 +20,6 @@ url_pdf: "papers/2024/PrevilonRozetGowdaDyerTangMoeller_LeveragingDependencyAAEL
 links:
 - name: DOI
   url: https://aclanthology.org/2024.lrec-main.909/
+- name: supplementary material
+  url: https://github.com/wilermine/CoLing-LREC-HabitualBe
 ---

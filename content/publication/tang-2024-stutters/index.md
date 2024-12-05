@@ -16,4 +16,6 @@ url_pdf: "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg
 links:
 - name: DOI
   url: https://doi.org/10.3389/fpsyg.2024.1155285
+- name: supplementary material
+  url: https://www.doi.org/10.17605/OSF.IO/29K7Q
 ---

@@ -12,5 +12,6 @@ publication_types:
 abstract: ''
 featured: false
 publication: ''
+url_pdf: "https://babylonia.online/index.php/babylonia/article/view/46/65"
 ---
 

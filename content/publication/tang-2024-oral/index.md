@@ -20,4 +20,6 @@ url_pdf: "papers/2024/MoellerDavisPrevilonBottiniTang_2024_CompilingOralHistory_
 links:
 - name: DOI
   url: https://doi.org/10.32714/ricl.12.02.04
+- name: supplementary material
+  url: https://doi.org/10.17605/OSF.IO/X9WHN
 ---

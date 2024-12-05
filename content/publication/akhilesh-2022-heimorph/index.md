@@ -14,5 +14,8 @@ abstract: 'This paper presents the submission by the HeiMorph team to the SIGMOR
 featured: false
 publication: '*Association for Computational Linguistics*'
 url_pdf: "papers/2022/KakoluRamarao_etal_2022_Heimorph_SIGMORPHON19.pdf"
+links:
+- name: supplementary material
+  url: https://github.com/sigmorphon/2022InflectionST
 ---
 

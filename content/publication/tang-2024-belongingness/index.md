@@ -19,4 +19,6 @@ url_pdf: "papers/2024/ZhangKazaziTangHowell_2024_MentalStateStudents_PLOSONE.pdf
 links:
 - name: DOI
   url: https://doi.org/10.1371/journal.pmen.0000019
+- name: supplementary material
+  url: https://doi.org/10.17605/OSF.IO/ADBQH
 ---
