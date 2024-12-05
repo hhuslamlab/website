@@ -19,4 +19,6 @@ url_pdf: "papers/2023/HowellSorgerAlsulaimanYoshikawaHarrisTang_2023_FactorsScor
 links:
 - name: DOI
   url: https://doi.org/10.1111/1460-6984.12954
+- name: supplementary material
+  url: https://www.doi.org/10.17605/OSF.IO/75AE3
 ---

@@ -17,4 +17,6 @@ url_pdf: "papers/2024/SteinTang_2024_ProbReduction_Interspeech.pdf"
 links:
 - name: DOI
   url: https://doi.org/10.21437/interspeech.2024-1118
+- name: supplementary material
+  url: https://github.com/ansost/ModelingProbabilisticReduction
 ---

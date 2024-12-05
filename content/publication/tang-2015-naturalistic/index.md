@@ -10,5 +10,11 @@ publication_types:
 abstract: ''
 featured: false
 publication: ''
+
+url_pdf: "papers/older_than_2020/Tang_2015_PhDThesis.pdf"
+
+links:
+- name: supplementary material
+  url: https://searproject.org/
 ---
 

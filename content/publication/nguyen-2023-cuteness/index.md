@@ -4,9 +4,9 @@ date: '2024-04-22'
 draft: false
 publishDate: '2024-04-22T07:00:00+00:00'
 authors:
-- Anh Kim Nguyen
 - Dominic Schmitz
 - Defne Cicek
+- Anh Kim Nguyen
 - Daniel Rottleb
 
 publication_types:
@@ -18,5 +18,7 @@ url_pdf: "https://www.degruyter.com/document/doi/10.1515/opli-2022-0257/html"
 links:
 - name: DOI
   url: https://doi.org/10.1515/opli-2022-0257
+- name: supplementary material
+  url: https://osf.io/qck9r/
 ---
 

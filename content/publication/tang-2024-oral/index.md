@@ -4,11 +4,11 @@ date: '2024-04-14'
 draft: false
 publishDate: '2024-04-14T07:00:00+00:00'
 authors:
-- Kevin Tang
 - Sarah Moeller
 - Alexis Davis
 - Wilermine Previlon 
 - Michael Bottini
+- Kevin Tang
 
 publication_types:
 - '2'
@@ -20,4 +20,6 @@ url_pdf: "papers/2024/MoellerDavisPrevilonBottiniTang_2024_CompilingOralHistory_
 links:
 - name: DOI
   url: https://doi.org/10.32714/ricl.12.02.04
+- name: supplementary material
+  url: https://doi.org/10.17605/OSF.IO/X9WHN
 ---

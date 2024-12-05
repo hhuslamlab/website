@@ -4,8 +4,8 @@ date: '2024-10-01'
 draft: false
 publishDate: '2024-10-01T07:00:00+00:00'
 authors:
-- Kevin Tang
 - Ratree Wayland
+- Kevin Tang
 - Fenqi Wang
 - Sophia Vellozzi
 - Rachel Meyer

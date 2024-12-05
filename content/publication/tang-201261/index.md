@@ -11,5 +11,6 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*UCL Work Pap Linguist*'
+url_pdf: "papers/older_than_2020/Tang_2012_SUBTLEXPTBR_UCLWPL2.pdf"
 ---
 

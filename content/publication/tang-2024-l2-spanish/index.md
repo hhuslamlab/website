@@ -4,10 +4,10 @@ date: '2024-09-22'
 draft: false
 publishDate: '2024-09-22T07:00:00+00:00'
 authors:
-- Kevin Tang
 - Ratree Wayland
 - Rachel Meyer
 - Sophia Vellozzi
+- Kevin Tang
 
 publication_types:
 - '2'

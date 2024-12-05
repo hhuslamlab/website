@@ -17,5 +17,8 @@ Conclusion: Our research contributes towards demystifying the black box of ASR m
 featured: false
 publication: 'The 19th Conference on Laboratory Phonology'
 url_pdf:  "papers/2024/akhilesh-2024-l2english.pdf"
+links:
+- name: supplementary material
+  url: https://slam.phil.hhu.de/authors/akhilesh/
 ---
 
