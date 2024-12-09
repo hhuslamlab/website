@@ -51,6 +51,4 @@ user_groups:
 - Members
 ---
 
-Dalia is an undergraduate student of English and American Studies as her major, and Romance Studies as her minor. She has been interested in linguistics since her first semester and has developed a special interest in phonetics and phonology, so she is aiming for a Master's degree in linguistics after her graduation.
-
-She is currently responsible for the maintenance of the institute's website and social media account and will be leading the organization of the Lab's presentation on the Nacht der Wissenschaft, which takes place in September.
+Dalia is an undergraduate student majoring in English and American Studies, with Romance Studies as her minor. Over the course of her studies, she has developed a deep interest in linguistics, particularly in phonetics, phonology, and how machines understand languages, as well as the challenges they face in processing them. This passion has inspired her to pursue an M.A. in linguistics after graduation. Alongside her academic work, she manages the institute’s website and social media account.
