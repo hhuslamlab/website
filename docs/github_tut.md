@@ -22,7 +22,9 @@ Things to sort out and be aware of before doing this:
 
 # Getting started with git
 There are some things to do first before working with git. That is, you need to register to the website, so do [that first on github](https://github.com/).  
+
 ### Step 1: Setting up git on your computer
+
 #### Windows
 Once you are set, you need to download git. There is an executable `git bash` terminal for windows out there and _the commands in this tutorial should work the same way for that one_. In your windows terminal, simply type:  
 ```shell=
@@ -31,6 +33,7 @@ winget install Git.Git
 Then, with `Cortana` look for an application called `Git Bash` and use it for the rest of this tutorial. Follow the `git config --global user` instructions further down this section.
 
 #### Linux and WSL
+
 If you wish to use WSL, do not install `git bash` for windows, instead, open `ubuntu` and run this line  
 ```shell=
 git --version
@@ -54,6 +57,7 @@ At this point you can decide whether you want to create a designated folder wher
 Take a breath. Here comes the second step.
 
 ### Step 2: Linking your `local` with your `remote`
+
 Whenever you see the terms local and remote, know that they refer to your `local machine` (the computer you are using right now) and a `remote server` (the servers on github that store all of your data). In order to push and pull files to and from the correct accounts, you need a key that attests that the account on github you just created is indeed connected to your own computer. Github uses `SSH keys` for this task. You will have to generate a key in your terminal and add it to your profile on their website. You only have to do this entire step once.  
 
 1. In your terminal, type the line below to create a key. Make sure the email is the same you used to sign up to github as that will be the used as the label for the key.
