@@ -1,6 +1,6 @@
 # Working on HPC
 
-# HPC 101
+A beginner's guide to High Performance Computing systems.
 
 ## Table of Contents
 - [Logging into HPC and requesting jobs](#Intro)
@@ -118,9 +118,8 @@ To access your files on hpc your need to navigate to the General Parallel File S
 Log into your hpc and enter (replace `Nutzerkennung` with your one).
 
 ```bash
-cd gpfs/project/nutzerkennung
+cd /gpfs/project/nutzerkennung
 ```
-
 
 Read more about mounting [here](https://man7.org/linux/man-pages/man8/mount.8.html) or go through the guide [here](https://wki.hhu.de/viewpage.action?pageId=5572564).
 

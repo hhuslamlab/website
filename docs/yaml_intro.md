@@ -1,4 +1,4 @@
-# working with YAML files
+# Working with YAML files
 
 # Table of Contents
 - [Introduction](#Introduction)
