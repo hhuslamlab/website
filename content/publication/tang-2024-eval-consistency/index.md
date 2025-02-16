@@ -19,7 +19,7 @@ publication: '*Journal of the Acoustical Society of America*'
 url_pdf: "papers/2024/TangWaylandWangVellozziSengupta_2024_consistency_JASA.pdf"
 links:
 - name: DOI
-  url: https://doi.org/10.3390/biomedinformatics4040123
+  url: https://doi.org/10.1121/10.0028299
 - name: supplementary material
   url: https://doi.org/10.17605/OSF.IO/384B5
 ---
