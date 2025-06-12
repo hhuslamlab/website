@@ -38,7 +38,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Members
+- Alumni
 ---
 
 Beside engaging in physical hobbies such as rock climbing, ballroom dance, and running, Alina sports a bachelor's degree in linguistics and is currently enrolled in a continued master's program at HHU with a main focus on neurolinguistics - a passion fueled by her previous career as a nurse. Other strictly linguistic interests include phonetics, phonology, and linguistic diversity. For example, Alina designed a linguistic riddle  about modality in Igbo, a language of the Atlantic Congo family, for the 2021 German Linguistics Olympiad (learn more here: [https://linguistikolympiade.de/modalitaet-in-igbo/](https://linguistikolympiade.de/modalitaet-in-igbo/)).
