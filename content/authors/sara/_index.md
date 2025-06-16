@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Bachelor’s Student 
+role: Master’s Student 
 
 # Organizations/Affiliations
 organizations:
@@ -41,4 +41,4 @@ email: ""
 user_groups:
 - Members
 ---
-Sara is an MA student in the Department of Linguistics, focusing on computational linguistics. She is curious about how language and technology connect, especially in areas like natural language processing and deep learning. She hopes to learn more about the ways linguistic knowledge can contribute to developments in artificial intelligence.
+Sara is an MA student in the Department of Linguistics, focusing on computational linguistics. She is curious about the connection between language and technology, especially in areas such as natural language processing and deep learning. Currently, she works as a research assistant for Prof. Dr. Kevin Tang and Prof. Dr. Ruben van de Vijver and hopes to deepen her understanding of how linguistic knowledge can contribute to advancements in artificial intelligence.
