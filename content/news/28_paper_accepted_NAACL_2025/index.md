@@ -15,7 +15,7 @@ header:
 featured: true
 ---
 
-We are pleased to announce that two papers authored by members of our research group have been accepted for publication in the _Findings of ACL_ at the *2025 North American Chapter of the Association for Computational Linguistics (NAACL)* conference, to be held in New Mexico.
+We are pleased to announce that two papers authored by members of our research group have been accepted for publication in the _Findings of ACL_ at the 2025 *North American Chapter of the Association for Computational Linguistics* (NAACL) conference, to be held in New Mexico.
 
 ### 1. Playing with Voices: Tabletop Role-Playing Game Recordings as a Diarization Challenge
 
@@ -30,7 +30,7 @@ Key findings include:
 -   Evaluation of two diarization models indicates increased confusion rates on TTRPG data, with the wespeaker model significantly underestimating the number of distinct speakers.
     
 
-Access the full paper [here](https://arxiv.org/abs/2502.12714)
+Access the full paper [here](https://arxiv.org/abs/2502.12714).
 
 
 ### 2. Large Language Models as Grammatical Feature Taggers for African American English
@@ -44,4 +44,4 @@ Key findings include:
 -   The grammatical complexity inherent in AAE poses significant challenges for natural language processing models, underscoring the need for enhanced training datasets and architectural refinements.
     
 
-Access the full paper [here](https://arxiv.org/abs/2502.06004)
+Access the full paper [here](https://arxiv.org/abs/2502.06004).

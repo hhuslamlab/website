@@ -22,7 +22,6 @@ featured: true
 
 For the original nomination image, please see [here](https://www.sell.hhu.de/fileadmin/_processed_/2/b/csm_Tang_c568f39113.png).
 
-
 The annual HHU Teaching Award, coordinated by SeLL, honors outstanding contributions to teaching across the university. Students are invited to nominate instructors from all disciplines, including adjunct and early-career faculty. The prize is awarded in four categories, each endowed with €10,000:
 
 - Large-scale courses with a lecture-style format  

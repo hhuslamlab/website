@@ -14,6 +14,7 @@ header:
   image: ""
 featured: true
 ---
+
 ## Prof. Tang contributed a talk to the Brain Awareness Week 2025
 
 As part of the annual Brain Awareness Week 2025, [Univ.-Prof. Dr. Kevin Tang](https://slam.phil.hhu.de/authors/kevin/) delivered an invited talk titled:
