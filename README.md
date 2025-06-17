@@ -63,6 +63,8 @@ hugo server
 
 [**Hanxin Xia**](https://slam.phil.hhu.de/authors/hanxin/)
 
+[**Dalia Carvalho Rodrigues**](https://slam.phil.hhu.de/authors/dalia/)
+
 ## License
 
 [MIT LICENSE](https://github.com/hhuslamlab/website/blob/master/LICENSE.md)
