@@ -1,0 +1,23 @@
+---
+title: "How does a credible voice sound?"
+date: '2025-05-16'
+draft: false
+publishDate: '2025-05-16T07:00:00+00:00'
+authors:
+- Jochen Steffens
+- Patrick Blättermann
+- Maximilian Sattler
+- Kevin Tang
+
+publication_types:
+- '2'
+abstract: 'Credibility is a crucial social factor that influences people’s perception and decision-making. This study explores the acoustic attributes that define credible speech compared to neutral and ironic speech. A custom-built German corpus was developed, containing speech samples recorded from amateurs to enhance ecological validity. The study extracted a broad set of audio features from these samples, employing recursive feature elimination to identify the most influential attributes. These were then analyzed using a machine-learning-supported multinomial logistic regression model. The results indicated significant differences in the acoustic features associated with credible speech compared to neutral and ironic speech. Key findings include the role of a higher energy level (1st mel-frequency cepstral coefficient) in credible compared to neutral and ironic speech and a higher speaking rate in both credible and ironic compared to neutral speech. Also, irony is characterized by more high-frequency content (mean spectral centroid) compared to credible or neutral speech. Gender differences in spoken irony involve a greater influence of speaking rate in women’s speech, while high pitch plays a more significant role in men’s speech. This research thus contributes to the understanding of how credibility is conveyed through speech and offers insights for applications in communication, media, and artificial intelligence. The study also highlights the methodological advancements made by incorporating a diverse range of acoustic features and employing a robust machine-learning framework.'
+
+featured: true
+publication: '*The Journal of the Acoustical Society of America*'
+url_pdf: "papers/2025/SteffensBlaettermannSattlerTang_2025_Credible_JASA.pdf"
+links:
+- name: DOI
+  url: https://doi.org/10.1121/10.0036646
+  
+---
