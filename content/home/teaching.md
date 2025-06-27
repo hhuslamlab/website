@@ -66,7 +66,7 @@ subtitle = "[SEE ALL COURSES](/classes)"
 +++
 
 ## [Vocal Alchemy: Shaping Voices with Signal Processing](https://slam.phil.hhu.de/classes/vocal-alchemy-signal-processing/)
-[**Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/), Dr. Esther Florin, Dr. Carter Williams <span class="middot-divider"></span> **Summer 2025** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=262899)
+[**Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/),Prof. Dr. Esther Florin, Dr. Carter Williams <span class="middot-divider"></span> **Summer 2025** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=262899)
 
 ## [Academic Writing](https://slam.phil.hhu.de/classes/academic-writing-2025/)
 [**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/) <span class="middot-divider"></span> **Summer 2025** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=264133)
