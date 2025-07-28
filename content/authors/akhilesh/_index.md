@@ -28,9 +28,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:kakolura@hhu.de"  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/akhilesh_k_r
 - icon: github
   icon_pack: fab
   link: https://github.com/akki2825

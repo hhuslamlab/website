@@ -1,6 +1,6 @@
 ---
 # Display name
-title:  André Oppenheimer
+title:  Andre Oppenheimer
 
 # Username (this should match the folder name)
 authors:
@@ -33,7 +33,7 @@ social:
   link: https://github.com/andreoppenheimer
 - icon: portrait
   icon_pack: fas
-  link: "https://andreoppenheimer.github.io/"
+  link: "https://andreoppenheimer.github.io/andre-oppenheimer/"
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/andre-oppenheimer-2baa23258/

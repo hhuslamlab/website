@@ -29,9 +29,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:dalia.carvalho.rodrigues@hhu.de"  # For a direct email link, use "mailto:test@example.org".
-# - icon: github
-#   icon_pack: fab
-#   link: https://github.com/Vipitis
+- icon: github
+  icon_pack: fab
+  link: https://github.com/dalia-caro
 # - icon: huggingface
 #   icon_pack: fab
 #   link: https://huggingface.co/Vipitis
@@ -51,4 +51,4 @@ user_groups:
 - Members
 ---
 
-Dalia is an undergraduate student majoring in English and American Studies, with Romance Studies as her minor. Over the course of her studies, she has developed a deep interest in linguistics, particularly in phonetics, phonology, and how machines understand languages, as well as the challenges they face in processing them. This passion has inspired her to pursue an M.A. in linguistics after graduation. Alongside her academic work, she manages the institute’s website and social media account.
+Dalia is an undergraduate student majoring in English and American Studies, with a minor in Romance Studies. Her academic interests focus on phonetics, phonology, and how both humans and machines perceive and process language. Her recent work includes an independent project exploring automatic speech recognition bias in systems like Whisper, with a focus on accented versus native English. In collaboration with Prof. Tang, she is also studying the perception of drug names. Dalia helps shape the lab’s digital presence as a co-editor of the SlamLab website. After graduation, she plans to pursue an M.A. in linguistics.
