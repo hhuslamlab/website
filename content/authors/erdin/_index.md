@@ -25,6 +25,9 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+- icon: portrait
+  icon_pack: fas
+  link: https://erd-ling.github.io 
 - icon: envelope
   icon_pack: fas
   link: "mailto:Erdin.Mujezinovic@hhu.de"  # For a direct email link, use "mailto:test@example.org".
@@ -42,4 +45,4 @@ Erdin is currently pursuing his Ph.D in General Linguistics at Heinrich-Heine Un
 
 Erdin holds a bachelor’s and master’s degree in Linguistics, and works as a Wissenschaftlicher Mitarbeiter at the Institute of Linguistics. He has also worked at the Department of English and American Studies, English Language and Linguistics, under the supervision of Prof. Dr. Kevin Tang.
 
-Erdin researches the learning mechanisms behind phonetic, phonological and morphophonological learning. He is interested in various topics within phonetics, phonology and morphology, and across their interfaces, and has joined the HHU SlamLab, to share and learn more from other members about linguistics, computational methods and (academic) daily life. He uses experimental and computational methods to answer questions about language learning, language representation and language usage. To find out more about Erdin, visit: [https://blogs.phil.hhu.de/mujezinovic/](https://blogs.phil.hhu.de/mujezinovic/).
+Erdin researches the learning mechanisms behind phonetic, phonological and morphophonological learning. He is interested in various topics within phonetics, phonology and morphology, and across their interfaces, and has joined the HHU SlamLab, to share and learn more from other members about linguistics, computational methods and (academic) daily life. He uses experimental and computational methods to answer questions about language learning, language representation and language usage. To find out more about Erdin, visit: [https://erd-ling.github.io](https://erd-ling.github.io).
