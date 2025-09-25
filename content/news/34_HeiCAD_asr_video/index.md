@@ -20,3 +20,5 @@ In the latest episode of the monthly series “Heine and Lovelace ask about...�
 The episode highlights how ASR systems can misinterpret speech when training data lacks diversity. It explains the challenges faced by speakers with different accents, grammatical patterns, or speech conditions, and outlines efforts to make AI more fair and inclusive.
 
 > “The goal is to build ASR systems that are fair and accessible to everyone — no matter their accents, grammar, and speech patterns. When ASR is truly inclusive, it empowers us all in amazing ways.”
+
+Watch the full episode here: [*https://www.youtube.com/watch?v=p6kWGu8pWDI*](https://www.youtube.com/watch?v=p6kWGu8pWDI)
