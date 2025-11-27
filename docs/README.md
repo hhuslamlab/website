@@ -33,4 +33,6 @@
 
 - [**Espeak-ng** for windows users](espeakng_windows.md)
 
+- [**Espeak-ng** for mac users](espeakng_macos.md)
+
 - [A starter guide to **Docker** engine](docker.md)
