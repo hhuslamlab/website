@@ -31,4 +31,6 @@
 
 - [A beginner's guide to **Festival TTS**](festival_tts.md)
 
+- [**Espeak-ng** for windows users](espeakng_windows.md)
+
 - [A starter guide to **Docker** engine](docker.md)
