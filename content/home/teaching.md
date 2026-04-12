@@ -65,23 +65,23 @@ subtitle = "[SEE ALL COURSES](/classes)"
   fractions = false
 +++
 
-## [Synthesizing Speech](https://slam.phil.hhu.de/classes/synthesizing-speech-w25/)
-[**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/) <span class="middot-divider"></span> **Winter 2025** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&publishid=270197&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+## [Making Sense of Sound: Intro to Acoustic Analysis](https://slam.phil.hhu.de/classes/intro-acoustic-analysis-s26/)
+[**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/) <span class="middot-divider"></span> **Summer 2026** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=275535)
 
-## [Introduction to English Language and Linguistics: Part I - Structure](https://slam.phil.hhu.de/classes/intro-linguistics-w25/)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2025** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&publishid=267562&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+## [Introduction to English Language and Linguistics: Part II - Use](https://slam.phil.hhu.de/classes/intro-linguistics-s26/)
+[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Summer 2026** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=273766)
 
-## [Python for Linguists: Introduction to Natural Language Processing](https://slam.phil.hhu.de/classes/python-for-linguists-w25/)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2025** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&publishid=270270&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+## [Bye-lingual IV: when you speak two languages but start to lose vocabulary in both of them - CORPUS EDITION](https://slam.phil.hhu.de/classes/bye-lingual-IV-s26/)
+[**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/) <span class="middot-divider"></span> **Summer 2026** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=273475)
 
-## [Laboratory Phonetics and Phonology: Skills, Tools, and Analyses](https://slam.phil.hhu.de/classes/laboratory-phon-w25/)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2025** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&publishid=270200&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+## [Ethics, Bias & NLP](https://slam.phil.hhu.de/classes/ethics-biases-nlp-s26/)
+[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Summer 2026** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=273689)
 
-## [Colloquium in Linguistics](https://slam.phil.hhu.de/classes/examens_forschungskolloquim-w25/)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2025** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=268349)
+## [Vocal Alchemy: Shaping Voices with Signal Processing](https://slam.phil.hhu.de/classes/vocal-alchemy-s26/)
+[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Summer 2026** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=276311)
 
-## [Language and Health](https://slam.phil.hhu.de/classes/language-and-health-w25/)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2025** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&publishid=268153&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+## [Computational Modelling](https://slam.phil.hhu.de/classes/computational-modelling-s26/)
+[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Summer 2026** <span class="middot-divider"></span> [Course catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&veranstaltung.veranstid=274350)
 
 <!---
 Archive
@@ -89,32 +89,5 @@ Archive
 TEMPLATE
 ## Title
 [**NAME**](Link to person on website) <span class="middot-divider"></span> **SEMESTER** <span class="middot-divider"></span> [Course Catalog](Link to LSF)
-
-## [](https://slam.phil.hhu.de/classes/)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2025** <span class="middot-divider"></span> [Course catalog]()
-
-## [Examens- und Forschungskolloquium](https://slam.phil.hhu.de/classes/examens_forschungskolloquim-s24/)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Summer 2024** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=252612&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
-
-## [Ethics and Natural Language Processing](https://slam.phil.hhu.de/classes/ethics-and-natural-language-processing-s24/)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Summer 2024** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=252529&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
-
-## [Quantitative Methods for Linguistic Data: An Introduction to Statistics using R](https://slam.phil.hhu.de/classes/quantitative-methods-s24/)
-[**Prof. Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Summer 2024** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=250638&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
-
-## [Learning Inflection](https://slam.phil.hhu.de/classes/learning-inflection-s24/)
-[**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/) <span class="middot-divider"></span> **Summer 2024** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=252526&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
-
-## Computational Modeling (Advanced)
-[**Dr. Kevin Tang**](https://slam.phil.hhu.de/authors/kevin/) <span class="middot-divider"></span> **Winter 2022** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=233690&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
-
-## Laboratory Phonology
-[**Dr. Chris Geissler**](https://slam.phil.hhu.de/authors/chris/) <span class="middot-divider"></span> **Winter 2022** <span class="middot-divider"></span>  [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=232451&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
-
-## Language Technology for linguistis with Internet of Things (IoT)
-[**Akhilesh Kakolu Ramarao**](https://slam.phil.hhu.de/authors/akhilesh/) <span class="middot-divider"></span> **Winter 2022** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=231180&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
-
-## Phonetics/Phonology (Intermediate)
-[**Eoin O'Reilly**](http://slam.phil.hhu.de/authors/eoin/) <span class="middot-divider"></span> **Winter 2022** <span class="middot-divider"></span> [Course Catalog](https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=232409&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
 --->
