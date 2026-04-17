@@ -45,7 +45,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Members
+- External Members
 ---
 Andre holds a Bachelor's degree with a major in English and American Studies and a minor in Romance Studies. He completed his undergraduate studies at Heinrich Heine University (HHU) Düsseldorf in 2025. His research interests range from computational (historical) linguistics to bioinformatics and computer science.
 
