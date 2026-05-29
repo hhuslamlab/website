@@ -148,5 +148,7 @@ management_staff:
 
 <a href="https://jsonformatter.org/yaml-to-json">Convert YAML to JSON</a>
 
+<a href="https://yamline.com/">YAML tools</a>
+
 ## Authors
 [**Anna Stein**](https://slam.phil.hhu.de/authors/anna/)
